@@ -1,0 +1,20 @@
+langgraph==0.4.1
+langchainhub==0.1.21
+#tavily-python==0.3.4
+langchain-chroma==0.2.3
+pytest==8.3.5
+#langchain-openai==0.1.16
+python-dotenv==1.1.0
+langchain==0.3.25
+langchain-community==0.3.23
+langchain-ollama==0.3.2
+beautifulsoup4==4.13.4
+tiktoken==0.9.0
+#langchain-google-community==2.0.7
+duckduckgo-search==8.0.1
+langchain-qdrant==0.2.0
+##excel load..
+unstructured==0.17.2
+networkx==3.4.2
+pandas==2.2.3
+openpyxl==3.1.5
