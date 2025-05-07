@@ -1,38 +1,35 @@
 from typing import Literal
-
-from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from langchain.output_parsers import PydanticOutputParser
-from langchain_ollama import OllamaLLM
+from langchain_core.runnables import RunnableLambda
 import os
-
-
+import json
 
 class RouteQuery(BaseModel):
     """Route a user query to the most relevant datasource."""
 
-    datasource: Literal["vectorstore", "websearch"] = Field(
+    datasource: Literal["vectorstore", "websearch", "ask"] = Field(
         ...,
-        description="Given a user question choose to route it to web search or a vectorstore.",
+        description="Given a user question choose to route it to vectorstore, websearch, ask. Only these three options are valid. If you are unsure, keep asking the human until you decide. RESPOND ONLY ONE WORD. Re-check if answer is one word or not. It has to be one word.",
     )
 
 
-llm = OllamaLLM(
-        base_url=os.environ.get("OLLAMA_BASE_URL"),
-        model="smollm2",
-        temperature=0,
-    )
+def transform_output(text: str) -> str:
+    cleaned_text = text.strip().lower()
+    return json.dumps({"datasource": cleaned_text})
+
 
 parser = PydanticOutputParser(pydantic_object=RouteQuery)
 
-system = """You are an expert at routing a user question to a vectorstore or web search.
-The vectorstore contains documents related to users, configurations, more spesific information.
-Use the vectorstore for questions on these topics. For all else, use web-search."""
-route_prompt = ChatPromptTemplate.from_messages(
-    [
-        ("system", system),
-        ("human", "{question}"),
-    ]
-)
 
-question_router = route_prompt | llm | parser
+def route_function(question: str) -> RouteQuery:
+    
+    if question["question"].startswith("SCKS"):
+        return RouteQuery(datasource="vectorstore")
+    return RouteQuery(datasource="websearch")
+
+# Convert to Runnable
+route_runnable = RunnableLambda(route_function)
+
+
+question_router = route_runnable

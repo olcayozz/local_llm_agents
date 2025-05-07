@@ -14,13 +14,13 @@ qdrant = QdrantClient(
 qdrant.recreate_collection(
     collection_name="SCKS",
     vectors_config=models.VectorParams(
-        size=2048,  # adjust based on your model
+        size=960,  # adjust based on your model
         distance=models.Distance.COSINE
     )
 )
 
 embeddings = OllamaEmbeddings(
-        model="smollm2",
+        model=os.environ.get("OLLAMA_MODEL"),
         base_url=os.environ.get("OLLAMA_BASE_URL"), 
     )
 

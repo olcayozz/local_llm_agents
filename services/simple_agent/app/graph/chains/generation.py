@@ -9,7 +9,7 @@ import os
 
 llm = OllamaLLM(
         base_url=os.environ.get("OLLAMA_BASE_URL"),
-        model="smollm2",
+        model=os.environ.get("OLLAMA_MODEL"),
         temperature=0,
     )
 

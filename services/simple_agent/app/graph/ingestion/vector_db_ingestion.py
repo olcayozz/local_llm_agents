@@ -9,7 +9,7 @@ qdrant = QdrantClient(
 )
 
 embeddings = OllamaEmbeddings(
-        model="smollm2",
+        model=os.environ.get("OLLAMA_MODEL"),
         base_url=os.environ.get("OLLAMA_BASE_URL"), 
     )
 
