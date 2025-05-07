@@ -12,7 +12,7 @@ from graph.nodes.generate import generate
 from graph.nodes.web_search import web_search
 from graph.nodes.retrieve import retrieve
 from graph.state import GraphState
-from graph.chains.router import question_router, RouteQuery
+from graph.chains.llm_router import question_router, RouteQuery
 
 
 load_dotenv()

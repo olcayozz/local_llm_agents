@@ -5,6 +5,7 @@ from pydantic import BaseModel, Field
 from langchain.output_parsers import PydanticOutputParser
 from langchain_core.output_parsers import StrOutputParser
 from langchain_ollama import OllamaLLM
+from graph.chains.abacus_ai_wrapper import AbacusAILLM
 import os
 import json
 
@@ -19,11 +20,13 @@ class RouteQuery(BaseModel):
     )
 
 
-llm = OllamaLLM(
+"""llm = OllamaLLM(
         base_url=os.environ.get("OLLAMA_BASE_URL"),
         model=os.environ.get("OLLAMA_MODEL"),
         temperature=0,
-    )
+    )"""
+
+llm = AbacusAILLM()
 
 
 def transform_output(text: str) -> str:
@@ -35,7 +38,7 @@ str_parser = StrOutputParser()
 
 
 system = """You are an expert at routing a user question to a vectorstore or web search.
-The vectorstore contains SCKS related more spesific information. IF THE QUESTION IS START with SCKS then it is the answer must be 'vectorstore'.,
+The vectorstore contains document related more spesific information. If the question is document specific then the answer must be 'vectorstore'.,
 otherwise it is the answer must be 'websearch'.
 THE ONLY ANSWER MUST BE EITHER 'vectorstore' OR 'websearch'. RESPOND ONLY ONE WORD. As a answer choose ONLY ONE OF 'vectorstore' OR 'websearch'."""
 
