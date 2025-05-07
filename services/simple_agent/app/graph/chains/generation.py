@@ -3,15 +3,18 @@ from langchain.schema import HumanMessage, SystemMessage
 from langchain import hub
 from langchain_core.output_parsers import StrOutputParser
 from langchain_ollama import OllamaLLM
+from graph.chains.abacus_ai_wrapper import AbacusAILLM
 import os
 
 
 
-llm = OllamaLLM(
+"""llm = OllamaLLM(
         base_url=os.environ.get("OLLAMA_BASE_URL"),
         model=os.environ.get("OLLAMA_MODEL"),
         temperature=0,
-    )
+    )"""
+
+llm = AbacusAILLM()
 
 system_prompt = "ONLY SHORT ANSWERS."
 

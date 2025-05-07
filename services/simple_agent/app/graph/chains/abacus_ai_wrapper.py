@@ -2,6 +2,7 @@ from typing import Any, List, Mapping, Optional
 from langchain.llms.base import LLM
 from langchain.callbacks.manager import CallbackManagerForLLMRun
 from abacusai import ApiClient
+from pydantic import Field, PrivateAttr
 import os
 
 ABACUS_API_KEY=os.environ.get("ABACUS_API_KEY")
@@ -20,29 +21,18 @@ if not ABACUS_MODEL_ID:
 class AbacusAILLM(LLM):
     """Wrapper around Abacus.AI large language models using official API client."""
 
-    def __init__(
-        self,
-        api_key: str,
-        model_name: str = ABACUS_MODEL_ID,
-        temperature: float = 0.1,
-        max_tokens: int = 50,
-        **kwargs: Any,
-    ):
-        """Initialize the Abacus.AI LLM wrapper.
+    api_key: str = Field(default=ABACUS_API_KEY, description="Abacus.AI API key", )
+    model_name: str = Field(default=ABACUS_MODEL_ID, description="Model name to use")
+    temperature: float = Field(default=0.0, description="Sampling temperature")
+    max_tokens: int = Field(default=50, description="Maximum number of tokens to generate")
 
-        Args:
-            api_key (str): Your Abacus.AI API key
-            model_name (str, optional): Model to use. Defaults to "claude-3-sonnet".
-            temperature (float, optional): Sampling temperature. Defaults to 0.7.
-            max_tokens (int, optional): Maximum tokens in response. Defaults to 1000.
-        """
+    # Private attributes
+    _client: ApiClient = ApiClient(api_key=ABACUS_API_KEY)
+
+    def __init__(self, **kwargs):
+        """Initialize the Abacus.AI LLM wrapper."""
         super().__init__(**kwargs)
-
-        # Initialize the Abacus.AI API client
-        self.client = ApiClient(api_key)
-        self.model_name = model_name
-        self.temperature = temperature
-        self.max_tokens = max_tokens
+        self._client = ApiClient(self.api_key)
 
     @property
     def _llm_type(self) -> str:
@@ -53,40 +43,30 @@ class AbacusAILLM(LLM):
         self,
         prompt: str,
         stop: Optional[List[str]] = None,
-        run_manager: Optional[CallbackManagerForLLMRun] = None,
         **kwargs: Any,
     ) -> str:
-        """Execute the call to Abacus.AI using the API client.
-
-        Args:
-            prompt (str): The prompt to send to the API
-            stop (Optional[List[str]], optional): Stop sequences. Defaults to None.
-            run_manager (Optional[CallbackManagerForLLMRun], optional): Callback manager.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            str: The model's response text
-
-        Raises:
-            Exception: If the API call fails
-        """
+        """Execute the call to Abacus.AI using the API client."""
         try:
-            # Create the chat completion using the API client
-            response = self.client.create_chat_completion(
-                model=self.model_name,
-                prompt = prompt,
+            response = self._client.evaluate_prompt(
+                prompt=prompt,
                 temperature=self.temperature,
                 max_tokens=self.max_tokens,
                 stop_sequences=stop if stop else None
             )
 
-            # Extract the response text
-            # Note: Adjust the response parsing based on actual API response structure
             return response.content
 
         except Exception as e:
             raise Exception(f"Error calling Abacus.AI API: {str(e)}")
 
+    @property
+    def _identifying_params(self) -> Mapping[str, Any]:
+        """Get the identifying parameters."""
+        return {
+            "model_name": self.model_name,
+            "temperature": self.temperature,
+            "max_tokens": self.max_tokens
+        }
 
 # Example usage and utility functions
 def create_abacusai_chain(api_key: str):
@@ -115,11 +95,10 @@ def create_abacusai_chain(api_key: str):
     )
 
     # Create and return the chain
-    return LLMChain(llm=llm, prompt=prompt)
+    return prompt | llm
 
 
-def example_usage():
-    """Example usage of the AbacusAILLM wrapper."""
+"""def example_usage():
 
     # Replace with your actual API key
     API_KEY = ABACUS_API_KEY
@@ -133,7 +112,7 @@ def example_usage():
     # Using with LangChain chain
     chain = create_abacusai_chain(API_KEY)
     chain_response = chain.run("What is the significance of containerization in modern software development?")
-    print("\nChain Response:", chain_response)
+    print("\nChain Response:", chain_response)"""
 
-if __name__ == "__main__":
-    example_usage()
+    
+abacus_chain = create_abacusai_chain(ABACUS_API_KEY)

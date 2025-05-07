@@ -1,12 +1,13 @@
 import sys
 import os
+#from pyppeteer import MermaidDrawMethod
 
 # Update the sys.path to include the parent directory of the 'app' folder
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from dotenv import load_dotenv
 from langgraph.graph import END, StateGraph
-from graph.node_constants import GENERATE, WEBSEARCH, RETRIEVE, ASK
+from graph.node_constants import GENERATE, WEBSEARCH, RETRIEVE, BYE
 from graph.nodes.generate import generate
 from graph.nodes.web_search import web_search
 from graph.nodes.retrieve import retrieve
@@ -16,6 +17,13 @@ from graph.chains.router import question_router, RouteQuery
 
 load_dotenv()
 
+def check_bye(state: GraphState) -> bool:  
+    print("---CHECK BYE---")
+    question = state["question"]
+    if question.lower() == "bye":
+        state["bye"] = True
+        return True
+    return False    
 
 def route_question(state: GraphState) -> str:
     print("---ROUTE QUESTION---")
@@ -34,7 +42,7 @@ workflow.set_conditional_entry_point(
     {
         WEBSEARCH: WEBSEARCH,
         RETRIEVE: RETRIEVE,
-        ASK: END,
+        BYE: END,
     },
 )
 workflow.add_node(RETRIEVE, retrieve) 
@@ -43,6 +51,17 @@ workflow.add_node(WEBSEARCH, web_search)
 workflow.add_edge(WEBSEARCH, GENERATE)
 workflow.add_edge(RETRIEVE, GENERATE)
 workflow.add_edge(GENERATE, END)
-workflow.add_edge(RETRIEVE, END)
+workflow.add_edge(WEBSEARCH, END)
+
+
+"""workflow.add_conditional_edges(
+    GENERATE,
+    check_bye,
+    {
+        BYE: END,
+        False: RETRIEVE,
+    },
+)"""
 app = workflow.compile()
-#app.get_graph().draw_mermaid_png(output_file_path="graph.png")
+app.get_graph().draw_ascii()
+#.draw_mermaid_png(output_file_path="graph.png", max_retries=5, retry_delay=2.0)
