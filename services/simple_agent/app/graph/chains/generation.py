@@ -6,15 +6,18 @@ from langchain_ollama import OllamaLLM
 from graph.chains.abacus_ai_wrapper import AbacusAILLM
 import os
 
+LOCAL_LLM = os.environ.get("LOCAL_LLM", "false")
+llm=None
 
+if LOCAL_LLM.lower() == "true": 
+    llm = OllamaLLM(
+            base_url=os.environ.get("OLLAMA_BASE_URL"),
+            model=os.environ.get("OLLAMA_MODEL"),
+            temperature=0,
+        )
+else:
+    llm = AbacusAILLM()
 
-"""llm = OllamaLLM(
-        base_url=os.environ.get("OLLAMA_BASE_URL"),
-        model=os.environ.get("OLLAMA_MODEL"),
-        temperature=0,
-    )"""
-
-llm = AbacusAILLM()
 
 system_prompt = "ONLY SHORT ANSWERS."
 

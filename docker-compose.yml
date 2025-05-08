@@ -1,17 +1,21 @@
 version: "3.8"
 
 services:
+
+#ollama is a local LLM serving platform
   ollama:
     image: ollama/ollama:latest
     container_name: ollama
     ports:
       - "11434:11434"
     volumes:
-      - ollama_data:/root/.ollama
+      - ollama_data2:/root/.ollama
+    entrypoint: ["ollama", "run", "hf.co/HuggingFaceTB/SmolLM2-360M-Instruct-GGUF:Q8_0"]
     restart: unless-stopped
     networks:
       - front-tier
 
+# open-webui is a web UI for Ollama
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
@@ -24,28 +28,30 @@ services:
     restart: unless-stopped
     networks:
       - front-tier
-  
-  python:
+
+# local API demonstration platform  
+  local_API:
     build:
-      context: ./services/python
-      dockerfile: python.Dockerfile
-    image: llm/python:latest
-    hostname: python
-    domainname: python.com
-    container_name: python
+      context: ./services/local_api
+      dockerfile: local_api.Dockerfile
+    image: llm/local_api:latest
+    hostname: local_api
+    domainname: local_api.com
+    container_name: local_api
     ports:
       - "5000:5000"
     volumes:
-      - python:/root/app
+      - local_api:/root/app
     networks:
-      - front-tier
+      - back-tier
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 5s
-      
+
+# python dev is for development purposes only      
   python_dev:
     build:
       context: ./services/python_dev
@@ -55,7 +61,7 @@ services:
     domainname: python_dev.com
     container_name: python_dev
     volumes:
-      - python_dev:/root/app
+      - python_dev2:/root/app
       - ./services/python_dev/app:/root/app
     networks:
       - front-tier
@@ -74,7 +80,7 @@ services:
     domainname: agents.com
     container_name: agents
     volumes:
-      - agents:/root/app
+      - agents2:/root/app
       - ./services/agents/app:/root/app
     networks:
       - front-tier
@@ -83,7 +89,8 @@ services:
     depends_on:
       - ollama
     restart: unless-stopped
-  
+
+# simple_agent is agentic app demonstration platform
   simple_agent:
     build:
       context: ./services/simple_agent
@@ -108,19 +115,7 @@ services:
       - qdrant
     restart: unless-stopped
 
-  mcp_server:
-    build:
-      context: ./services/mcp_server
-      dockerfile: mcp_server.Dockerfile
-    image: llm/mcp_server:latest
-    hostname: mcp_server
-    domainname: mcp_server.com
-    container_name: mcp_server
-    volumes:
-      - mcp_server:/root/app
-    networks:
-      - front-tier
-
+# vector database for agentic app
   qdrant:
     image: qdrant/qdrant:latest
     container_name: qdrant
@@ -128,19 +123,18 @@ services:
       - "6333:6333"   # REST API
       - "6334:6334"   # gRPC API
     volumes:
-      - qdrant_data:/qdrant/storage
+      - qdrant_data2:/qdrant/storage
     restart: unless-stopped
     networks:
       - back-tier
 
 volumes:
-  python:
-  mcp_server:
-  ollama_data:
-  python_dev:
-  simple_agent:
-  agents:
-  qdrant_data:
+  local_api:
+  ollama_data2:
+  python_dev2:
+  simple_agent2:
+  agents2:
+  qdrant_data2:
 
 
 networks:

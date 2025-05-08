@@ -12,7 +12,13 @@ from graph.nodes.generate import generate
 from graph.nodes.web_search import web_search
 from graph.nodes.retrieve import retrieve
 from graph.state import GraphState
-from graph.chains.llm_router import question_router, RouteQuery
+
+
+ROUTER_TYPE = os.environ.get("ROUTER_TYPE")
+if ROUTER_TYPE == "LLM":
+    from graph.chains.llm_router import question_router, RouteQuery
+else:
+    from graph.chains.router import question_router, RouteQuery
 
 
 load_dotenv()
@@ -63,5 +69,4 @@ workflow.add_edge(WEBSEARCH, END)
     },
 )"""
 app = workflow.compile()
-app.get_graph().draw_ascii()
 #.draw_mermaid_png(output_file_path="graph.png", max_retries=5, retry_delay=2.0)

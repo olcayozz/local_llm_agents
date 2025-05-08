@@ -1,14 +1,15 @@
 from dotenv import load_dotenv
-
+import os
 load_dotenv()
 
 
-from graph.setup.setup_sample_db import vector_store
-from graph.graph import app
+from graph.graph import app, ROUTER_TYPE
 
 if __name__ == "__main__":
     print("Enter your question:")
     try:
+        print("ROUTER:" + os.environ.get("ROUTER_TYPE"))
+        print("LOCAL_LLM:" + os.environ.get("LOCAL_LLM"))
         response = app.invoke(input={"question": input("> ")})
         #response = app.invoke(input={"question": "who is olcay ozyilmaz?"})
         print(response["generation"])
