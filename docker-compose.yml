@@ -9,7 +9,7 @@ services:
     ports:
       - "11434:11434"
     volumes:
-      - ollama_data2:/root/.ollama
+      - ollama_data:/root/.ollama
     entrypoint: ["ollama", "run", "hf.co/HuggingFaceTB/SmolLM2-360M-Instruct-GGUF:Q8_0"]
     restart: unless-stopped
     networks:
@@ -61,7 +61,7 @@ services:
     domainname: python_dev.com
     container_name: python_dev
     volumes:
-      - python_dev2:/root/app
+      - python_dev:/root/app
       - ./services/python_dev/app:/root/app
     networks:
       - front-tier
@@ -80,7 +80,7 @@ services:
     domainname: agents.com
     container_name: agents
     volumes:
-      - agents2:/root/app
+      - agents:/root/app
       - ./services/agents/app:/root/app
     networks:
       - front-tier
@@ -123,7 +123,7 @@ services:
       - "6333:6333"   # REST API
       - "6334:6334"   # gRPC API
     volumes:
-      - qdrant_data2:/qdrant/storage
+      - qdrant_data:/qdrant/storage
     restart: unless-stopped
     networks:
       - back-tier
