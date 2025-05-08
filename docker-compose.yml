@@ -130,11 +130,11 @@ services:
 
 volumes:
   local_api:
-  ollama_data2:
-  python_dev2:
-  simple_agent2:
-  agents2:
-  qdrant_data2:
+  ollama_data:
+  python_dev:
+  simple_agent:
+  agents:
+  qdrant_data:
 
 
 networks:
