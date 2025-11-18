@@ -10,7 +10,7 @@ services:
       - "11434:11434"
     volumes:
       - ollama_data:/root/.ollama
-    entrypoint: ["ollama", "run", "hf.co/HuggingFaceTB/SmolLM2-360M-Instruct-GGUF:Q8_0"]
+    entrypoint: ["/bin/sh", "-c", "ollama serve && sleep 5 && ollama run hf.co/HuggingFaceTB/SmolLM2-360M-Instruct-GGUF:Q8_0"]
     restart: unless-stopped
     networks:
       - front-tier

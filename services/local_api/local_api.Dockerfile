@@ -2,12 +2,18 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY app/* .
+COPY app/ .
 
 RUN pip install --upgrade pip
 
+RUN python3 -m venv venv
+
+RUN . venv/bin/activate
+
 RUN pip install --no-cache-dir -r requirements.txt
+
+RUN chmod +x run.sh
 
 EXPOSE 5000
 
-ENTRYPOINT [ "sh", "-c", "./run.sh" ]
+ENTRYPOINT [ "sh", "./run.sh" ]

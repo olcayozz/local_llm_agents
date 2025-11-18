@@ -2,7 +2,7 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY app/* .
+COPY app/ .
 
 RUN pip install --upgrade pip
 
@@ -12,4 +12,6 @@ RUN . venv/bin/activate
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-ENTRYPOINT [ "sh", "-c", "./run.sh" ]
+RUN chmod +x run.sh
+
+ENTRYPOINT [ "sh", "./run.sh" ]
