@@ -1,0 +1,546 @@
+# IT Manager / IT Director
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Senior Management
+**Departman:** Bilgi Teknolojileri
+**Raporlama:** CTO/CIO
+**Deneyim Gereksinimi:** 10+ yıl IT deneyimi, 5+ yıl yönetim deneyimi
+**Maaş Aralığı:** 150.000 - 250.000 TL/ay
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### Operasyonel Yönetim Görevleri
+- IT departmanının günlük operasyonlarını yönetme ve koordine etme
+- IT service desk operasyonlarını yönetme (L1, L2, L3 support)
+- Incident management ve problem management süreçlerini yönetme
+- Change management süreçlerini koordine etme
+- IT asset management ve inventory yönetimi
+- Vendor ve tedarikçi ilişkilerini yönetme
+- SLA (Service Level Agreement) takibi ve raporlaması
+- IT altyapısının günlük bakım ve izleme işlemleri
+- Backup ve disaster recovery operasyonlarını yönetme
+- System monitoring ve performance tuning
+
+### Stratejik Görevler
+- IT stratejisini CTO ile birlikte geliştirme
+- Teknoloji yatırım planlaması ve önceliklendirme
+- IT modernizasyon projelerini planlama
+- Departmanlar arası IT ihtiyaçlarını belirleme
+- IT politika ve prosedürlerini oluşturma ve güncelleme
+- IT governance framework'ü uygulama
+- Capacity planning ve resource forecasting
+- Technology roadmap'e katkı sağlama
+
+### Ekip Yönetimi Görevleri
+- IT ekibinin performans değerlendirmesi (10-30 kişi)
+- Ekip üyelerinin kariyer gelişim planlarını oluşturma
+- İşe alım süreçlerinde aktif rol alma (teknik mülakat)
+- Ekip üyeleri için eğitim planları hazırlama
+- 1-on-1 toplantılar yapma (bi-weekly)
+- Ekip moralini ve motivasyonunu yüksek tutma
+- Conflict resolution ve problem solving
+- Performance improvement planları oluşturma
+- On-call rotation planlaması
+- Team building aktiviteleri organize etme
+
+### Proje Yönetimi Görevleri
+- IT projelerini önceliklendirme ve kaynak tahsisi
+- Proje portföyünü yönetme ve raporlama
+- Proje bütçelerini hazırlama ve takip etme
+- Cross-functional proje koordinasyonu
+- Proje risk yönetimi
+- Stakeholder communication ve expectation management
+- Project status reporting (weekly/monthly)
+- Post-implementation review ve lessons learned
+
+### Finansal Yönetim Görevleri
+- IT bütçesini hazırlama ve yönetme (1M-5M annual)
+- CAPEX ve OPEX planlaması
+- Cost optimization initiatives
+- Vendor contract negotiation
+- ROI analysis ve business case preparation
+- IT spending tracking ve variance analysis
+- Budget forecasting ve reforecasting
+- Cost allocation to business units
+
+### Güvenlik ve Compliance Görevleri
+- IT güvenlik politikalarının uygulanmasını sağlama
+- Access control ve user management
+- Security incident response coordination
+- Compliance audit'lere hazırlık ve destek
+- Data protection ve privacy policies
+- Security awareness training coordination
+- Vulnerability management oversight
+- Disaster recovery testing
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Teknik Uzmanlıklar (Advanced Level)
+
+**IT Service Management:**
+- ITIL v4 Framework (Foundation/Practitioner/Managing Professional)
+- Incident Management processes
+- Problem Management methodologies
+- Change Management procedures
+- Service Request Management
+- Knowledge Management
+- Service Catalog Management
+- ITSM tools (ServiceNow, Jira Service Management, BMC Remedy)
+
+**Infrastructure Management:**
+- Windows Server (2016/2019/2022) administration
+- Linux/Unix system administration (RHEL, Ubuntu, CentOS)
+- Active Directory ve Group Policy management
+- DNS, DHCP, WINS configuration
+- File server ve print server management
+- Virtualization (VMware vSphere, Hyper-V, Proxmox)
+- Storage systems (SAN, NAS, DAS)
+- Network fundamentals (TCP/IP, VLANs, routing, switching)
+
+**Cloud Platforms:**
+- AWS (EC2, S3, RDS, VPC, IAM) - Associate level
+- Microsoft Azure (VMs, Storage, SQL Database, AD)
+- Google Cloud Platform basics
+- Hybrid cloud architecture
+- Cloud cost management
+- Cloud migration strategies
+- Cloud backup solutions
+
+**Security:**
+- Firewall management (Cisco ASA, Palo Alto, Fortinet)
+- Antivirus/Endpoint protection (Symantec, McAfee, CrowdStrike)
+- VPN configuration ve management
+- Multi-factor authentication (MFA)
+- Security Information and Event Management (SIEM) basics
+- Vulnerability scanning tools (Nessus, Qualys)
+- Patch management
+- Data encryption (at rest, in transit)
+
+**Database Management:**
+- SQL Server administration basics
+- MySQL/PostgreSQL fundamentals
+- Database backup ve recovery
+- Performance monitoring
+- User access management
+- Database security best practices
+
+**Monitoring ve Logging:**
+- Monitoring tools (Nagios, Zabbix, PRTG, SolarWinds)
+- Log management (Splunk, ELK Stack basics)
+- Performance metrics ve KPIs
+- Alerting ve notification systems
+- Dashboard creation
+- Capacity monitoring
+
+**Backup ve Disaster Recovery:**
+- Backup solutions (Veeam, Commvault, Acronis)
+- Backup strategies (Full, Incremental, Differential)
+- Recovery Time Objective (RTO) ve Recovery Point Objective (RPO)
+- Disaster Recovery Planning
+- Business Continuity Planning
+- DR testing procedures
+
+### Yönetim Becerileri (Proficient Level)
+
+**Operasyonel Yönetim:**
+- Daily operations management
+- Resource allocation ve optimization
+- Process improvement (Lean, Six Sigma basics)
+- SLA management ve reporting
+- Vendor management
+- Contract management
+- Escalation management
+- Capacity planning
+
+**Proje Yönetimi:**
+- Project planning ve scheduling
+- Budget management
+- Risk management
+- Stakeholder management
+- Agile/Scrum basics
+- Waterfall methodology
+- MS Project, Jira, Asana
+- Project status reporting
+
+**Ekip Yönetimi:**
+- Performance management
+- Hiring ve interviewing
+- Training ve development
+- Conflict resolution
+- Delegation
+- Motivation techniques
+- Team building
+- Succession planning
+
+**Finansal Yönetim:**
+- Budget preparation ve tracking
+- Cost-benefit analysis
+- ROI calculation
+- Vendor negotiation
+- Purchase order management
+- Invoice approval
+- Financial reporting
+
+**Stratejik Planlama:**
+- IT strategy development
+- Technology assessment
+- Gap analysis
+- Roadmap planning
+- Business alignment
+- Change management
+
+### Soft Skills (Advanced Level)
+
+**İletişim Becerileri:**
+- Technical ve non-technical communication
+- Presentation skills (PowerPoint, Google Slides)
+- Report writing
+- Email communication
+- Meeting facilitation
+- Active listening
+- Negotiation
+- Conflict resolution
+
+**Liderlik Becerileri:**
+- Team leadership
+- Decision making
+- Problem solving
+- Critical thinking
+- Mentoring ve coaching
+- Empathy
+- Accountability
+- Integrity
+
+**İş Becerileri:**
+- Business acumen
+- Customer service orientation
+- Time management
+- Priority management
+- Multitasking
+- Attention to detail
+- Analytical thinking
+- Process orientation
+
+**Kişisel Özellikler:**
+- Stress management
+- Adaptability
+- Continuous learning
+- Proactive approach
+- Results-oriented
+- Collaborative mindset
+- Patience
+- Resilience
+
+---
+
+## EĞİTİM GEREKSİNİMLERİ
+
+### Zorunlu Eğitim
+- **Lisans Derecesi:**
+  - Bilgisayar Mühendisliği
+  - Yazılım Mühendisliği
+  - Elektrik-Elektronik Mühendisliği
+  - Bilişim Sistemleri
+  - Yönetim Bilişim Sistemleri (MIS)
+
+### Tercih Edilen Eğitim
+- **Yüksek Lisans:**
+  - Bilgisayar Mühendisliği
+  - Bilişim Sistemleri Yönetimi
+  - MBA (IT Management focus)
+  - Yönetim Bilişim Sistemleri
+
+### Dil Gereksinimleri
+- **İngilizce:** Orta-İleri seviye (B2-C1) - Teknik dokümantasyon okuma zorunlu
+
+---
+
+## SERTİFİKALAR
+
+### Kritik Sertifikalar (Highly Recommended)
+1. **ITIL v4 Foundation** (Zorunlu)
+2. **ITIL v4 Managing Professional** veya **Strategic Leader**
+3. **PMP** - Project Management Professional
+4. **CompTIA Security+** veya **CISSP**
+5. **Microsoft Certified: Azure Administrator Associate**
+
+### Değerli Sertifikalar
+6. **AWS Certified SysOps Administrator**
+7. **VMware Certified Professional (VCP-DCV)**
+8. **PRINCE2 Practitioner**
+9. **COBIT 5 Foundation**
+10. **Certified Information Security Manager (CISM)**
+
+### Ek Sertifikalar (Nice to Have)
+- Microsoft Certified: Windows Server Hybrid Administrator
+- Red Hat Certified System Administrator (RHCSA)
+- Cisco CCNA
+- CompTIA Network+
+- Certified ScrumMaster (CSM)
+- Lean Six Sigma Green Belt
+
+---
+
+## DENEYİM GEREKSİNİMLERİ
+
+### Minimum Deneyim
+- **Toplam IT Deneyimi:** 10+ yıl
+- **Yönetim Deneyimi:** 5+ yıl
+- **Infrastructure Management:** 5+ yıl
+- **Team Leadership:** 3+ yıl (5-15 kişi)
+
+### Aranan Deneyim Alanları
+
+**Teknik Deneyim:**
+- Windows ve Linux server yönetimi
+- Virtualization platform yönetimi
+- Cloud platform kullanımı (AWS/Azure)
+- Network infrastructure yönetimi
+- Backup ve disaster recovery implementation
+- IT security implementation
+- ITSM tool kullanımı (ServiceNow, Jira)
+- Monitoring tool implementation
+
+**Yönetim Deneyimi:**
+- IT team management (10-30 kişi)
+- Multi-site IT support coordination
+- Vendor management
+- Budget management (1M-5M TL)
+- SLA management
+- Project management (multiple concurrent projects)
+- Change management
+- Incident management
+
+**Proje Deneyimi:**
+- Server migration projects
+- Cloud migration (lift-and-shift)
+- Infrastructure upgrade projects
+- ITSM tool implementation
+- Disaster recovery planning ve testing
+- Security enhancement projects
+- Network redesign projects
+- Data center consolidation
+
+### Başarı Örnekleri
+- IT infrastructure uptime %99.5+ sağlama
+- IT support ticket resolution time %30 iyileştirme
+- IT operational costs %15-20 azaltma
+- Successful cloud migration (50+ servers)
+- Zero data loss in disaster recovery tests
+- Team productivity %25+ artırma
+- Vendor consolidation ile cost savings
+
+---
+
+## PERFORMANS KRİTERLERİ (KPIs)
+
+### Operasyonel KPI'lar
+- **System Uptime:** %99.5+ (monthly)
+- **Incident Response Time:** <15 dakika (critical), <1 saat (high)
+- **Ticket Resolution Rate:** %85+ first-call resolution
+- **Mean Time to Repair (MTTR):** <4 saat
+- **Change Success Rate:** %95+ (no rollback)
+- **Backup Success Rate:** %99.9+
+
+### Ekip KPI'ları
+- **Employee Satisfaction:** 4.0+/5.0
+- **Employee Retention:** %90+
+- **Training Hours:** 40+ saat/yıl per employee
+- **Time-to-Hire:** <45 gün
+- **Performance Review Completion:** %100 on-time
+
+### Finansal KPI'lar
+- **Budget Variance:** ±5%
+- **Cost per User:** Yıllık %5 azaltma
+- **Vendor Cost Optimization:** %10+ savings
+- **ROI on IT Investments:** 15%+
+
+### Proje KPI'ları
+- **Project On-Time Delivery:** %80+
+- **Project Budget Adherence:** %90+
+- **Stakeholder Satisfaction:** 4.0+/5.0
+- **Project Success Rate:** %85+
+
+### Güvenlik KPI'ları
+- **Security Incidents:** <5 per quarter (non-critical)
+- **Patch Compliance:** %95+ within 30 days
+- **Security Training Completion:** %100
+- **Audit Findings:** Zero critical findings
+
+---
+
+## ÇALIŞMA KOŞULLARI
+
+**Çalışma Saatleri:**
+- 09:00-18:00 (Esnek)
+- On-call availability (rotational)
+- Kritik durumlarda 7/24 erişilebilir
+- Haftalık 40-50 saat
+
+**Seyahat Gereksinimleri:**
+- Yurtiçi seyahat: Ayda 1-2 gün (branch offices)
+- Yurtdışı seyahat: Yılda 2-5 gün (vendor meetings, conferences)
+
+**Çalışma Ortamı:**
+- Hybrid model (3 gün ofis, 2 gün remote)
+- Modern ofis ortamı
+- Dedicated workspace
+- Latest technology equipment
+
+**Ek Faydalar:**
+- Sağlık sigortası (extended family)
+- Hayat sigortası
+- Performance bonus (%15-25 annual salary)
+- Yıllık eğitim bütçesi (10.000-20.000 TL)
+- Sertifikasyon sınavları (şirket karşılıyor)
+- Yemek kartı
+- Ulaşım desteği
+- Flexible working hours
+
+---
+
+## KARİYER GELİŞİM YOLU
+
+### Bu Pozisyona Gelen Roller
+- IT Team Lead
+- Senior System Administrator
+- Infrastructure Manager
+- IT Operations Manager
+- Service Delivery Manager
+
+### Bu Pozisyondan Sonraki Roller
+- VP of IT
+- VP of Infrastructure
+- CTO/CIO (smaller companies)
+- IT Consultant
+- IT Service Management Director
+
+### Gelişim Fırsatları
+- Leadership training programs
+- Advanced technical certifications
+- MBA sponsorship
+- Conference attendance
+- Mentorship programs
+- Cross-functional projects
+- International assignments
+
+---
+
+## MÜLAKAT SÜRECİ
+
+### Aşama 1: HR Screening (30 dakika)
+- Background verification
+- Salary expectations
+- Availability
+- Cultural fit assessment
+
+### Aşama 2: Technical Interview (60 dakika)
+- Infrastructure knowledge
+- ITIL processes
+- Problem-solving scenarios
+- Technical troubleshooting
+
+### Aşama 3: Management Interview (60 dakika)
+- Team management experience
+- Budget management
+- Vendor management
+- Conflict resolution examples
+
+### Aşama 4: CTO Interview (45 dakika)
+- Strategic thinking
+- IT vision
+- Leadership style
+- Cultural fit
+
+### Aşama 5: Practical Assessment (90 dakika)
+- Case study: IT infrastructure problem
+- Budget planning exercise
+- Incident response scenario
+- Presentation to panel
+
+### Aşama 6: Reference Checks
+- Previous managers (2-3)
+- Peers
+- Direct reports
+
+---
+
+## GÜNLÜK AKTİVİTELER (Typical Day)
+
+**08:30-09:00:** Email review ve günlük planlama
+**09:00-09:30:** Daily standup with IT team
+**09:30-10:30:** Incident review ve problem management
+**10:30-11:30:** Vendor meeting (monthly contract review)
+**11:30-12:30:** Project status meeting
+**12:30-13:30:** Lunch break
+**13:30-14:30:** 1-on-1 with team member
+**14:30-15:30:** Budget review ve financial planning
+**15:30-16:30:** Change Advisory Board (CAB) meeting
+**16:30-17:30:** Strategic planning / documentation
+**17:30-18:00:** Email ve next day planning
+
+---
+
+## BAŞARI FAKTÖRLERİ
+
+**Teknik Başarı:**
+- Güncel teknoloji bilgisi
+- Hızlı problem çözme
+- Proactive monitoring
+- Automation mindset
+
+**Yönetim Başarı:**
+- Etkili ekip yönetimi
+- Clear communication
+- Stakeholder management
+- Budget discipline
+
+**Kişisel Başarı:**
+- Continuous learning
+- Adaptability
+- Stress management
+- Work-life balance
+
+---
+
+## ZORLUKLAR VE RİSKLER
+
+**Operasyonel Zorluklar:**
+- 7/24 system availability sağlama
+- Legacy systems yönetimi
+- Limited budget ile çalışma
+- Rapid technology changes
+
+**Yönetim Zorluklar:**
+- Talent retention
+- Competing priorities
+- Stakeholder expectations
+- Vendor dependencies
+
+**Teknik Zorluklar:**
+- Security threats
+- System complexity
+- Integration challenges
+- Technical debt
+
+---
+
+## BAŞVURU GEREKSİNİMLERİ
+
+### Gerekli Dökümanlar
+- Detaylı CV (max 2 sayfa)
+- Cover letter
+- Diploma ve transkript
+- Sertifikalar
+- Reference list (minimum 2)
+
+### Başvuru Değerlendirme
+1. **Teknik Yetkinlik:** %35
+2. **Yönetim Deneyimi:** %30
+3. **ITIL Bilgisi:** %15
+4. **İletişim Becerileri:** %10
+5. **Kültürel Uyum:** %10

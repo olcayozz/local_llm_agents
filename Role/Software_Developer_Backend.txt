@@ -1,0 +1,570 @@
+# Backend Software Developer
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Junior / Mid / Senior
+**Departman:** Engineering / Development
+**Raporlama:** Engineering Manager, Tech Lead
+**Deneyim Gereksinimi:** 0-2 yıl (Junior), 2-5 yıl (Mid), 5+ yıl (Senior)
+**Maaş Aralığı:** 40.000-70.000 TL (Junior), 70.000-120.000 TL (Mid), 120.000-200.000 TL (Senior)
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### Geliştirme Görevleri
+- Server-side uygulama geliştirme ve bakımı
+- RESTful API tasarımı ve implementasyonu
+- GraphQL API geliştirme (gerekirse)
+- Microservices architecture implementation
+- Database schema tasarımı ve optimizasyonu
+- Business logic implementation
+- Third-party API entegrasyonları
+- Background job ve queue sistemleri
+- Caching stratejileri uygulama
+- Authentication ve authorization sistemleri
+
+### Kod Kalitesi Görevleri
+- Clean code principles uygulama
+- Code review yapma ve alma
+- Unit test yazma (80%+ coverage)
+- Integration test yazma
+- API documentation (Swagger/OpenAPI)
+- Refactoring ve code optimization
+- Design patterns uygulama
+- SOLID principles takip etme
+- Technical debt yönetimi
+- Performance profiling ve optimization
+
+### DevOps ve Deployment
+- CI/CD pipeline'larına katkı
+- Docker container oluşturma
+- Environment configuration yönetimi
+- Logging ve monitoring implementation
+- Error tracking (Sentry, Rollbar)
+- Database migration scripts
+- Deployment automation
+- Health check endpoints
+- Metrics collection
+
+### İşbirliği Görevleri
+- Daily standup meetings
+- Sprint planning ve estimation
+- Technical design discussions
+- Frontend team ile API coordination
+- Product team ile requirement clarification
+- QA team ile bug fixing
+- DevOps team ile deployment coordination
+- Documentation yazma ve güncelleme
+- Knowledge sharing sessions
+- Mentoring junior developers (Senior level)
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Programlama Dilleri (En Az 1-2 Tanesinde Expert)
+
+**Java Ecosystem:**
+- Java 11/17/21 (LTS versions)
+- Spring Boot, Spring MVC, Spring Data
+- Spring Security, Spring Cloud
+- Hibernate, JPA
+- Maven, Gradle
+- JUnit, Mockito, TestNG
+
+**Python Ecosystem:**
+- Python 3.8+
+- Django, Django REST Framework
+- Flask, FastAPI
+- SQLAlchemy, Alembic
+- Celery (task queue)
+- pytest, unittest
+- Poetry, pip, virtualenv
+
+**Node.js Ecosystem:**
+- Node.js 16/18/20 LTS
+- Express.js, NestJS, Fastify
+- TypeScript (strongly recommended)
+- Sequelize, TypeORM, Prisma
+- Jest, Mocha, Chai
+- npm, yarn, pnpm
+
+**Go (Golang):**
+- Go 1.19+
+- Gin, Echo, Fiber frameworks
+- GORM (ORM)
+- Go modules
+- Testing package
+
+**C# / .NET:**
+- .NET 6/7/8
+- ASP.NET Core, Web API
+- Entity Framework Core
+- Dapper
+- xUnit, NUnit
+- NuGet
+
+### Database Uzmanlığı (Advanced Level)
+
+**Relational Databases:**
+- **PostgreSQL:**
+  - Complex queries (JOINs, subqueries, CTEs)
+  - Indexing strategies (B-tree, Hash, GiST, GIN)
+  - Query optimization (EXPLAIN ANALYZE)
+  - Transactions, ACID properties
+  - Stored procedures, triggers
+  - Partitioning, sharding
+  
+- **MySQL/MariaDB:**
+  - InnoDB engine optimization
+  - Replication (master-slave, master-master)
+  - Query optimization
+  - Full-text search
+  
+- **Microsoft SQL Server:**
+  - T-SQL
+  - Query optimization
+  - Indexing
+  - Stored procedures
+
+**NoSQL Databases:**
+- **MongoDB:**
+  - Document modeling
+  - Aggregation pipeline
+  - Indexing strategies
+  - Replication, sharding
+  
+- **Redis:**
+  - Caching strategies
+  - Data structures (strings, hashes, lists, sets, sorted sets)
+  - Pub/Sub
+  - Redis Streams
+  
+- **Elasticsearch:**
+  - Full-text search
+  - Aggregations
+  - Index management
+  - Query DSL
+
+**Database Design:**
+- Normalization (1NF, 2NF, 3NF, BCNF)
+- ER diagrams
+- Schema design
+- Migration strategies
+- Data modeling
+
+### API Development (Expert Level)
+
+**RESTful APIs:**
+- REST principles (stateless, cacheable, uniform interface)
+- HTTP methods (GET, POST, PUT, PATCH, DELETE)
+- Status codes (2xx, 3xx, 4xx, 5xx)
+- API versioning (URL, header, query param)
+- HATEOAS
+- Pagination (offset, cursor-based)
+- Filtering, sorting, searching
+- Rate limiting
+- API documentation (Swagger/OpenAPI, Postman)
+
+**GraphQL:**
+- Schema definition (types, queries, mutations, subscriptions)
+- Resolvers
+- DataLoader (N+1 problem)
+- Apollo Server, GraphQL Yoga
+- Schema stitching, federation
+
+**gRPC:**
+- Protocol Buffers
+- Service definition
+- Streaming (unary, server, client, bidirectional)
+- Error handling
+
+**API Security:**
+- Authentication (JWT, OAuth 2.0, API keys)
+- Authorization (RBAC, ABAC)
+- CORS configuration
+- Rate limiting
+- Input validation
+- SQL injection prevention
+- XSS, CSRF protection
+
+### Cloud & Infrastructure (Intermediate Level)
+
+**AWS:**
+- EC2, ECS, EKS
+- Lambda (serverless)
+- RDS, DynamoDB
+- S3, CloudFront
+- SQS, SNS
+- API Gateway
+- CloudWatch
+
+**Azure:**
+- App Service
+- Azure Functions
+- Azure SQL Database
+- Blob Storage
+- Service Bus
+- Application Insights
+
+**Google Cloud:**
+- Compute Engine, GKE
+- Cloud Functions
+- Cloud SQL, Firestore
+- Cloud Storage
+- Pub/Sub
+- Cloud Monitoring
+
+### DevOps Tools (Intermediate Level)
+
+**Containerization:**
+- Docker (Dockerfile, docker-compose)
+- Container optimization
+- Multi-stage builds
+
+**CI/CD:**
+- GitHub Actions
+- GitLab CI
+- Jenkins
+- CircleCI
+- Travis CI
+
+**Version Control:**
+- Git (branching, merging, rebasing)
+- GitHub, GitLab, Bitbucket
+- Git flow, trunk-based development
+- Pull request best practices
+
+**Monitoring & Logging:**
+- Application logging (structured logging)
+- Log aggregation (ELK Stack, Splunk)
+- APM tools (New Relic, Datadog, Dynatrace)
+- Error tracking (Sentry, Rollbar, Bugsnag)
+- Metrics (Prometheus, Grafana)
+
+### Software Architecture (Mid-Senior Level)
+
+**Design Patterns:**
+- Creational (Singleton, Factory, Builder)
+- Structural (Adapter, Decorator, Facade)
+- Behavioral (Observer, Strategy, Command)
+- Repository pattern
+- Service layer pattern
+- Dependency Injection
+
+**Architecture Patterns:**
+- Monolithic architecture
+- Microservices architecture
+- Event-driven architecture
+- CQRS (Command Query Responsibility Segregation)
+- Hexagonal architecture (Ports & Adapters)
+- Clean architecture
+- Domain-Driven Design (DDD) basics
+
+**System Design:**
+- Scalability (horizontal, vertical)
+- Load balancing
+- Caching strategies (CDN, application, database)
+- Message queues (RabbitMQ, Kafka, SQS)
+- Service discovery
+- Circuit breaker pattern
+- API Gateway pattern
+
+### Testing (Advanced Level)
+
+**Test Types:**
+- Unit testing (80%+ coverage)
+- Integration testing
+- End-to-end testing
+- Contract testing (Pact)
+- Load testing (JMeter, k6, Locust)
+- Security testing
+
+**Testing Frameworks:**
+- JUnit, Mockito (Java)
+- pytest, unittest (Python)
+- Jest, Mocha (Node.js)
+- xUnit, NUnit (C#)
+
+**Test Practices:**
+- TDD (Test-Driven Development)
+- BDD (Behavior-Driven Development)
+- Mocking, stubbing
+- Test fixtures
+- Test data management
+- CI/CD integration
+
+### Security (Intermediate Level)
+
+**Application Security:**
+- OWASP Top 10
+- SQL injection prevention
+- XSS, CSRF protection
+- Authentication best practices
+- Password hashing (bcrypt, Argon2)
+- Secure session management
+- Input validation, sanitization
+- Secrets management (Vault, AWS Secrets Manager)
+
+**API Security:**
+- JWT implementation
+- OAuth 2.0, OpenID Connect
+- API rate limiting
+- HTTPS/TLS
+- API key management
+- CORS configuration
+
+---
+
+## EĞİTİM GEREKSİNİMLERİ
+
+### Zorunlu Eğitim
+- **Lisans Derecesi:**
+  - Bilgisayar Mühendisliği
+  - Yazılım Mühendisliği
+  - Elektrik-Elektronik Mühendisliği
+  - Matematik
+  - Veya eşdeğer teknik eğitim/bootcamp + portföy
+
+### Tercih Edilen Eğitim
+- **Yüksek Lisans:** Bilgisayar Mühendisliği, Yazılım Mühendisliği
+- **Bootcamps:** Coding bootcamps (6+ months)
+- **Online Courses:** Udemy, Coursera, Pluralsight
+
+### Dil Gereksinimleri
+- **İngilizce:** Orta-İleri seviye (B2-C1) - Teknik dokümantasyon okuma zorunlu
+
+---
+
+## SERTİFİKALAR
+
+### Değerli Sertifikalar
+1. **AWS Certified Developer - Associate**
+2. **Microsoft Certified: Azure Developer Associate**
+3. **Google Cloud Professional Cloud Developer**
+4. **Oracle Certified Professional: Java SE Programmer**
+5. **MongoDB Certified Developer**
+6. **Certified Kubernetes Application Developer (CKAD)**
+
+### Ek Sertifikalar
+- Docker Certified Associate
+- Redis Certified Developer
+- PostgreSQL Certified Professional
+- Spring Professional Certification
+
+---
+
+## DENEYİM GEREKSİNİMLERİ
+
+### Junior (0-2 yıl)
+- Bootcamp veya üniversite projesi
+- 1-2 kişisel proje (GitHub)
+- Temel programlama bilgisi
+- Database fundamentals
+- Git basics
+
+### Mid-Level (2-5 yıl)
+- 2+ yıl profesyonel backend development
+- 3+ production applications
+- RESTful API development
+- Database design experience
+- Agile/Scrum experience
+- Code review experience
+
+### Senior (5+ yıl)
+- 5+ yıl backend development
+- 5+ production applications
+- Microservices experience
+- System design experience
+- Team leadership/mentoring
+- Architecture decisions
+- Performance optimization
+- Production incident handling
+
+---
+
+## PERFORMANS KRİTERLERİ (KPIs)
+
+### Kod Kalitesi
+- **Code Coverage:** 80%+ unit tests
+- **Code Review:** <24 saat response time
+- **Bug Rate:** <5% post-deployment
+- **Technical Debt:** Decreasing trend
+- **Code Quality Score:** A/B (SonarQube)
+
+### Delivery
+- **Sprint Commitment:** 85%+ completion
+- **Story Points:** Consistent velocity
+- **Pull Request Size:** <400 lines
+- **Deployment Frequency:** Weekly+
+- **Lead Time:** <5 days (feature to production)
+
+### Performance
+- **API Response Time:** <200ms (p95)
+- **Error Rate:** <0.1%
+- **Uptime:** 99.9%+
+- **Database Query Time:** <100ms (p95)
+
+### Collaboration
+- **Code Review Quality:** 4.0+/5.0
+- **Documentation:** Up-to-date
+- **Knowledge Sharing:** Monthly sessions
+- **Mentoring:** 1+ junior developer (Senior)
+
+---
+
+## ÇALIŞMA KOŞULLARI
+
+**Çalışma Saatleri:**
+- 09:00-18:00 (Esnek)
+- Remote/Hybrid options
+- Haftalık 40 saat
+- On-call rotation (Senior level)
+
+**Çalışma Ortamı:**
+- Modern development tools
+- Latest MacBook/PC
+- Multiple monitors
+- Ergonomic setup
+- Quiet workspace
+
+**Ek Faydalar:**
+- Sağlık sigortası
+- Performance bonus (10-20%)
+- Eğitim bütçesi (5.000-10.000 TL/yıl)
+- Conference attendance
+- Remote work equipment
+- Flexible hours
+- Yemek kartı
+
+---
+
+## KARİYER GELİŞİM YOLU
+
+### Teknik Kariyer
+- Junior Backend Developer (0-2 yıl)
+- Backend Developer (2-5 yıl)
+- Senior Backend Developer (5-8 yıl)
+- Lead Backend Developer (8-10 yıl)
+- Principal Engineer (10+ yıl)
+- Staff Engineer, Architect
+
+### Yönetim Kariyer
+- Tech Lead (5+ yıl)
+- Engineering Manager (7+ yıl)
+- Senior Engineering Manager (10+ yıl)
+- Director of Engineering (12+ yıl)
+
+---
+
+## MÜLAKAT SÜRECİ
+
+### Aşama 1: HR Screening (30 dakika)
+- Background check
+- Salary expectations
+- Availability
+
+### Aşama 2: Technical Phone Screen (45 dakika)
+- Coding problem (LeetCode Easy-Medium)
+- Algorithm & data structures
+- Time complexity analysis
+
+### Aşama 3: Technical Interview 1 (60-90 dakika)
+- Live coding (2-3 problems)
+- Data structures & algorithms
+- Problem-solving approach
+- Code quality
+
+### Aşama 4: Technical Interview 2 (60-90 dakika)
+- System design (Mid-Senior)
+- API design
+- Database design
+- Architecture discussion
+
+### Aşama 5: Practical Assignment (Take-home)
+- Build a small API (2-4 hours)
+- Code quality assessment
+- Testing
+- Documentation
+
+### Aşama 6: Cultural Fit (30-45 dakika)
+- Team collaboration
+- Communication skills
+- Learning mindset
+- Company values alignment
+
+---
+
+## GÜNLÜK AKTİVİTELER
+
+**09:00-09:30:** Email, Slack, PR reviews
+**09:30-10:00:** Daily standup
+**10:00-12:00:** Feature development / coding
+**12:00-13:00:** Lunch break
+**13:00-15:00:** Coding / debugging
+**15:00-16:00:** Code review / pair programming
+**16:00-17:00:** Testing / documentation
+**17:00-18:00:** Team sync / planning
+
+---
+
+## BAŞARI FAKTÖRLERİ
+
+**Teknik:**
+- Strong problem-solving
+- Clean code practices
+- Testing mindset
+- Performance awareness
+- Security consciousness
+
+**İşbirliği:**
+- Good communication
+- Team player
+- Code review etiquette
+- Knowledge sharing
+- Mentoring (Senior)
+
+**Kişisel:**
+- Continuous learning
+- Curiosity
+- Attention to detail
+- Ownership mindset
+- Time management
+
+---
+
+## ZORLUKLAR
+
+- Rapidly changing technologies
+- Legacy code maintenance
+- Performance optimization
+- Scalability challenges
+- Technical debt management
+- On-call responsibilities
+- Tight deadlines
+- Cross-team dependencies
+
+---
+
+## ÖĞRENME KAYNAKLARI
+
+**Books:**
+- Clean Code - Robert C. Martin
+- Design Patterns - Gang of Four
+- Designing Data-Intensive Applications - Martin Kleppmann
+- Domain-Driven Design - Eric Evans
+- The Pragmatic Programmer - Hunt & Thomas
+
+**Online Platforms:**
+- LeetCode, HackerRank (algorithms)
+- System Design Primer (GitHub)
+- Udemy, Coursera, Pluralsight
+- Official documentation
+- Tech blogs (Medium, Dev.to)
+
+**Communities:**
+- Stack Overflow
+- Reddit (r/programming, r/backend)
+- GitHub
+- Local meetups
+- Tech conferences

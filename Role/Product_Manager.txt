@@ -1,0 +1,780 @@
+# Product Manager (Technical)
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Mid to Senior Level
+**Departman:** Product Management / Engineering
+**Raporlama:** VP of Product, CTO, CEO
+**Deneyim Gereksinimi:** 5-8 yıl ürün/IT deneyimi, 3+ yıl product management
+**Maaş Aralığı:** 100.000 - 180.000 TL/ay
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### Ürün Stratejisi Görevleri
+- Ürün vizyonu ve stratejisini belirleme
+- Product roadmap oluşturma (quarterly, yearly)
+- Product-market fit analizi
+- Competitive intelligence ve market research
+- Go-to-market (GTM) stratejisi geliştirme
+- Pricing strategy belirleme
+- Product positioning ve messaging
+- Product lifecycle management
+- Innovation pipeline yönetimi
+- Strategic partnerships değerlendirme
+
+### Ürün Planlama Görevleri
+- Product backlog oluşturma ve önceliklendirme
+- Feature prioritization (RICE, MoSCoW, KANO)
+- Release planning (quarterly releases)
+- Sprint planning'e katılım
+- User story mapping
+- Epic ve user story yazma
+- Acceptance criteria tanımlama
+- Technical requirements documentation
+- Product requirements document (PRD) hazırlama
+- Roadmap communication
+
+### Kullanıcı Araştırması Görevleri
+- User research planning ve execution
+- Customer interviews yapma
+- User persona oluşturma
+- Customer journey mapping
+- Usability testing organize etme
+- A/B testing tasarlama ve analiz etme
+- User feedback toplama ve analiz
+- NPS (Net Promoter Score) tracking
+- Customer satisfaction surveys
+- Beta testing programı yönetme
+
+### Ürün Geliştirme Görevleri
+- Engineering team ile daily collaboration
+- Sprint planning ve grooming meetings
+- User story refinement
+- Design review ve approval
+- Technical feasibility assessment
+- Feature specification yazma
+- API requirements tanımlama
+- Integration requirements belirleme
+- Technical debt önceliklendirme
+- Bug triage ve prioritization
+
+### Ürün Lansmanı Görevleri
+- Launch plan hazırlama
+- Marketing team ile koordinasyon
+- Sales enablement materials hazırlama
+- Product documentation review
+- Training materials oluşturma
+- Beta program yönetimi
+- Launch metrics tanımlama
+- Post-launch monitoring
+- Customer onboarding optimization
+- Feedback loop oluşturma
+
+### Analitik ve Metrik Görevleri
+- Product KPIs tanımlama ve tracking
+- Analytics dashboard oluşturma
+- User behavior analysis
+- Funnel analysis
+- Cohort analysis
+- Retention analysis
+- Churn analysis
+- Revenue metrics tracking
+- Feature adoption tracking
+- Data-driven decision making
+
+### Stakeholder Yönetimi
+- Executive stakeholder updates
+- Customer advisory board meetings
+- Sales team collaboration
+- Marketing alignment
+- Customer success partnership
+- Engineering team alignment
+- Design team collaboration
+- Support team feedback loop
+- External partner communication
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Product Management Uzmanlıkları (Expert Level)
+
+**Product Strategy:**
+- Product vision development
+- Market analysis ve competitive intelligence
+- Product-market fit assessment
+- Value proposition design
+- Business model canvas
+- Lean startup methodology
+- Jobs-to-be-Done (JTBD) framework
+- Blue Ocean Strategy
+- Product lifecycle management
+- Portfolio management
+
+**Product Planning:**
+- Roadmap planning (Now-Next-Later, Theme-based)
+- OKR (Objectives and Key Results) framework
+- Feature prioritization frameworks:
+  - RICE (Reach, Impact, Confidence, Effort)
+  - MoSCoW (Must, Should, Could, Won't)
+  - KANO Model
+  - Value vs. Effort matrix
+  - Weighted scoring
+- Release planning
+- Capacity planning
+- Dependency management
+
+**User Research:**
+- User interview techniques
+- Survey design ve analysis
+- Usability testing
+- A/B testing methodology
+- Multivariate testing
+- Customer development
+- Persona development
+- Journey mapping
+- Empathy mapping
+- Contextual inquiry
+
+**Product Development:**
+- Agile/Scrum methodologies (expert)
+- User story writing (INVEST criteria)
+- Acceptance criteria (Given-When-Then)
+- Story mapping
+- Backlog management
+- Sprint planning
+- Grooming/refinement
+- Definition of Done (DoD)
+- Definition of Ready (DoR)
+
+### Teknik Uzmanlıklar (Advanced Level)
+
+**Product Analytics:**
+- **Analytics Tools:**
+  - Google Analytics (GA4)
+  - Mixpanel (Advanced)
+  - Amplitude
+  - Heap Analytics
+  - Segment
+  - Hotjar, FullStory (session replay)
+  
+- **Metrics & Analysis:**
+  - Funnel analysis
+  - Cohort analysis
+  - Retention curves
+  - Churn analysis
+  - LTV (Lifetime Value) calculation
+  - CAC (Customer Acquisition Cost)
+  - Product-market fit metrics
+  - North Star Metric identification
+  - AARRR (Pirate Metrics)
+
+**Technical Knowledge:**
+- **Software Architecture:**
+  - API design principles (REST, GraphQL, gRPC)
+  - Microservices architecture basics
+  - Database concepts (SQL, NoSQL)
+  - Cloud platforms (AWS, Azure, GCP) basics
+  - Mobile app architecture (iOS, Android)
+  - Web application architecture
+  - System integration patterns
+  
+- **Development Process:**
+  - SDLC (Software Development Lifecycle)
+  - CI/CD pipeline understanding
+  - Version control (Git) basics
+  - Testing methodologies (unit, integration, e2e)
+  - DevOps practices awareness
+  - Technical debt concept
+  - Code review process understanding
+
+**Data & SQL:**
+- SQL queries (SELECT, JOIN, WHERE, GROUP BY, HAVING)
+- Data modeling basics
+- Database design principles
+- Data warehouse concepts
+- ETL process understanding
+- Data visualization
+- Statistical analysis basics
+
+**Design & UX:**
+- **Design Tools:**
+  - Figma (Advanced)
+  - Sketch
+  - Adobe XD
+  - InVision
+  - Balsamiq (wireframing)
+  - Miro, Mural (collaboration)
+  
+- **UX Principles:**
+  - User-centered design
+  - Information architecture
+  - Interaction design
+  - Visual design basics
+  - Accessibility (WCAG)
+  - Responsive design
+  - Mobile-first design
+  - Design systems
+
+**Product Tools:**
+- **Roadmap Tools:**
+  - Aha!
+  - ProductPlan
+  - Roadmunk
+  - Productboard
+  
+- **Collaboration:**
+  - Jira (Expert)
+  - Confluence
+  - Trello
+  - Asana
+  - Monday.com
+  
+- **Prototyping:**
+  - Figma
+  - InVision
+  - Marvel
+  - Axure
+
+### İş Becerileri (Advanced Level)
+
+**Market & Business:**
+- Market research methodologies
+- Competitive analysis (SWOT, Porter's Five Forces)
+- Business case development
+- Financial modeling (P&L, ROI, NPV)
+- Pricing strategies (value-based, cost-plus, competitive)
+- Go-to-market strategy
+- Channel strategy
+- Partnership development
+- Revenue modeling
+- Unit economics
+
+**Growth & Marketing:**
+- Growth hacking techniques
+- Viral loops
+- Referral programs
+- Onboarding optimization
+- Activation strategies
+- Retention strategies
+- Monetization strategies
+- Product-led growth (PLG)
+- Marketing fundamentals (4Ps)
+- Customer segmentation
+
+**Communication:**
+- PRD (Product Requirements Document) writing
+- Technical specification writing
+- User story writing
+- Presentation skills (PowerPoint, Google Slides)
+- Data storytelling
+- Executive communication
+- Cross-functional communication
+- Stakeholder management
+- Negotiation skills
+
+### Soft Skills (Mastery Level)
+
+**Strategic Thinking:**
+- Long-term vision
+- Systems thinking
+- Critical thinking
+- Problem decomposition
+- Pattern recognition
+- Scenario planning
+- Risk assessment
+
+**Leadership:**
+- Influence without authority
+- Team motivation
+- Conflict resolution
+- Decision making (data + intuition)
+- Prioritization
+- Delegation
+- Mentoring
+- Facilitation
+
+**Collaboration:**
+- Cross-functional teamwork
+- Consensus building
+- Active listening
+- Empathy
+- Relationship building
+- Trust building
+- Feedback giving/receiving
+
+**Personal:**
+- Customer obsession
+- Data-driven mindset
+- Bias for action
+- Adaptability
+- Resilience
+- Curiosity
+- Continuous learning
+- Time management
+- Attention to detail
+
+---
+
+## EĞİTİM GEREKSİNİMLERİ
+
+### Zorunlu Eğitim
+- **Lisans Derecesi:**
+  - Bilgisayar Mühendisliği
+  - Yazılım Mühendisliği
+  - Endüstri Mühendisliği
+  - İşletme
+  - Ekonomi
+  - İlgili teknik/iş alanları
+
+### Tercih Edilen Eğitim
+- **Yüksek Lisans/MBA:**
+  - MBA (Product Management focus)
+  - Bilgisayar Mühendisliği
+  - Human-Computer Interaction (HCI)
+  - Business Administration
+  
+- **Product Management Bootcamps:**
+  - Product School
+  - General Assembly
+  - Pragmatic Institute
+  - Reforge (Growth, Product Strategy)
+
+### Dil Gereksinimleri
+- **İngilizce:** İleri seviye (C1) - Zorunlu
+  - Customer interviews
+  - Technical documentation
+  - International stakeholders
+
+---
+
+## SERTİFİKALAR
+
+### Kritik Sertifikalar (Highly Recommended)
+1. **Certified Scrum Product Owner (CSPO)** - Scrum Alliance
+2. **Pragmatic Marketing Certified (PMC)** - Pragmatic Institute
+3. **Product Management Certificate** - Product School, General Assembly
+
+### Değerli Sertifikalar
+4. **SAFe Product Owner/Product Manager (POPM)**
+5. **Professional Scrum Product Owner (PSPO I/II)** - Scrum.org
+6. **Google Analytics Individual Qualification (GAIQ)**
+7. **Reforge Product Strategy Certificate**
+
+### Ek Sertifikalar (Nice to Have)
+- Certified Scrum Master (CSM)
+- Lean Six Sigma Green Belt
+- Design Thinking Certificate
+- Growth Hacking Certificate
+- SQL for Data Analysis
+- UX Design Certificate
+
+---
+
+## DENEYİM GEREKSİNİMLERİ
+
+### Minimum Deneyim
+- **Toplam Deneyim:** 5-8 yıl
+- **Product Management:** 3+ yıl
+- **Technical/Engineering Background:** 2+ yıl (tercih edilir)
+- **Agile Environment:** 2+ yıl
+
+### Aranan Deneyim Alanları
+
+**Ürün Deneyimi:**
+- B2B SaaS products
+- B2C web/mobile applications
+- Platform products
+- API products
+- Enterprise software
+- Consumer apps
+- Marketplace products
+- Fintech products
+
+**Teknik Deneyim:**
+- Software development (coding experience - tercih edilir)
+- API integration projects
+- Mobile app development
+- Web application development
+- Cloud-based products
+- Data-driven products
+- AI/ML products (nice to have)
+
+**Ürün Aşamaları:**
+- 0-to-1 product development
+- Product-market fit discovery
+- Growth stage products
+- Mature product optimization
+- Product sunset/migration
+
+**Metodoloji Deneyimi:**
+- Agile/Scrum (3+ years)
+- Lean Startup
+- Design Thinking
+- Jobs-to-be-Done
+- OKRs
+- Product-led growth
+
+### Başarı Örnekleri
+- Launched 3+ successful products/features
+- Achieved product-market fit
+- Grew product from X to Y users
+- Improved key metrics (retention, engagement, revenue)
+- Led cross-functional teams (10+ people)
+- Conducted 50+ customer interviews
+- Managed product roadmap ($1M+ revenue impact)
+- Successful pivot based on data
+
+---
+
+## PERFORMANS KRİTERLERİ (KPIs)
+
+### Product Success Metrics
+- **Product-Market Fit Score:** 40%+ "very disappointed"
+- **NPS (Net Promoter Score):** 50+
+- **Customer Satisfaction (CSAT):** 4.5+/5.0
+- **Feature Adoption Rate:** 60%+ (30 days)
+- **Time to Value:** <7 days
+
+### Growth Metrics
+- **User Growth:** 20%+ MoM (growth stage)
+- **Revenue Growth:** 15%+ QoQ
+- **Activation Rate:** 40%+ (new users)
+- **Retention Rate:** 80%+ (30-day), 60%+ (90-day)
+- **Churn Rate:** <5% monthly
+
+### Engagement Metrics
+- **DAU/MAU Ratio:** 30%+
+- **Session Duration:** Increasing trend
+- **Feature Usage:** 70%+ of core features
+- **User Engagement Score:** 4.0+/5.0
+
+### Business Metrics
+- **Revenue per User (ARPU):** Increasing trend
+- **Customer Lifetime Value (LTV):** 3x CAC
+- **Customer Acquisition Cost (CAC):** Decreasing trend
+- **LTV:CAC Ratio:** 3:1 or better
+- **Payback Period:** <12 months
+
+### Delivery Metrics
+- **Roadmap Delivery:** 80%+ on-time
+- **Sprint Goal Achievement:** 85%+
+- **Feature Release Frequency:** Monthly+
+- **Time to Market:** <3 months (major features)
+- **Bug Rate:** <5% post-release
+
+### Team & Stakeholder Metrics
+- **Stakeholder Satisfaction:** 4.0+/5.0
+- **Engineering Team Satisfaction:** 4.0+/5.0
+- **Cross-functional Collaboration Score:** 4.0+/5.0
+- **Product Vision Clarity:** 4.5+/5.0
+
+---
+
+## ÇALIŞMA KOŞULLARI
+
+**Çalışma Saatleri:**
+- 09:00-18:00 (Esnek)
+- Startup culture: occasional evenings
+- Haftalık 40-50 saat
+- Customer calls (flexible timing)
+
+**Seyahat Gereksinimleri:**
+- Yurtiçi: Ayda 2-4 gün (customer visits, user research)
+- Yurtdışı: Yılda 5-10 gün (conferences, customer visits)
+
+**Çalışma Ortamı:**
+- Hybrid model (3 gün ofis, 2 gün remote)
+- Open office / collaborative space
+- Meeting rooms, whiteboarding areas
+- Modern tech stack
+
+**Ek Faydalar:**
+- Sağlık sigortası (extended)
+- Performance bonus (%15-30 annual salary)
+- Stock options (startup)
+- Conference budget (ProductCon, Mind the Product)
+- Learning budget (courses, books)
+- Latest laptop ve equipment
+- Flexible working hours
+- Remote work options
+
+---
+
+## KARİYER GELİŞİM YOLU
+
+### Bu Pozisyona Gelen Roller
+- Business Analyst
+- Product Analyst
+- Associate Product Manager
+- Software Engineer → PM
+- UX Designer → PM
+- Project Manager → PM
+- Consultant → PM
+
+### Bu Pozisyondan Sonraki Roller
+- Senior Product Manager
+- Lead Product Manager
+- Group Product Manager (GPM)
+- Director of Product
+- VP of Product
+- Chief Product Officer (CPO)
+- Founder/Co-founder
+
+### Gelişim Fırsatları
+- Product leadership training
+- Executive coaching
+- Conference speaking
+- Product community involvement
+- Mentorship programs
+- Cross-functional rotations
+- International assignments
+- Startup advisory roles
+
+---
+
+## MÜLAKAT SÜRECİ
+
+### Aşama 1: HR Screening (30 dakika)
+- Background check
+- Product experience overview
+- Cultural fit
+- Salary expectations
+
+### Aşama 2: Product Sense Interview (60 dakika)
+- Product design questions
+  - "Design a product for X"
+  - "Improve product Y"
+- Feature prioritization
+- User empathy
+- Creativity
+
+### Aşama 3: Analytical/Metrics Interview (60 dakika)
+- SQL test (live coding)
+- Metrics definition
+- A/B test design
+- Data interpretation
+- Root cause analysis
+
+### Aşama 4: Technical Interview (45 dakika)
+- System design (high-level)
+- API design
+- Technical trade-offs
+- Architecture discussions
+- Technical feasibility
+
+### Aşama 5: Execution Interview (60 dakika)
+- Roadmap planning exercise
+- Stakeholder management scenario
+- Prioritization exercise
+- Go-to-market planning
+- Crisis management
+
+### Aşama 6: Behavioral Interview (45 dakika)
+- Leadership examples
+- Cross-functional collaboration
+- Conflict resolution
+- Failed product learnings
+- Customer obsession stories
+
+### Aşama 7: Case Study Presentation (90 dakika)
+- Take-home assignment (1 week)
+- Product strategy for company
+- Presentation to panel
+- Q&A session
+
+### Aşama 8: Final Interview (30 dakika)
+- VP/CPO interview
+- Cultural fit
+- Vision alignment
+- Offer discussion
+
+---
+
+## GÜNLÜK AKTİVİTELER (Typical Day)
+
+**08:30-09:00:** Email, Slack, metrics review
+**09:00-09:30:** Daily standup with engineering
+**09:30-10:30:** User research session (customer interview)
+**10:30-11:30:** Product analytics deep dive
+**11:30-12:30:** Design review meeting
+**12:30-13:30:** Lunch (often with team/customers)
+**13:30-14:30:** Sprint planning / backlog grooming
+**14:30-15:30:** Stakeholder sync (sales, marketing)
+**15:30-16:30:** Product strategy work (roadmap, PRDs)
+**16:30-17:30:** 1-on-1 with PM team member
+**17:30-18:00:** Email, Slack, planning
+
+**Weekly Recurring:**
+- Sprint planning (2 hours)
+- Sprint review/demo (1 hour)
+- Retrospective (1 hour)
+- Roadmap review (1 hour)
+- Customer advisory board (monthly)
+- All-hands meeting (1 hour)
+
+---
+
+## BAŞARI FAKTÖRLERİ
+
+**Product Success:**
+- Deep customer understanding
+- Data-driven decision making
+- Clear product vision
+- Strong prioritization
+- Fast iteration cycles
+- Continuous learning from users
+
+**Team Success:**
+- Strong engineering partnership
+- Design collaboration
+- Cross-functional alignment
+- Clear communication
+- Shared goals (OKRs)
+- Trust and respect
+
+**Personal Success:**
+- Customer obsession
+- Bias for action
+- Intellectual curiosity
+- Humility (admit mistakes)
+- Resilience (handle failures)
+- Continuous learning
+- Work-life balance
+
+---
+
+## ZORLUKLAR VE RİSKLER
+
+**Product Challenges:**
+- Achieving product-market fit
+- Balancing short-term vs. long-term
+- Feature bloat
+- Technical debt
+- Competitive pressure
+- Changing market dynamics
+- Resource constraints
+
+**Stakeholder Challenges:**
+- Conflicting priorities
+- Managing expectations
+- Saying "no" to features
+- Executive pressure
+- Sales demands
+- Customer requests overload
+
+**Team Challenges:**
+- Engineering capacity
+- Design bottlenecks
+- Cross-functional misalignment
+- Communication gaps
+- Remote team coordination
+
+---
+
+## BAŞVURU GEREKSİNİMLERİ
+
+### Gerekli Dökümanlar
+- Detaylı CV (product portfolio)
+- Cover letter (product philosophy)
+- Product case studies (2-3)
+- Metrics/impact examples
+- Reference list (2-3)
+
+### Başvuru Değerlendirme
+1. **Product Sense:** %30
+2. **Analytical Skills:** %25
+3. **Technical Knowledge:** %20
+4. **Execution:** %15
+5. **Communication:** %10
+
+---
+
+## PRODUCT MANAGER SEVİYELERİ
+
+### Associate PM (0-2 yıl)
+- Feature-level ownership
+- Guided by senior PMs
+- Learning product fundamentals
+- Small scope projects
+
+### Product Manager (2-5 yıl)
+- Product-level ownership
+- Independent execution
+- Cross-functional leadership
+- Medium complexity products
+
+### Senior PM (5-8 yıl)
+- Multiple products/platform
+- Strategic thinking
+- Mentoring junior PMs
+- High complexity products
+- Significant business impact
+
+### Lead/Principal PM (8+ yıl)
+- Product area ownership
+- Company-wide impact
+- Thought leadership
+- Mentoring PM team
+- Strategic initiatives
+
+### Group PM (8+ yıl)
+- Managing PM team (3-5 PMs)
+- Portfolio management
+- Cross-product strategy
+- Organizational leadership
+
+---
+
+## ÖNEMLİ PRODUCT MANAGEMENT FRAMEWORKS
+
+**Strategy:**
+- SWOT Analysis
+- Porter's Five Forces
+- Blue Ocean Strategy
+- Business Model Canvas
+- Value Proposition Canvas
+
+**Prioritization:**
+- RICE Framework
+- MoSCoW Method
+- KANO Model
+- ICE Score
+- Weighted Scoring
+
+**Discovery:**
+- Jobs-to-be-Done (JTBD)
+- Design Thinking
+- Lean Startup (Build-Measure-Learn)
+- Customer Development
+- Opportunity Solution Tree
+
+**Metrics:**
+- AARRR (Pirate Metrics)
+- North Star Framework
+- OKRs
+- Product-Market Fit Survey
+- NPS, CSAT, CES
+
+**Development:**
+- Agile/Scrum
+- Lean
+- Shape Up (Basecamp)
+- Dual-Track Agile
+- Continuous Discovery
+
+---
+
+## OKUMA LİSTESİ (Recommended Books)
+
+1. **Inspired** - Marty Cagan
+2. **The Lean Startup** - Eric Ries
+3. **Hooked** - Nir Eyal
+4. **Crossing the Chasm** - Geoffrey Moore
+5. **The Mom Test** - Rob Fitzpatrick
+6. **Escaping the Build Trap** - Melissa Perri
+7. **Continuous Discovery Habits** - Teresa Torres
+8. **Product-Led Growth** - Wes Bush
+9. **Zero to One** - Peter Thiel
+10. **The Hard Thing About Hard Things** - Ben Horowitz

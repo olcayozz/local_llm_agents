@@ -1,0 +1,450 @@
+# KURUMSAL IT ŞİRKETİ ROLLERİ VE SORUMLULUKLARI
+
+## YÖNETİM ROLLERI
+
+### CTO/CIO (Chief Technology Officer / Chief Information Officer)
+**Görevler:**
+- Şirketin teknoloji stratejisini belirleme ve yönetme
+- Teknoloji yatırımları için bütçe planlama
+- Teknoloji ekiplerini yönetme ve liderlik etme
+- İş hedefleri ile teknoloji hedeflerini uyumlu hale getirme
+- Teknoloji trendlerini takip etme ve şirkete entegre etme
+- Üst yönetim ile teknoloji konularında iletişim kurma
+
+**Sorumluluklar:**
+- Teknoloji departmanının genel performansından sorumlu
+- Teknoloji altyapısının güvenliği ve sürekliliği
+- İnovasyon ve dijital dönüşüm süreçlerinin yönetimi
+- Teknoloji ekiplerinin gelişimi ve motivasyonu
+
+### IT Manager/Director
+**Görevler:**
+- IT departmanının günlük operasyonlarını yönetme
+- Ekip üyelerinin performans değerlendirmesi
+- Proje önceliklendirme ve kaynak tahsisi
+- IT politika ve prosedürlerini oluşturma
+- Departmanlar arası koordinasyon sağlama
+- Vendor ve tedarikçi ilişkilerini yönetme
+
+**Sorumluluklar:**
+- IT ekibinin verimli çalışmasını sağlama
+- SLA (Service Level Agreement) hedeflerine ulaşma
+- IT bütçesini yönetme ve raporlama
+- Risk yönetimi ve sorun çözme
+
+### Project Manager
+**Görevler:**
+- Proje planlaması ve zaman çizelgesi oluşturma
+- Proje kapsamını belirleme ve yönetme
+- Ekip üyelerine görev dağılımı yapma
+- Proje ilerlemesini takip etme ve raporlama
+- Paydaşlarla düzenli iletişim kurma
+- Risk analizi ve yönetimi
+- Proje bütçesini kontrol etme
+
+**Sorumluluklar:**
+- Projenin zamanında ve bütçe dahilinde tamamlanması
+- Proje kalite standartlarının sağlanması
+- Değişiklik taleplerini yönetme
+- Proje dokümantasyonunu hazırlama
+
+### Product Manager
+**Görevler:**
+- Ürün vizyonu ve stratejisini belirleme
+- Pazar araştırması ve rekabet analizi yapma
+- Ürün yol haritası (roadmap) oluşturma
+- Kullanıcı ihtiyaçlarını analiz etme
+- Özellik önceliklendirme (feature prioritization)
+- Geliştirme ekibi ile koordinasyon
+- Ürün lansmanı ve pazarlama stratejisi
+
+**Sorumluluklar:**
+- Ürünün pazar başarısından sorumlu
+- Müşteri memnuniyeti ve geri bildirim yönetimi
+- Ürün metriklerini takip etme ve analiz etme
+- İş hedefleri ile ürün hedeflerini uyumlu hale getirme
+
+## GELİŞTİRME ROLLERI
+
+### Software Developer/Engineer (Frontend, Backend, Full-Stack)
+**Görevler:**
+- Yazılım tasarımı ve geliştirme
+- Kod yazma, test etme ve debug yapma
+- Kod incelemesi (code review) yapma
+- Teknik dokümantasyon hazırlama
+- Veritabanı tasarımı ve optimizasyonu
+- API geliştirme ve entegrasyon
+- Performans optimizasyonu
+- Birim testleri (unit tests) yazma
+
+**Sorumluluklar:**
+- Temiz, sürdürülebilir ve ölçeklenebilir kod yazma
+- Kodlama standartlarına uyma
+- Güvenlik açıklarını önleme
+- Teknik borç (technical debt) yönetimi
+- Sürekli öğrenme ve gelişim
+
+**Frontend Developer Özel Görevler:**
+- Kullanıcı arayüzü (UI) geliştirme
+- Responsive tasarım uygulama
+- Browser uyumluluğu sağlama
+- Frontend framework'leri kullanma (React, Vue, Angular)
+
+**Backend Developer Özel Görevler:**
+- Sunucu tarafı mantığı geliştirme
+- Veritabanı yönetimi ve optimizasyonu
+- API tasarımı ve geliştirme
+- Sunucu güvenliği ve performans optimizasyonu
+
+### Mobile Developer
+**Görevler:**
+- iOS ve/veya Android uygulama geliştirme
+- Mobil UI/UX tasarımı uygulama
+- Mobil API entegrasyonu
+- Push notification sistemleri kurma
+- Uygulama performans optimizasyonu
+- App Store/Play Store yayınlama süreçleri
+- Mobil güvenlik önlemleri alma
+
+**Sorumluluklar:**
+- Platform standartlarına uygun uygulama geliştirme
+- Farklı cihaz ve ekran boyutlarında uyumluluk
+- Offline çalışma yetenekleri ekleme
+- Uygulama güncellemeleri ve bakımı
+
+### DevOps Engineer
+**Görevler:**
+- CI/CD pipeline'ları oluşturma ve yönetme
+- Altyapı otomasyonu (Infrastructure as Code)
+- Container yönetimi (Docker, Kubernetes)
+- Cloud altyapısı yönetimi (AWS, Azure, GCP)
+- Monitoring ve logging sistemleri kurma
+- Deployment süreçlerini otomatikleştirme
+- Sistem performans optimizasyonu
+- Disaster recovery planları hazırlama
+
+**Sorumluluklar:**
+- Sistemlerin yüksek erişilebilirliğini (high availability) sağlama
+- Deployment süreçlerinin hızlı ve güvenli olması
+- Altyapı maliyetlerini optimize etme
+- Güvenlik ve compliance standartlarına uyum
+
+### QA/Test Engineer
+**Görevler:**
+- Test planları ve senaryoları oluşturma
+- Manuel ve otomatik testler yapma
+- Test otomasyonu script'leri yazma
+- Bug raporlama ve takibi
+- Regresyon testleri yapma
+- Performance ve load testing
+- API testleri yapma
+- Test dokümantasyonu hazırlama
+
+**Sorumluluklar:**
+- Yazılım kalitesini sağlama
+- Bug'ların erken tespit edilmesi
+- Test coverage'ını artırma
+- Kalite metriklerini raporlama
+
+## ALTYAPI & GÜVENLİK ROLLERI
+
+### System Administrator
+**Görevler:**
+- Sunucu kurulumu ve yapılandırması
+- İşletim sistemi yönetimi (Windows, Linux)
+- Sistem güncellemeleri ve patch yönetimi
+- Backup ve restore işlemleri
+- Kullanıcı hesapları ve yetkilendirme yönetimi
+- Sistem performans izleme
+- Sorun giderme (troubleshooting)
+- Sistem dokümantasyonu
+
+**Sorumluluklar:**
+- Sistemlerin 7/24 çalışır durumda olması
+- Sistem güvenliğinin sağlanması
+- Veri bütünlüğünü koruma
+- Sistem kaynaklarını optimize etme
+
+### Network Engineer
+**Görevler:**
+- Ağ altyapısı tasarımı ve kurulumu
+- Router, switch, firewall yapılandırması
+- Ağ güvenliği önlemleri alma
+- VPN kurulumu ve yönetimi
+- Ağ performans izleme ve optimizasyonu
+- Ağ sorunlarını giderme
+- Ağ dokümantasyonu hazırlama
+- Bandwidth yönetimi
+
+**Sorumluluklar:**
+- Ağ erişilebilirliği ve performansı
+- Ağ güvenliğini sağlama
+- Ağ kapasitesi planlama
+- Ağ altyapısının güncel tutulması
+
+### Database Administrator (DBA)
+**Görevler:**
+- Veritabanı kurulumu ve yapılandırması
+- Veritabanı performans optimizasyonu
+- Backup ve recovery stratejileri uygulama
+- Veritabanı güvenliği yönetimi
+- Kullanıcı erişim kontrolü
+- Veritabanı izleme ve bakımı
+- Query optimizasyonu
+- Veritabanı migration işlemleri
+
+**Sorumluluklar:**
+- Veri bütünlüğü ve güvenliği
+- Veritabanı performansı ve erişilebilirliği
+- Veri yedekleme ve kurtarma
+- Kapasite planlama
+
+### Security Engineer/Analyst
+**Görevler:**
+- Güvenlik politikaları oluşturma ve uygulama
+- Güvenlik açıklarını tespit etme (vulnerability assessment)
+- Penetrasyon testleri yapma
+- Güvenlik olaylarını izleme ve analiz etme
+- Firewall ve IDS/IPS yönetimi
+- Güvenlik eğitimleri verme
+- Incident response planları hazırlama
+- Compliance denetimleri yapma
+
+**Sorumluluklar:**
+- Şirket verilerinin ve sistemlerinin güvenliği
+- Güvenlik standartlarına uyum (ISO 27001, GDPR, vb.)
+- Güvenlik olaylarına hızlı müdahale
+- Güvenlik farkındalığını artırma
+
+### Cloud Architect
+**Görevler:**
+- Cloud altyapısı tasarımı ve planlama
+- Cloud migration stratejileri geliştirme
+- Multi-cloud ve hybrid cloud çözümleri tasarlama
+- Cloud maliyet optimizasyonu
+- Cloud güvenlik mimarisi oluşturma
+- Scalability ve high availability tasarımı
+- Cloud servislerini değerlendirme ve seçme
+- Cloud best practices uygulama
+
+**Sorumluluklar:**
+- Cloud altyapısının güvenliği ve performansı
+- Cloud maliyetlerini kontrol altında tutma
+- İş gereksinimlerine uygun cloud çözümleri sunma
+- Cloud stratejisini iş hedefleriyle uyumlu hale getirme
+
+## DESTEK & OPERASYON ROLLERI
+
+### IT Support Specialist (L1, L2, L3)
+**L1 (Level 1) - Help Desk:**
+**Görevler:**
+- İlk seviye kullanıcı desteği
+- Temel sorun giderme
+- Ticket oluşturma ve yönlendirme
+- Kullanıcı hesapları oluşturma
+- Şifre sıfırlama
+- Temel donanım ve yazılım desteği
+
+**L2 (Level 2) - Technical Support:**
+**Görevler:**
+- Karmaşık teknik sorunları çözme
+- Sistem ve uygulama sorunlarını giderme
+- L1'den yönlendirilen ticket'ları çözme
+- Kullanıcı eğitimleri verme
+- Teknik dokümantasyon hazırlama
+
+**L3 (Level 3) - Expert Support:**
+**Görevler:**
+- En karmaşık teknik sorunları çözme
+- Sistem mimarisi ve tasarım desteği
+- Vendor ile teknik koordinasyon
+- Root cause analysis yapma
+- Kritik sistem sorunlarını çözme
+
+**Sorumluluklar:**
+- Kullanıcı memnuniyeti sağlama
+- SLA hedeflerine ulaşma
+- Ticket'ları zamanında çözme
+- Bilgi tabanı (knowledge base) güncelleme
+
+### Help Desk Technician
+**Görevler:**
+- Telefon, email ve chat üzerinden destek sağlama
+- Kullanıcı sorunlarını kaydetme ve takip etme
+- Temel teknik sorunları çözme
+- Kullanıcıları doğru departmana yönlendirme
+- Destek dokümantasyonu hazırlama
+- Kullanıcı eğitim materyalleri oluşturma
+
+**Sorumluluklar:**
+- İlk temas noktası olarak profesyonel hizmet sunma
+- Hızlı yanıt süreleri sağlama
+- Kullanıcı sorunlarını doğru kategorize etme
+- Destek kalitesini sürekli iyileştirme
+
+### Technical Support Engineer
+**Görevler:**
+- Ürün ve hizmetler için teknik destek sağlama
+- Karmaşık teknik sorunları analiz etme ve çözme
+- Müşteri sistemlerinde troubleshooting yapma
+- Teknik dokümantasyon ve KB makaleleri yazma
+- Müşteri eğitimleri ve webinar'lar düzenleme
+- Ürün geliştirme ekibiyle geri bildirim paylaşma
+- Escalation süreçlerini yönetme
+
+**Sorumluluklar:**
+- Müşteri memnuniyeti ve retention
+- Teknik sorunların hızlı çözümü
+- Ürün bilgisini güncel tutma
+- Müşteri geri bildirimlerini ürün ekibine iletme
+
+## VERİ & ANALİZ ROLLERI
+
+### Data Engineer
+**Görevler:**
+- Veri pipeline'ları tasarlama ve geliştirme
+- ETL (Extract, Transform, Load) süreçleri oluşturma
+- Veri ambarı (data warehouse) tasarımı
+- Büyük veri (big data) altyapısı kurma
+- Veri kalitesi ve bütünlüğünü sağlama
+- Veri entegrasyonu yapma
+- Veri işleme süreçlerini optimize etme
+
+**Sorumluluklar:**
+- Veri altyapısının güvenilirliği ve performansı
+- Veri erişilebilirliğini sağlama
+- Veri güvenliği ve compliance
+- Ölçeklenebilir veri çözümleri geliştirme
+
+### Data Analyst
+**Görevler:**
+- Veri analizi ve raporlama
+- İş zekası (business intelligence) raporları oluşturma
+- Veri görselleştirme (data visualization)
+- Trend analizi ve tahminleme
+- KPI'ları tanımlama ve takip etme
+- Ad-hoc analiz talepleri karşılama
+- İş birimlerine veri odaklı öneriler sunma
+
+**Sorumluluklar:**
+- Doğru ve anlamlı veri analizleri sunma
+- İş kararlarına veri ile destek olma
+- Veri kalitesini kontrol etme
+- Analiz sonuçlarını etkili şekilde iletme
+
+### Business Intelligence Analyst
+**Görevler:**
+- BI stratejisi geliştirme
+- Dashboard ve rapor tasarlama
+- Veri modelleme yapma
+- BI araçlarını yönetme (Tableau, Power BI, vb.)
+- İş gereksinimlerini teknik çözümlere dönüştürme
+- Veri kaynaklarını entegre etme
+- Self-service BI çözümleri geliştirme
+
+**Sorumluluklar:**
+- İş birimlerinin veri ihtiyaçlarını karşılama
+- BI sistemlerinin performansı ve erişilebilirliği
+- Veri doğruluğunu sağlama
+- Kullanıcı eğitimi ve destek
+
+## DİĞER ROLLER
+
+### UI/UX Designer
+**Görevler:**
+- Kullanıcı araştırması ve persona oluşturma
+- Wireframe ve mockup tasarlama
+- Prototip oluşturma ve test etme
+- Kullanıcı deneyimi (UX) tasarımı
+- Görsel tasarım (UI) oluşturma
+- Kullanılabilirlik testleri yapma
+- Design system oluşturma ve yönetme
+- A/B testleri tasarlama
+
+**Sorumluluklar:**
+- Kullanıcı odaklı tasarımlar oluşturma
+- Marka kimliğine uygun tasarımlar yapma
+- Erişilebilirlik standartlarına uyum
+- Tasarım-geliştirme ekibi koordinasyonu
+
+### Technical Writer
+**Görevler:**
+- Teknik dokümantasyon yazma
+- Kullanıcı kılavuzları hazırlama
+- API dokümantasyonu oluşturma
+- Eğitim materyalleri hazırlama
+- Release notes yazma
+- Knowledge base makaleleri oluşturma
+- Video tutorial senaryoları yazma
+- Dokümantasyonu güncel tutma
+
+**Sorumluluklar:**
+- Anlaşılır ve doğru dokümantasyon üretme
+- Teknik bilgiyi kullanıcı dostu hale getirme
+- Dokümantasyon standartlarına uyma
+- Çoklu format ve platform için içerik üretme
+
+### Scrum Master/Agile Coach
+**Görevler:**
+- Scrum süreçlerini yönetme ve kolaylaştırma
+- Sprint planlama toplantıları düzenleme
+- Daily standup'ları yönetme
+- Sprint review ve retrospective toplantıları
+- Engelleri (impediments) kaldırma
+- Ekip verimliliğini artırma
+- Agile prensiplerini öğretme ve uygulama
+- Ekip dinamiklerini iyileştirme
+
+**Sorumluluklar:**
+- Scrum framework'ünün doğru uygulanması
+- Ekip işbirliğini ve iletişimini geliştirme
+- Sürekli iyileştirme kültürü oluşturma
+- Ekibi dış müdahalelerden koruma
+
+### IT Procurement Specialist
+**Görevler:**
+- IT ekipman ve yazılım satın alma
+- Vendor değerlendirme ve seçimi
+- Sözleşme müzakereleri yapma
+- Maliyet analizi ve bütçe yönetimi
+- Lisans yönetimi
+- Tedarikçi ilişkilerini yönetme
+- Satın alma politikaları oluşturma
+- Envanter yönetimi
+
+**Sorumluluklar:**
+- En iyi fiyat-performans oranını sağlama
+- Zamanında tedarik sağlama
+- Sözleşme şartlarına uyumu kontrol etme
+- Maliyet tasarrufu fırsatlarını belirleme
+
+---
+
+## ROL SEÇİMİ VE ORGANİZASYON YAPISI
+
+**Küçük Şirketler (10-50 kişi):**
+- Roller birleştirilebilir (örn: Full-Stack Developer + DevOps)
+- Daha az spesializasyon
+- Çok yönlü çalışanlar tercih edilir
+
+**Orta Ölçekli Şirketler (50-200 kişi):**
+- Rollerin ayrışmaya başladığı dönem
+- Departmanlar oluşmaya başlar
+- Uzmanlaşma artar
+
+**Büyük Şirketler (200+ kişi):**
+- Her rol için ayrı pozisyonlar
+- Alt roller ve spesializasyonlar
+- Hiyerarşik yapı daha belirgin
+- Departmanlar arası koordinasyon kritik
+
+## KARİYER GELİŞİM YOLLARI
+
+**Teknik Kariyer Yolu:**
+Junior → Mid-Level → Senior → Lead → Principal → Architect
+
+**Yönetim Kariyer Yolu:**
+Team Lead → Manager → Senior Manager → Director → VP → CTO/CIO
+
+**Hibrit Kariyer Yolu:**
+Teknik ve yönetim becerilerini birleştiren roller (Tech Lead, Engineering Manager)

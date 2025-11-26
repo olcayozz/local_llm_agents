@@ -1,0 +1,636 @@
+# Project Manager (IT)
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Mid to Senior Level
+**Departman:** PMO (Project Management Office) / IT
+**Raporlama:** IT Manager/Director, PMO Director
+**Deneyim Gereksinimi:** 5-8 yıl IT deneyimi, 3+ yıl proje yönetimi
+**Maaş Aralığı:** 80.000 - 150.000 TL/ay
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### Proje Planlama Görevleri
+- Proje charter hazırlama ve onay alma
+- Proje kapsamını (scope) belirleme ve dokümante etme
+- Work Breakdown Structure (WBS) oluşturma
+- Proje zaman çizelgesi hazırlama (Gantt chart)
+- Kaynak planlaması ve allocation
+- Bütçe hazırlama ve cost estimation
+- Risk register oluşturma ve risk analizi
+- Stakeholder analysis ve communication plan
+- Quality management plan hazırlama
+- Procurement plan (gerekirse)
+
+### Proje Yürütme Görevleri
+- Ekip üyelerine görev dağılımı (task assignment)
+- Daily/weekly standup meetings yönetme
+- Sprint planning ve sprint review (Agile)
+- Proje ilerlemesini takip etme (tracking)
+- Issue ve blocker'ları çözme
+- Vendor koordinasyonu
+- Change request yönetimi
+- Quality assurance süreçlerini takip
+- Team collaboration sağlama
+- Documentation maintenance
+
+### Proje İzleme ve Kontrol
+- Proje metriklerini takip etme (KPIs)
+- Earned Value Management (EVM) analizi
+- Budget variance analysis
+- Schedule variance tracking
+- Risk monitoring ve mitigation
+- Issue log yönetimi
+- Status reporting (weekly/monthly)
+- Stakeholder communication
+- Scope creep kontrolü
+- Quality metrics tracking
+
+### Proje Kapanış Görevleri
+- Project closure documentation
+- Lessons learned session organize etme
+- Final deliverables teslimi
+- Stakeholder sign-off alma
+- Team performance review
+- Project archive oluşturma
+- Post-implementation review
+- Success metrics reporting
+- Knowledge transfer
+- Celebration ve recognition
+
+### Stakeholder Yönetimi
+- Stakeholder expectations yönetimi
+- Regular status updates
+- Executive presentations
+- Conflict resolution
+- Escalation management
+- Feedback collection
+- Relationship building
+- Communication planning
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Proje Yönetimi Uzmanlıkları (Expert Level)
+
+**Metodolojiler:**
+- **Waterfall/Traditional PM:**
+  - PMBOK Guide (6th/7th Edition)
+  - Project lifecycle phases
+  - Critical Path Method (CPM)
+  - PERT (Program Evaluation Review Technique)
+  - Earned Value Management (EVM)
+  
+- **Agile Methodologies:**
+  - Scrum framework (Sprint planning, Daily standup, Sprint review, Retrospective)
+  - Kanban (WIP limits, flow metrics)
+  - SAFe (Scaled Agile Framework)
+  - Lean principles
+  - Extreme Programming (XP) basics
+  
+- **Hybrid Approaches:**
+  - Agile-Waterfall hybrid
+  - Disciplined Agile Delivery (DAD)
+  - Scrumban
+
+**Proje Yönetim Araçları:**
+- **Planning & Scheduling:**
+  - Microsoft Project (Expert level)
+  - Jira (Advanced)
+  - Asana, Monday.com
+  - Smartsheet
+  - Wrike
+  
+- **Collaboration:**
+  - Confluence (documentation)
+  - Microsoft Teams
+  - Slack
+  - SharePoint
+  - Google Workspace
+  
+- **Reporting & Analytics:**
+  - Power BI
+  - Tableau
+  - Excel (Advanced - pivot tables, macros, formulas)
+  - Google Sheets
+  
+- **Agile Tools:**
+  - Jira Software
+  - Azure DevOps
+  - Rally
+  - VersionOne
+
+**Proje Yönetim Teknikleri:**
+- Work Breakdown Structure (WBS)
+- Gantt Charts
+- Network Diagrams
+- Resource Leveling
+- Critical Chain Method
+- Monte Carlo Simulation
+- Three-Point Estimation
+- Story Point Estimation
+- Planning Poker
+- Velocity tracking
+- Burndown/Burnup charts
+
+### Teknik Uzmanlıklar (Intermediate Level)
+
+**IT Infrastructure:**
+- Server, network, storage temel bilgisi
+- Cloud platforms (AWS, Azure, GCP) basics
+- Virtualization concepts
+- Database fundamentals
+- Backup ve disaster recovery
+
+**Software Development:**
+- SDLC (Software Development Lifecycle)
+- DevOps pipeline anlayışı
+- CI/CD concepts
+- Version control (Git) basics
+- Testing methodologies (unit, integration, UAT)
+- Code deployment processes
+
+**IT Service Management:**
+- ITIL v4 Foundation
+- Change management
+- Incident management
+- Service request management
+- Configuration management
+
+**Business Analysis:**
+- Requirements gathering
+- Use case development
+- User story writing
+- Acceptance criteria definition
+- Process mapping
+- Gap analysis
+
+### Yönetim Becerileri (Advanced Level)
+
+**Scope Management:**
+- Scope definition
+- Scope verification
+- Scope change control
+- Requirements traceability matrix
+
+**Time Management:**
+- Activity sequencing
+- Duration estimation
+- Schedule development
+- Schedule control
+- Critical path analysis
+
+**Cost Management:**
+- Cost estimation (analogous, parametric, bottom-up)
+- Budget determination
+- Cost control
+- Earned Value Management
+- ROI calculation
+
+**Quality Management:**
+- Quality planning
+- Quality assurance
+- Quality control
+- Quality metrics
+- Continuous improvement
+
+**Risk Management:**
+- Risk identification
+- Qualitative risk analysis
+- Quantitative risk analysis
+- Risk response planning
+- Risk monitoring
+
+**Resource Management:**
+- Resource planning
+- Team acquisition
+- Team development
+- Resource optimization
+- Conflict management
+
+**Communication Management:**
+- Communication planning
+- Information distribution
+- Performance reporting
+- Stakeholder engagement
+
+**Procurement Management:**
+- Vendor selection
+- Contract negotiation
+- Vendor management
+- Contract administration
+
+### Soft Skills (Advanced Level)
+
+**Leadership:**
+- Team motivation
+- Conflict resolution
+- Decision making
+- Problem solving
+- Servant leadership
+- Situational leadership
+
+**Communication:**
+- Verbal communication
+- Written communication
+- Presentation skills
+- Active listening
+- Negotiation
+- Persuasion
+- Facilitation
+
+**Interpersonal:**
+- Emotional intelligence
+- Empathy
+- Relationship building
+- Trust building
+- Cultural awareness
+- Diplomacy
+
+**Personal:**
+- Time management
+- Stress management
+- Adaptability
+- Resilience
+- Attention to detail
+- Multitasking
+- Proactive mindset
+- Continuous learning
+
+---
+
+## EĞİTİM GEREKSİNİMLERİ
+
+### Zorunlu Eğitim
+- **Lisans Derecesi:**
+  - Bilgisayar Mühendisliği
+  - Yazılım Mühendisliği
+  - Endüstri Mühendisliği
+  - İşletme
+  - Yönetim Bilişim Sistemleri
+  - İlgili teknik alanlar
+
+### Tercih Edilen Eğitim
+- **Yüksek Lisans:**
+  - Proje Yönetimi
+  - MBA
+  - Bilgisayar Mühendisliği
+  - Endüstri Mühendisliği
+
+- **Proje Yönetimi Eğitimleri:**
+  - PMP Exam Prep Course (35 contact hours)
+  - Agile/Scrum training
+  - Advanced project management courses
+
+### Dil Gereksinimleri
+- **İngilizce:** Orta-İleri seviye (B2-C1) - Zorunlu
+  - Teknik dokümantasyon okuma
+  - Stakeholder communication
+  - Reporting
+
+---
+
+## SERTİFİKALAR
+
+### Kritik Sertifikalar (Zorunlu/Highly Recommended)
+1. **PMP (Project Management Professional)** - PMI (Zorunlu)
+2. **Certified Scrum Master (CSM)** - Scrum Alliance
+3. **PRINCE2 Practitioner** - AXELOS
+
+### Değerli Sertifikalar
+4. **PMI-ACP (Agile Certified Practitioner)** - PMI
+5. **SAFe Agilist (SA)** - Scaled Agile
+6. **Professional Scrum Master (PSM I/II)** - Scrum.org
+7. **CAPM (Certified Associate in Project Management)** - PMI (entry level)
+
+### Ek Sertifikalar (Nice to Have)
+- Certified Scrum Product Owner (CSPO)
+- PMI-RMP (Risk Management Professional)
+- Lean Six Sigma Green Belt
+- ITIL v4 Foundation
+- Microsoft Project Certification
+- Jira Administrator Certification
+
+---
+
+## DENEYİM GEREKSİNİMLERİ
+
+### Minimum Deneyim
+- **Toplam IT Deneyimi:** 5-8 yıl
+- **Proje Yönetimi Deneyimi:** 3+ yıl
+- **Agile Experience:** 2+ yıl
+- **Team Leadership:** 2+ yıl
+
+### Aranan Deneyim Alanları
+
+**Proje Türleri:**
+- Infrastructure projects (server migration, network upgrade)
+- Software development projects
+- Cloud migration projects
+- ERP/CRM implementation
+- IT security projects
+- Digital transformation initiatives
+- System integration projects
+- Application modernization
+
+**Proje Büyüklüğü:**
+- Budget: 500K - 5M TL
+- Duration: 3-18 months
+- Team size: 5-20 people
+- Multiple concurrent projects (2-4)
+
+**Metodoloji Deneyimi:**
+- Waterfall projects: 2+ projects
+- Agile/Scrum projects: 3+ projects
+- Hybrid projects: 1+ project
+
+**Teknik Deneyim:**
+- IT infrastructure projects
+- Software development lifecycle
+- Cloud platforms (AWS/Azure)
+- DevOps practices
+- ITSM tools
+
+### Başarı Örnekleri
+- %90+ on-time project delivery
+- %95+ budget adherence
+- Stakeholder satisfaction 4.5+/5.0
+- Successfully managed 5+ complex projects
+- Led cross-functional teams (10+ members)
+- Recovered troubled projects
+- Implemented Agile transformation
+
+---
+
+## PERFORMANS KRİTERLERİ (KPIs)
+
+### Proje Delivery KPI'ları
+- **On-Time Delivery:** %85+ projects
+- **Budget Adherence:** ±5% variance
+- **Scope Completion:** %95+ planned scope
+- **Quality Metrics:** <5% defect rate
+- **Stakeholder Satisfaction:** 4.0+/5.0
+
+### Agile Metrics (Scrum Projects)
+- **Sprint Completion Rate:** %80+
+- **Velocity Consistency:** ±15% variance
+- **Sprint Goal Success:** %85+
+- **Team Velocity:** Increasing trend
+- **Burndown Accuracy:** ±10%
+
+### Team Performance
+- **Team Satisfaction:** 4.0+/5.0
+- **Team Productivity:** Increasing trend
+- **Collaboration Score:** 4.0+/5.0
+- **Conflict Resolution Time:** <48 hours
+
+### Risk & Issue Management
+- **Risk Mitigation Success:** %90+
+- **Issue Resolution Time:** <5 days (average)
+- **Escalation Rate:** <10% of issues
+- **Risk Identification:** Proactive (before impact)
+
+### Communication & Reporting
+- **Status Report Timeliness:** 100% on-time
+- **Stakeholder Meeting Attendance:** %95+
+- **Communication Effectiveness:** 4.0+/5.0
+- **Documentation Completeness:** %95+
+
+---
+
+## ÇALIŞMA KOŞULLARI
+
+**Çalışma Saatleri:**
+- 09:00-18:00 (Esnek)
+- Proje deadline'larında overtime
+- Haftalık 40-45 saat
+- Occasional evening/weekend work
+
+**Seyahat Gereksinimleri:**
+- Yurtiçi: Ayda 2-5 gün (proje lokasyonlarına)
+- Yurtdışı: Yılda 1-3 gün (vendor meetings, training)
+
+**Çalışma Ortamı:**
+- Hybrid model (3 gün ofis, 2 gün remote)
+- Open office veya dedicated desk
+- Meeting rooms access
+- Collaboration tools
+
+**Ek Faydalar:**
+- Sağlık sigortası
+- Performance bonus (%10-20 annual salary)
+- Eğitim ve sertifikasyon desteği (PMP exam, courses)
+- Conference attendance
+- Yemek kartı
+- Ulaşım desteği
+- Flexible hours
+
+---
+
+## KARİYER GELİŞİM YOLU
+
+### Bu Pozisyona Gelen Roller
+- Business Analyst
+- Technical Lead
+- Scrum Master
+- Junior Project Manager
+- Team Lead
+
+### Bu Pozisyondan Sonraki Roller
+- Senior Project Manager
+- Program Manager
+- PMO Director
+- Portfolio Manager
+- Delivery Manager
+- Agile Coach
+- Product Manager
+
+### Gelişim Fırsatları
+- PMP certification sponsorship
+- Advanced PM training
+- Leadership development programs
+- Agile coaching certification
+- International project exposure
+- Mentorship programs
+- Cross-functional projects
+
+---
+
+## MÜLAKAT SÜRECİ
+
+### Aşama 1: HR Screening (30 dakika)
+- Background check
+- PMP certification verification
+- Salary expectations
+- Availability
+
+### Aşama 2: PM Methodology Interview (60 dakika)
+- PMBOK knowledge areas
+- Agile/Scrum framework
+- Project lifecycle
+- Risk management
+- Stakeholder management
+
+### Aşama 3: Practical Case Study (90 dakika)
+- Project planning exercise
+- Risk identification scenario
+- Schedule optimization problem
+- Budget variance analysis
+- Stakeholder conflict resolution
+
+### Aşama 4: Behavioral Interview (45 dakika)
+- Leadership examples
+- Conflict resolution stories
+- Failed project learnings
+- Team management experience
+- Communication skills
+
+### Aşama 5: Technical Interview (45 dakika)
+- IT infrastructure knowledge
+- SDLC understanding
+- Tools proficiency (MS Project, Jira)
+- Technical problem-solving
+
+### Aşama 6: Final Interview (30 dakika)
+- Cultural fit
+- Career goals
+- Salary negotiation
+- Start date
+
+---
+
+## GÜNLÜK AKTİVİTELER (Typical Day)
+
+**08:30-09:00:** Email review, daily planning
+**09:00-09:15:** Daily standup with development team
+**09:15-10:00:** Project status update (tracking, metrics)
+**10:00-11:00:** Stakeholder meeting (status presentation)
+**11:00-12:00:** Risk review ve mitigation planning
+**12:00-13:00:** Lunch break
+**13:00-14:00:** Sprint planning meeting (Agile project)
+**14:00-15:00:** Vendor coordination call
+**15:00-16:00:** Issue resolution ve blocker removal
+**16:00-17:00:** Documentation ve reporting
+**17:00-18:00:** Team 1-on-1 / planning for next day
+
+---
+
+## BAŞARI FAKTÖRLERİ
+
+**Proje Başarısı:**
+- Clear scope definition
+- Realistic planning
+- Proactive risk management
+- Effective communication
+- Strong stakeholder relationships
+
+**Ekip Başarısı:**
+- Team empowerment
+- Clear expectations
+- Regular feedback
+- Conflict resolution
+- Recognition ve appreciation
+
+**Kişisel Başarı:**
+- Continuous learning (PM trends, tools)
+- Certification maintenance
+- Networking (PMI chapter, events)
+- Mentorship (junior PMs)
+- Work-life balance
+
+---
+
+## ZORLUKLAR VE RİSKLER
+
+**Proje Zorlukları:**
+- Scope creep
+- Resource constraints
+- Unrealistic deadlines
+- Changing requirements
+- Technical complexity
+- Vendor dependencies
+
+**Stakeholder Zorlukları:**
+- Conflicting priorities
+- Unclear requirements
+- Resistance to change
+- Communication gaps
+- Expectation management
+
+**Ekip Zorlukları:**
+- Team conflicts
+- Skill gaps
+- Motivation issues
+- Remote team coordination
+- Turnover
+
+---
+
+## BAŞVURU GEREKSİNİMLERİ
+
+### Gerekli Dökümanlar
+- Detaylı CV (project portfolio)
+- PMP certificate (zorunlu)
+- Cover letter
+- Project success stories (2-3 examples)
+- Reference list (2-3)
+
+### Başvuru Değerlendirme
+1. **PMP Certification:** %25
+2. **Project Experience:** %30
+3. **Agile Knowledge:** %20
+4. **Communication Skills:** %15
+5. **Technical Knowledge:** %10
+
+---
+
+## PROJE YÖNETİCİSİ YETKİNLİK MATRİSİ
+
+### Junior PM (0-3 yıl)
+- Small projects (<500K TL, <6 months)
+- Single team (5-8 people)
+- Waterfall or simple Agile
+- Close supervision needed
+
+### Mid-Level PM (3-5 yıl)
+- Medium projects (500K-2M TL, 6-12 months)
+- Multiple teams (10-15 people)
+- Agile/Hybrid methodologies
+- Minimal supervision
+
+### Senior PM (5-8 yıl)
+- Large projects (2M-5M TL, 12-18 months)
+- Cross-functional teams (15-25 people)
+- Complex Agile/Hybrid
+- Independent execution
+
+### Lead PM (8+ yıl)
+- Strategic projects (5M+ TL, 18+ months)
+- Multiple projects/programs
+- Enterprise-wide impact
+- Mentoring other PMs
+
+---
+
+## ÖNEMLİ NOTLAR
+
+**PMP Certification Gereksinimleri:**
+- 4-year degree: 36 months PM experience, 35 contact hours education
+- High school diploma: 60 months PM experience, 35 contact hours education
+- PMP exam: 180 questions, 230 minutes
+- Renewal: 60 PDUs every 3 years
+
+**Agile Certification Path:**
+1. CSM (Certified Scrum Master) - Entry level
+2. CSPO (Certified Scrum Product Owner)
+3. CSP (Certified Scrum Professional)
+4. PMI-ACP (Agile Certified Practitioner)
+5. SAFe Agilist (for enterprise Agile)
+
+**Career Growth Timeline:**
+- Years 0-3: Junior PM → PM
+- Years 3-5: PM → Senior PM
+- Years 5-8: Senior PM → Lead PM
+- Years 8+: Lead PM → Program Manager / PMO Director
