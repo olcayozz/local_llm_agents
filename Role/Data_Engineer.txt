@@ -1,0 +1,721 @@
+# Data Engineer
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Junior / Mid / Senior
+**Departman:** Data & Analytics / Engineering
+**Raporlama:** Data Engineering Manager, Head of Data, CTO
+**Deneyim Gereksinimi:** 0-2 yıl (Junior), 2-5 yıl (Mid), 5+ yıl (Senior)
+**Maaş Aralığı:** 45.000-75.000 TL (Junior), 75.000-130.000 TL (Mid), 130.000-220.000 TL (Senior)
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### Data Pipeline Görevleri
+- ETL/ELT pipeline tasarımı ve implementasyonu
+- Real-time data streaming pipeline'ları
+- Batch processing sistemleri
+- Data ingestion automation
+- Data transformation logic
+- Data validation ve quality checks
+- Pipeline monitoring ve alerting
+- Error handling ve retry mechanisms
+- Data lineage tracking
+- Pipeline orchestration
+
+### Data Warehouse Görevleri
+- Data warehouse architecture tasarımı
+- Dimensional modeling (Star, Snowflake schema)
+- Data mart oluşturma
+- Slowly Changing Dimensions (SCD) implementation
+- Aggregate tables ve materialized views
+- Partitioning strategies
+- Indexing optimization
+- Query performance tuning
+- Data archiving strategies
+- Historical data management
+
+### Data Lake Görevleri
+- Data lake architecture tasarımı
+- Raw data ingestion
+- Data cataloging
+- Metadata management
+- Data governance implementation
+- Access control ve security
+- Data lifecycle management
+- Storage optimization
+- Data discovery tools
+- Schema evolution handling
+
+### Data Quality Görevleri
+- Data quality framework oluşturma
+- Data validation rules
+- Data profiling
+- Anomaly detection
+- Data cleansing processes
+- Duplicate detection ve removal
+- Data standardization
+- Quality metrics tracking
+- Data quality dashboards
+- Issue resolution workflows
+
+### Performance Optimization Görevleri
+- Query optimization
+- Database tuning
+- Indexing strategies
+- Partitioning optimization
+- Caching strategies
+- Resource utilization monitoring
+- Cost optimization
+- Scalability planning
+- Performance benchmarking
+- Bottleneck identification
+
+### Data Integration Görevleri
+- API integration development
+- Third-party data source integration
+- Database replication setup
+- Change Data Capture (CDC) implementation
+- Data synchronization
+- Cross-platform data movement
+- Legacy system integration
+- Real-time data integration
+- Batch data integration
+- Hybrid integration patterns
+
+### DevOps ve Deployment
+- CI/CD pipeline'ları için data pipeline'ları
+- Infrastructure as Code (Terraform, CloudFormation)
+- Container orchestration (Kubernetes)
+- Monitoring ve logging setup
+- Automated testing
+- Deployment automation
+- Environment management
+- Disaster recovery planning
+- Backup strategies
+- Version control best practices
+
+### İşbirliği Görevleri
+- Data Scientists ile collaboration
+- Analytics team support
+- Business Intelligence team coordination
+- Backend developers ile integration
+- Product team ile requirement gathering
+- Data governance team alignment
+- Security team collaboration
+- Documentation yazma
+- Knowledge sharing sessions
+- Mentoring junior engineers
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Programlama Dilleri (En Az 2 Tanesinde Expert)
+
+**Python (Primary):**
+- Python 3.8+
+- Pandas, NumPy
+- PySpark
+- Apache Airflow
+- Luigi, Prefect
+- SQLAlchemy
+- pytest
+- Poetry, pip
+
+**SQL (Must Have):**
+- Advanced SQL (window functions, CTEs, subqueries)
+- Query optimization
+- Stored procedures
+- Triggers ve functions
+- Database design
+- Performance tuning
+- PostgreSQL, MySQL
+- SQL Server, Oracle
+
+**Scala (For Big Data):**
+- Scala 2.12+
+- Apache Spark
+- Functional programming
+- sbt (Scala Build Tool)
+- ScalaTest
+
+**Java (Alternative):**
+- Java 11+
+- Apache Kafka
+- Apache Flink
+- Spring Boot
+- Maven, Gradle
+
+### Big Data Technologies (En Az 2-3 Tanesinde Expert)
+
+**Apache Spark:**
+- Spark Core, Spark SQL
+- Spark Streaming
+- DataFrames ve Datasets
+- RDD operations
+- Spark optimization
+- Cluster management
+- Memory tuning
+- Performance optimization
+
+**Apache Kafka:**
+- Kafka Streams
+- Kafka Connect
+- Producer/Consumer APIs
+- Topic design
+- Partitioning strategies
+- Replication
+- Performance tuning
+- Schema Registry
+
+**Apache Airflow:**
+- DAG development
+- Task dependencies
+- Scheduling strategies
+- Operators (Python, Bash, SQL)
+- XComs
+- Variables ve Connections
+- Monitoring
+- Best practices
+
+**Hadoop Ecosystem:**
+- HDFS
+- MapReduce
+- Hive
+- HBase
+- Sqoop
+- Oozie
+- YARN
+
+### Cloud Platforms (En Az 1 Tanesinde Expert)
+
+**AWS:**
+- S3 (data lake storage)
+- Redshift (data warehouse)
+- Glue (ETL service)
+- EMR (managed Hadoop/Spark)
+- Kinesis (streaming)
+- Lambda (serverless)
+- Athena (query service)
+- RDS, DynamoDB
+- IAM, VPC
+- CloudWatch
+
+**Google Cloud Platform:**
+- BigQuery (data warehouse)
+- Cloud Storage
+- Dataflow (Apache Beam)
+- Dataproc (managed Spark)
+- Pub/Sub (messaging)
+- Cloud Functions
+- Cloud Composer (Airflow)
+- Cloud SQL, Bigtable
+- IAM
+- Stackdriver
+
+**Azure:**
+- Azure Data Lake Storage
+- Azure Synapse Analytics
+- Azure Data Factory
+- Azure Databricks
+- Azure Stream Analytics
+- Azure Functions
+- Azure SQL Database
+- Cosmos DB
+- Azure Monitor
+
+### Databases (Multiple Types)
+
+**Relational Databases:**
+- PostgreSQL (advanced features)
+- MySQL/MariaDB
+- SQL Server
+- Oracle
+- Database design
+- Normalization
+- Indexing strategies
+- Query optimization
+
+**NoSQL Databases:**
+- MongoDB (document store)
+- Cassandra (wide-column)
+- Redis (key-value, caching)
+- Elasticsearch (search engine)
+- Neo4j (graph database)
+- DynamoDB
+- HBase
+
+**Data Warehouses:**
+- Amazon Redshift
+- Google BigQuery
+- Snowflake
+- Azure Synapse
+- Teradata
+- Vertica
+
+**Time-Series Databases:**
+- InfluxDB
+- TimescaleDB
+- Prometheus
+
+### Data Modeling (Expert Level)
+
+**Dimensional Modeling:**
+- Star schema design
+- Snowflake schema design
+- Fact tables
+- Dimension tables
+- Slowly Changing Dimensions (SCD Type 1, 2, 3)
+- Conformed dimensions
+- Aggregate tables
+- Bridge tables
+
+**Data Vault:**
+- Hub, Link, Satellite tables
+- Business keys
+- Data vault 2.0
+- Historization
+
+**Normalization:**
+- 1NF, 2NF, 3NF, BCNF
+- Denormalization strategies
+- Trade-offs
+
+### ETL/ELT Tools
+
+**Open Source:**
+- Apache Airflow
+- Apache NiFi
+- Talend Open Studio
+- Singer.io
+- dbt (data build tool)
+- Great Expectations (data quality)
+
+**Commercial:**
+- Informatica
+- Talend Enterprise
+- Matillion
+- Fivetran
+- Stitch
+
+### Streaming Technologies
+
+**Apache Kafka:**
+- Kafka Streams
+- KSQL
+- Kafka Connect
+- Schema Registry
+
+**Apache Flink:**
+- DataStream API
+- Table API
+- CEP (Complex Event Processing)
+
+**AWS Kinesis:**
+- Kinesis Data Streams
+- Kinesis Data Firehose
+- Kinesis Data Analytics
+
+**Google Pub/Sub:**
+- Topic/Subscription model
+- Push/Pull delivery
+
+### Containerization & Orchestration
+
+**Docker:**
+- Dockerfile yazma
+- Multi-stage builds
+- Docker Compose
+- Container optimization
+
+**Kubernetes:**
+- Pod, Deployment, Service
+- ConfigMap, Secret
+- StatefulSets
+- Helm charts
+- Operators
+
+### Infrastructure as Code
+
+**Terraform:**
+- Resource management
+- Modules
+- State management
+- Workspaces
+
+**CloudFormation:**
+- Stack management
+- Templates
+- Change sets
+
+**Ansible:**
+- Playbooks
+- Roles
+- Inventory management
+
+### Version Control & CI/CD
+
+**Git:**
+- Branching strategies
+- Pull requests
+- Code review
+- Git workflows
+
+**CI/CD Tools:**
+- Jenkins
+- GitLab CI/CD
+- GitHub Actions
+- CircleCI
+- Azure DevOps
+
+### Monitoring & Logging
+
+**Monitoring:**
+- Prometheus
+- Grafana
+- Datadog
+- New Relic
+- CloudWatch
+- Stackdriver
+
+**Logging:**
+- ELK Stack (Elasticsearch, Logstash, Kibana)
+- Splunk
+- Fluentd
+- CloudWatch Logs
+
+### Data Quality & Testing
+
+**Data Quality:**
+- Great Expectations
+- Deequ (AWS)
+- Data validation frameworks
+- Anomaly detection
+
+**Testing:**
+- Unit testing (pytest)
+- Integration testing
+- Data pipeline testing
+- Schema validation
+- Data reconciliation
+
+---
+
+## KULLANILAN ARAÇLAR VE TEKNOLOJİLER
+
+### Development Tools
+- PyCharm, VS Code
+- Jupyter Notebooks
+- DataGrip, DBeaver
+- Git, GitHub/GitLab
+- Postman (API testing)
+
+### Data Processing
+- Apache Spark
+- Apache Kafka
+- Apache Airflow
+- dbt (data build tool)
+- Pandas, NumPy
+
+### Cloud Services
+- AWS (S3, Redshift, Glue, EMR)
+- GCP (BigQuery, Dataflow, Dataproc)
+- Azure (Synapse, Data Factory, Databricks)
+
+### Databases
+- PostgreSQL, MySQL
+- MongoDB, Cassandra
+- Redis, Elasticsearch
+- Snowflake, Redshift, BigQuery
+
+### Orchestration
+- Apache Airflow
+- Luigi
+- Prefect
+- Dagster
+- Kubernetes
+
+### Monitoring
+- Prometheus + Grafana
+- Datadog
+- CloudWatch
+- ELK Stack
+
+---
+
+## BEST PRACTICES VE STANDARTLAR
+
+### Data Pipeline Best Practices
+- **Idempotency:** Pipeline'lar tekrar çalıştırılabilir olmalı
+- **Incremental Processing:** Sadece yeni/değişen data işlenmeli
+- **Error Handling:** Comprehensive error handling ve retry logic
+- **Monitoring:** Her pipeline monitör edilmeli
+- **Testing:** Unit ve integration testler yazılmalı
+- **Documentation:** Pipeline'lar dokümante edilmeli
+- **Version Control:** Tüm kod version control'de olmalı
+- **Data Quality Checks:** Her aşamada quality checks
+- **Logging:** Detailed logging for debugging
+- **Alerting:** Critical failures için alerting
+
+### Data Modeling Best Practices
+- **Dimensional Modeling:** Star schema kullan
+- **Slowly Changing Dimensions:** SCD Type 2 for history
+- **Naming Conventions:** Consistent naming standards
+- **Documentation:** Data dictionary maintain et
+- **Normalization:** Appropriate level of normalization
+- **Indexing:** Strategic indexing for performance
+- **Partitioning:** Large tables partition et
+- **Data Types:** Appropriate data types seç
+- **Constraints:** Primary keys, foreign keys, constraints
+- **Metadata:** Comprehensive metadata management
+
+### Performance Optimization
+- **Query Optimization:** Efficient SQL queries
+- **Indexing:** Strategic index placement
+- **Partitioning:** Table partitioning strategies
+- **Caching:** Appropriate caching layers
+- **Compression:** Data compression where applicable
+- **Parallel Processing:** Leverage parallelism
+- **Resource Management:** Efficient resource utilization
+- **Cost Optimization:** Cloud cost optimization
+- **Monitoring:** Performance monitoring
+- **Benchmarking:** Regular performance benchmarks
+
+### Data Quality
+- **Validation Rules:** Comprehensive validation
+- **Data Profiling:** Regular data profiling
+- **Anomaly Detection:** Automated anomaly detection
+- **Data Cleansing:** Systematic cleansing processes
+- **Quality Metrics:** Track quality metrics
+- **Issue Resolution:** Quick issue resolution
+- **Documentation:** Document quality rules
+- **Testing:** Test data quality checks
+- **Monitoring:** Monitor data quality
+- **Alerting:** Alert on quality issues
+
+### Security Best Practices
+- **Access Control:** Role-based access control (RBAC)
+- **Encryption:** Data encryption at rest ve in transit
+- **PII Handling:** Proper PII data handling
+- **Audit Logging:** Comprehensive audit logs
+- **Secrets Management:** Secure secrets management
+- **Network Security:** VPC, security groups
+- **Compliance:** GDPR, KVKK compliance
+- **Data Masking:** Sensitive data masking
+- **Backup:** Regular backups
+- **Disaster Recovery:** DR planning
+
+---
+
+## GÜNLÜK İŞ AKIŞI
+
+### Sabah (09:00 - 12:00)
+- Email ve Slack mesajları kontrol
+- Pipeline failures check ve fix
+- Daily standup meeting
+- Data quality issues review
+- Priority tasks başlat
+
+### Öğleden Sonra (13:00 - 18:00)
+- Pipeline development
+- Code review
+- Data modeling
+- Performance optimization
+- Testing
+- Documentation
+- Team collaboration
+- Sprint planning/grooming
+
+### Haftalık Aktiviteler
+- Sprint planning meeting
+- Sprint retrospective
+- Architecture review meetings
+- Data governance meetings
+- Performance review
+- Capacity planning
+- Knowledge sharing sessions
+
+---
+
+## KARİYER GELİŞİMİ
+
+### Junior Data Engineer (0-2 yıl)
+- SQL ve Python öğren
+- ETL pipeline'ları geliştir
+- Data modeling basics
+- Cloud platform basics
+- Version control
+- Testing basics
+- Documentation
+
+### Mid-Level Data Engineer (2-5 yıl)
+- Big data technologies (Spark, Kafka)
+- Advanced data modeling
+- Cloud architecture
+- Performance optimization
+- CI/CD implementation
+- Mentoring juniors
+- System design
+
+### Senior Data Engineer (5+ yıl)
+- Architecture design
+- Technology selection
+- Team leadership
+- Cross-functional collaboration
+- Strategic planning
+- Innovation
+- Thought leadership
+
+### Sonraki Roller
+- **Lead Data Engineer:** Team leadership
+- **Data Architect:** Architecture focus
+- **Data Engineering Manager:** People management
+- **Principal Engineer:** Technical leadership
+- **Head of Data Engineering:** Department leadership
+
+---
+
+## SEKTÖREL TRENDLER VE YENİLİKLER
+
+### Modern Data Stack
+- Cloud-native data warehouses (Snowflake, BigQuery)
+- ELT over ETL
+- dbt for transformations
+- Reverse ETL
+- Data observability
+- Data mesh architecture
+
+### Real-Time Analytics
+- Streaming-first architecture
+- Real-time data warehouses
+- Change Data Capture (CDC)
+- Event-driven architecture
+- Lambda/Kappa architecture
+
+### DataOps
+- CI/CD for data pipelines
+- Automated testing
+- Data quality automation
+- Infrastructure as Code
+- GitOps for data
+- Observability
+
+### Cloud-Native
+- Serverless data processing
+- Managed services
+- Auto-scaling
+- Pay-per-use pricing
+- Multi-cloud strategies
+
+### Data Governance
+- Data cataloging
+- Data lineage
+- Metadata management
+- Privacy compliance
+- Data quality frameworks
+
+---
+
+## MÜLAKAT SORULARI (Hazırlık İçin)
+
+### Teknik Sorular
+1. Star schema vs Snowflake schema farkı nedir?
+2. SCD Type 2 nasıl implement edilir?
+3. Spark'ta partition ve bucketing farkı?
+4. Kafka'da exactly-once semantics nasıl sağlanır?
+5. Data lake vs data warehouse farkı?
+6. ETL vs ELT farkı nedir?
+7. Slowly Changing Dimensions nedir?
+8. Data pipeline idempotency nasıl sağlanır?
+9. Apache Airflow'da XCom nedir?
+10. Database indexing strategies nelerdir?
+
+### Sistem Tasarımı Sorular
+1. Real-time analytics platform tasarla
+2. Data warehouse architecture tasarla
+3. ETL pipeline for large-scale data
+4. Data quality framework tasarla
+5. Multi-source data integration system
+
+### Davranışsal Sorular
+1. Challenging data pipeline problem çözdüğün bir örnek
+2. Performance optimization yaptığın bir durum
+3. Team collaboration örneği
+4. Conflict resolution örneği
+5. Learning new technology örneği
+
+---
+
+## KAYNAKLAR VE ÖĞRENME
+
+### Online Kurslar
+- Coursera: Data Engineering Specialization
+- Udacity: Data Engineering Nanodegree
+- DataCamp: Data Engineer Track
+- LinkedIn Learning: Data Engineering paths
+- Pluralsight: Data Engineering courses
+
+### Kitaplar
+- "Designing Data-Intensive Applications" - Martin Kleppmann
+- "The Data Warehouse Toolkit" - Ralph Kimball
+- "Fundamentals of Data Engineering" - Joe Reis, Matt Housley
+- "Streaming Systems" - Tyler Akidau
+- "Data Pipelines Pocket Reference" - James Densmore
+
+### Sertifikalar
+- AWS Certified Data Analytics
+- Google Professional Data Engineer
+- Azure Data Engineer Associate
+- Databricks Certified Data Engineer
+- Snowflake SnowPro Core
+
+### Topluluklar
+- Data Engineering Weekly newsletter
+- r/dataengineering (Reddit)
+- Data Engineering Podcast
+- Local data engineering meetups
+- LinkedIn data engineering groups
+
+### Bloglar ve Kaynaklar
+- AWS Big Data Blog
+- Google Cloud Blog
+- Databricks Blog
+- Snowflake Blog
+- Medium data engineering publications
+
+---
+
+## ÖNEMLİ NOTLAR
+
+### Başarı İçin Gerekli Özellikler
+- **Problem Solving:** Complex data problems çözme
+- **Attention to Detail:** Data quality için kritik
+- **Scalability Mindset:** Büyük ölçekli sistemler düşünme
+- **Automation:** Manuel işleri otomatize etme
+- **Collaboration:** Cross-functional team work
+- **Learning Agility:** Yeni teknolojileri hızlı öğrenme
+- **Communication:** Technical concepts açıklama
+- **Ownership:** End-to-end ownership alma
+
+### Yaygın Hatalar
+- Data quality checks eksikliği
+- Monitoring ve alerting ihmal etme
+- Documentation yazmama
+- Testing eksikliği
+- Error handling eksikliği
+- Scalability düşünmeme
+- Security ihmal etme
+- Cost optimization yapmama
+
+### Başarı Metrikleri
+- Pipeline reliability (uptime %)
+- Data quality score
+- Pipeline execution time
+- Cost per GB processed
+- Time to insight
+- Data freshness
+- System availability
+- Error rate
+
+Bu rol, modern data-driven organizasyonların omurgasını oluşturur. Data Engineer'lar, raw data'yı actionable insights'a dönüştüren sistemleri inşa eder ve maintain eder.

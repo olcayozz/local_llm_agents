@@ -1,0 +1,795 @@
+# Frontend Software Developer
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Junior / Mid / Senior
+**Departman:** Engineering / Development
+**Raporlama:** Engineering Manager, Tech Lead, Frontend Lead
+**Deneyim Gereksinimi:** 0-2 yıl (Junior), 2-5 yıl (Mid), 5+ yıl (Senior)
+**Maaş Aralığı:** 38.000-65.000 TL (Junior), 65.000-115.000 TL (Mid), 115.000-190.000 TL (Senior)
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### UI Development Görevleri
+- User interface geliştirme
+- Responsive design implementation
+- Cross-browser compatibility
+- Mobile-first development
+- Component-based architecture
+- Reusable component library
+- Design system implementation
+- Accessibility (a11y) implementation
+- Internationalization (i18n)
+- Progressive Web Apps (PWA)
+
+### Frontend Architecture Görevleri
+- Frontend architecture tasarımı
+- State management implementation
+- Routing architecture
+- Code splitting strategies
+- Lazy loading implementation
+- Module bundling optimization
+- Build process optimization
+- Micro-frontend architecture
+- Design patterns implementation
+- Technical debt management
+
+### API Integration Görevleri
+- RESTful API integration
+- GraphQL client implementation
+- WebSocket integration
+- API error handling
+- Request/response interceptors
+- API caching strategies
+- Optimistic updates
+- Real-time data synchronization
+- Authentication flow
+- Authorization handling
+
+### Performance Optimization
+- Page load optimization
+- Bundle size optimization
+- Code splitting
+- Lazy loading
+- Image optimization
+- Caching strategies
+- Memory leak prevention
+- Render optimization
+- Network optimization
+- Core Web Vitals optimization
+
+### Testing Görevleri
+- Unit testing (Jest, Vitest)
+- Component testing (React Testing Library)
+- Integration testing
+- E2E testing (Cypress, Playwright)
+- Visual regression testing
+- Accessibility testing
+- Performance testing
+- Test coverage maintenance
+- Test automation
+- TDD/BDD practices
+
+### Code Quality Görevleri
+- Code review yapma ve alma
+- Clean code principles
+- SOLID principles
+- Design patterns
+- Refactoring
+- Code documentation
+- ESLint, Prettier configuration
+- TypeScript type safety
+- Code style guidelines
+- Technical documentation
+
+### DevOps & Deployment
+- CI/CD pipeline integration
+- Build optimization
+- Deployment automation
+- Environment configuration
+- Feature flags implementation
+- A/B testing setup
+- Error tracking (Sentry)
+- Analytics integration
+- Monitoring setup
+- Performance monitoring
+
+### Collaboration Görevleri
+- Daily standup meetings
+- Sprint planning
+- Design review meetings
+- Backend API coordination
+- UX/UI designer collaboration
+- Product manager alignment
+- QA team coordination
+- Code review sessions
+- Knowledge sharing
+- Mentoring junior developers
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Core Web Technologies (Expert Level)
+
+**HTML5:**
+- Semantic HTML
+- HTML5 APIs (Canvas, WebGL, Web Workers)
+- Forms ve validation
+- Accessibility (ARIA)
+- SEO best practices
+- Meta tags
+- Structured data
+- Web components
+
+**CSS3:**
+- Modern CSS (Grid, Flexbox)
+- CSS animations ve transitions
+- CSS preprocessors (Sass, Less)
+- CSS-in-JS (styled-components, Emotion)
+- CSS modules
+- Responsive design
+- Mobile-first approach
+- CSS architecture (BEM, SMACSS)
+- CSS frameworks (Tailwind, Bootstrap)
+- CSS performance optimization
+
+**JavaScript (ES6+):**
+- Modern JavaScript features
+- Async/await, Promises
+- Closures, scope
+- Prototypes, classes
+- Modules (ES6, CommonJS)
+- Event loop
+- DOM manipulation
+- Browser APIs
+- Error handling
+- Memory management
+
+### Frontend Frameworks (En Az 1-2 Tanesinde Expert)
+
+**React:**
+- React 18+ features
+- Hooks (useState, useEffect, useContext, custom hooks)
+- Component lifecycle
+- Context API
+- React Router
+- State management (Redux, Zustand, Recoil)
+- Server-side rendering (Next.js)
+- React Query / SWR
+- Performance optimization
+- Testing (Jest, React Testing Library)
+
+**Vue.js:**
+- Vue 3 Composition API
+- Options API
+- Vue Router
+- Vuex / Pinia
+- Nuxt.js (SSR)
+- Vue directives
+- Computed properties
+- Watchers
+- Lifecycle hooks
+- Vue testing
+
+**Angular:**
+- Angular 15+
+- TypeScript
+- Components, directives, pipes
+- Services, dependency injection
+- RxJS, Observables
+- Angular Router
+- NgRx (state management)
+- Angular Universal (SSR)
+- Angular CLI
+- Testing (Jasmine, Karma)
+
+**Svelte:**
+- Svelte 3+
+- Reactive declarations
+- Stores
+- SvelteKit
+- Component composition
+- Transitions
+- Actions
+
+### TypeScript (Highly Recommended)
+
+**TypeScript:**
+- Type system
+- Interfaces, types
+- Generics
+- Enums
+- Type guards
+- Utility types
+- Declaration files
+- tsconfig configuration
+- Type inference
+- Advanced types
+
+### State Management (En Az 1 Tanesinde Expert)
+
+**Redux:**
+- Redux Toolkit
+- Actions, reducers
+- Store configuration
+- Middleware (Thunk, Saga)
+- Redux DevTools
+- Selectors (Reselect)
+- Immutability
+- Best practices
+
+**MobX:**
+- Observables
+- Actions
+- Computed values
+- Reactions
+- Decorators
+
+**Zustand:**
+- Simple state management
+- Middleware
+- Persist state
+- DevTools
+
+**Recoil:**
+- Atoms
+- Selectors
+- Async queries
+- React integration
+
+### Build Tools & Module Bundlers
+
+**Webpack:**
+- Configuration
+- Loaders
+- Plugins
+- Code splitting
+- Tree shaking
+- Hot Module Replacement
+- Optimization
+
+**Vite:**
+- Fast development
+- Build optimization
+- Plugin system
+- SSR support
+
+**Rollup:**
+- Library bundling
+- Tree shaking
+- Plugin ecosystem
+
+**esbuild:**
+- Fast builds
+- Bundling
+- Minification
+
+### CSS Frameworks & Libraries
+
+**Tailwind CSS:**
+- Utility-first CSS
+- Configuration
+- Custom utilities
+- Responsive design
+- Dark mode
+- JIT mode
+
+**Material-UI (MUI):**
+- Component library
+- Theming
+- Customization
+- Responsive design
+
+**Ant Design:**
+- Enterprise UI
+- Component library
+- Theming
+- Internationalization
+
+**Chakra UI:**
+- Accessible components
+- Theming
+- Responsive design
+- Dark mode
+
+**Bootstrap:**
+- Grid system
+- Components
+- Utilities
+- Customization
+
+### Testing Frameworks
+
+**Jest:**
+- Unit testing
+- Mocking
+- Snapshot testing
+- Coverage reports
+- Configuration
+
+**React Testing Library:**
+- Component testing
+- User-centric testing
+- Queries
+- Events
+- Async utilities
+
+**Cypress:**
+- E2E testing
+- Component testing
+- Network stubbing
+- Visual testing
+- CI/CD integration
+
+**Playwright:**
+- Cross-browser testing
+- Auto-wait
+- Network interception
+- Mobile emulation
+
+**Vitest:**
+- Fast unit testing
+- Vite integration
+- Jest compatible
+
+### Version Control & Collaboration
+
+**Git:**
+- Branching strategies
+- Merge vs Rebase
+- Pull requests
+- Code review
+- Git workflows
+- Conflict resolution
+
+**GitHub/GitLab/Bitbucket:**
+- Repository management
+- Pull/merge requests
+- CI/CD integration
+- Issue tracking
+- Project boards
+
+### Package Managers
+
+**npm:**
+- Package installation
+- Scripts
+- Dependencies management
+- npm workspaces
+
+**yarn:**
+- Yarn 2+ (Berry)
+- Workspaces
+- Plug'n'Play
+- Zero-installs
+
+**pnpm:**
+- Fast installation
+- Disk space efficiency
+- Workspaces
+- Strict mode
+
+### API & Data Fetching
+
+**REST APIs:**
+- Fetch API
+- Axios
+- Error handling
+- Request interceptors
+- Response transformation
+
+**GraphQL:**
+- Apollo Client
+- GraphQL queries
+- Mutations
+- Subscriptions
+- Cache management
+- Optimistic updates
+
+**React Query / SWR:**
+- Data fetching
+- Caching
+- Revalidation
+- Mutations
+- Optimistic updates
+
+### Performance Tools
+
+**Lighthouse:**
+- Performance audits
+- Accessibility audits
+- SEO audits
+- Best practices
+
+**Chrome DevTools:**
+- Performance profiling
+- Memory profiling
+- Network analysis
+- Debugging
+
+**Web Vitals:**
+- LCP (Largest Contentful Paint)
+- FID (First Input Delay)
+- CLS (Cumulative Layout Shift)
+- TTFB (Time to First Byte)
+
+### Design Tools (Basic Knowledge)
+
+**Figma:**
+- Design inspection
+- Component extraction
+- Design system
+- Collaboration
+
+**Adobe XD:**
+- Design handoff
+- Prototypes
+- Specifications
+
+**Sketch:**
+- Design files
+- Symbols
+- Artboards
+
+### Accessibility (a11y)
+
+**WCAG Guidelines:**
+- WCAG 2.1 Level AA
+- Semantic HTML
+- ARIA attributes
+- Keyboard navigation
+- Screen reader support
+- Color contrast
+- Focus management
+
+**Accessibility Tools:**
+- axe DevTools
+- WAVE
+- Lighthouse
+- Screen readers (NVDA, JAWS)
+
+---
+
+## KULLANILAN ARAÇLAR VE TEKNOLOJİLER
+
+### Development Tools
+- VS Code, WebStorm
+- Chrome DevTools
+- React DevTools
+- Redux DevTools
+- Vue DevTools
+
+### Design Tools
+- Figma
+- Adobe XD
+- Sketch
+- Zeplin
+- InVision
+
+### Version Control
+- Git
+- GitHub, GitLab, Bitbucket
+- SourceTree, GitKraken
+
+### Package Managers
+- npm, yarn, pnpm
+- npx
+
+### Build Tools
+- Webpack, Vite
+- Rollup, esbuild
+- Babel, SWC
+
+### Testing Tools
+- Jest, Vitest
+- React Testing Library
+- Cypress, Playwright
+- Storybook
+
+### CI/CD
+- GitHub Actions
+- GitLab CI/CD
+- CircleCI
+- Jenkins
+
+### Monitoring & Analytics
+- Sentry (error tracking)
+- Google Analytics
+- Mixpanel
+- Hotjar
+- LogRocket
+
+---
+
+## BEST PRACTICES VE STANDARTLAR
+
+### Component Development Best Practices
+- **Single Responsibility:** Her component tek bir şey yapmalı
+- **Reusability:** Reusable components oluştur
+- **Composition:** Component composition kullan
+- **Props Validation:** PropTypes veya TypeScript kullan
+- **Default Props:** Default values tanımla
+- **Naming Conventions:** Consistent naming
+- **File Structure:** Organized file structure
+- **Documentation:** Component documentation
+- **Testing:** Test her component
+- **Accessibility:** Accessible components
+
+### State Management Best Practices
+- **Minimal State:** Minimum gerekli state
+- **Derived State:** Computed values kullan
+- **Immutability:** State'i immutable tut
+- **Normalization:** Normalized state structure
+- **Single Source of Truth:** Tek bir truth source
+- **Predictable State:** Predictable state updates
+- **DevTools:** Redux/MobX DevTools kullan
+- **Middleware:** Appropriate middleware
+- **Selectors:** Memoized selectors
+- **Testing:** State logic testing
+
+### Performance Best Practices
+- **Code Splitting:** Route-based code splitting
+- **Lazy Loading:** Lazy load components
+- **Memoization:** React.memo, useMemo, useCallback
+- **Virtual Scrolling:** Large lists için
+- **Image Optimization:** Lazy loading, WebP format
+- **Bundle Size:** Bundle size monitoring
+- **Tree Shaking:** Unused code elimination
+- **Caching:** Appropriate caching strategies
+- **Debouncing/Throttling:** Event handling optimization
+- **Web Workers:** Heavy computations için
+
+### Accessibility Best Practices
+- **Semantic HTML:** Semantic elements kullan
+- **ARIA:** Appropriate ARIA attributes
+- **Keyboard Navigation:** Full keyboard support
+- **Focus Management:** Proper focus handling
+- **Color Contrast:** WCAG contrast ratios
+- **Alt Text:** Images için alt text
+- **Form Labels:** Proper form labels
+- **Error Messages:** Accessible error messages
+- **Screen Reader:** Screen reader testing
+- **Skip Links:** Skip to content links
+
+### CSS Best Practices
+- **Mobile-First:** Mobile-first approach
+- **BEM Methodology:** Block Element Modifier
+- **CSS Variables:** Custom properties kullan
+- **Flexbox/Grid:** Modern layout techniques
+- **Responsive Design:** Responsive breakpoints
+- **Performance:** CSS performance optimization
+- **Maintainability:** Maintainable CSS
+- **Preprocessors:** Sass/Less for complex projects
+- **CSS-in-JS:** For component-scoped styles
+- **Utility Classes:** Tailwind for rapid development
+
+### Testing Best Practices
+- **Test Coverage:** 80%+ coverage hedefle
+- **User-Centric Tests:** User behavior test et
+- **Integration Tests:** Component integration
+- **E2E Tests:** Critical user flows
+- **Accessibility Tests:** a11y testing
+- **Visual Regression:** Visual testing
+- **Performance Tests:** Performance benchmarks
+- **Mocking:** Appropriate mocking
+- **Test Organization:** Organized test structure
+- **CI/CD Integration:** Automated testing
+
+---
+
+## GÜNLÜK İŞ AKIŞI
+
+### Sabah (09:00 - 12:00)
+- Email ve Slack kontrol
+- Daily standup meeting
+- Code review
+- Sprint tasks başlat
+- Bug fixes
+- Feature development
+
+### Öğleden Sonra (13:00 - 18:00)
+- Feature development
+- Component development
+- Testing
+- Documentation
+- Design review meetings
+- Backend API coordination
+- Performance optimization
+- Code refactoring
+
+### Haftalık Aktiviteler
+- Sprint planning
+- Sprint retrospective
+- Grooming sessions
+- Architecture discussions
+- Design review meetings
+- Knowledge sharing sessions
+- Code review sessions
+
+---
+
+## KARİYER GELİŞİMİ
+
+### Junior Frontend Developer (0-2 yıl)
+- HTML, CSS, JavaScript fundamentals
+- React/Vue/Angular basics
+- Git version control
+- Responsive design
+- Basic testing
+- Code review participation
+
+### Mid-Level Frontend Developer (2-5 yıl)
+- Advanced framework knowledge
+- State management
+- Performance optimization
+- Testing expertise
+- Build tools
+- Architecture patterns
+- Mentoring juniors
+
+### Senior Frontend Developer (5+ yıl)
+- Architecture design
+- Technology selection
+- Team leadership
+- Cross-functional collaboration
+- Performance expertise
+- Best practices advocacy
+- Strategic planning
+
+### Sonraki Roller
+- **Lead Frontend Developer:** Technical leadership
+- **Frontend Architect:** Architecture focus
+- **Engineering Manager:** People management
+- **Full-Stack Developer:** Backend expansion
+- **Principal Engineer:** Technical leadership
+- **Staff Engineer:** Technical strategy
+
+---
+
+## SEKTÖREL TRENDLER VE YENİLİKLER
+
+### Modern Frontend
+- **React Server Components:** Server-side rendering
+- **Streaming SSR:** Progressive rendering
+- **Islands Architecture:** Partial hydration
+- **Edge Computing:** Edge functions
+- **Web Assembly:** Performance-critical code
+
+### Build Tools
+- **Vite:** Fast development
+- **Turbopack:** Next-gen bundler
+- **esbuild:** Fast builds
+- **SWC:** Fast compilation
+
+### Meta-Frameworks
+- **Next.js:** React framework
+- **Nuxt.js:** Vue framework
+- **SvelteKit:** Svelte framework
+- **Remix:** React framework
+- **Astro:** Multi-framework
+
+### State Management
+- **Zustand:** Lightweight state
+- **Jotai:** Atomic state
+- **Recoil:** React state
+- **XState:** State machines
+
+### Styling
+- **Tailwind CSS:** Utility-first
+- **CSS Modules:** Scoped CSS
+- **Styled Components:** CSS-in-JS
+- **Vanilla Extract:** Type-safe CSS
+
+---
+
+## MÜLAKAT SORULARI (Hazırlık İçin)
+
+### Teknik Sorular
+1. Virtual DOM nedir, nasıl çalışır?
+2. React Hooks nedir, avantajları nelerdir?
+3. State management neden gereklidir?
+4. Code splitting nasıl yapılır?
+5. Performance optimization teknikleri nelerdir?
+6. Accessibility neden önemlidir?
+7. CSS-in-JS vs CSS Modules?
+8. Server-side rendering vs Client-side rendering?
+9. Progressive Web Apps nedir?
+10. Web Vitals nedir?
+
+### Coding Sorular
+1. Custom React Hook yaz
+2. Debounce function implement et
+3. Infinite scroll component yaz
+4. Form validation implement et
+5. API data fetching with error handling
+
+### Sistem Tasarımı Sorular
+1. E-commerce frontend architecture tasarla
+2. Real-time chat application
+3. Dashboard with complex data visualization
+4. Multi-step form with validation
+5. Infinite scrolling feed
+
+### Davranışsal Sorular
+1. Challenging performance problem çözdüğün bir örnek
+2. Design ile disagreement durumu
+3. Team collaboration örneği
+4. Learning new framework örneği
+5. Code review feedback handling
+
+---
+
+## KAYNAKLAR VE ÖĞRENME
+
+### Online Kurslar
+- Frontend Masters
+- Udemy: Frontend courses
+- Coursera: Web Development
+- Pluralsight: Frontend paths
+- Scrimba: Interactive courses
+
+### Kitaplar
+- "You Don't Know JS" - Kyle Simpson
+- "Eloquent JavaScript" - Marijn Haverbeke
+- "React Design Patterns" - Michele Bertoli
+- "CSS Secrets" - Lea Verou
+- "Learning JavaScript Design Patterns" - Addy Osmani
+
+### Sertifikalar
+- AWS Certified Developer
+- Google Mobile Web Specialist
+- Microsoft Certified: Azure Developer
+
+### Topluluklar
+- React subreddit
+- Vue.js Forum
+- Frontend subreddit
+- Dev.to
+- Stack Overflow
+- Local frontend meetups
+
+### Bloglar ve Kaynaklar
+- CSS-Tricks
+- Smashing Magazine
+- A List Apart
+- web.dev (Google)
+- React Blog
+- Vue.js Blog
+
+---
+
+## ÖNEMLİ NOTLAR
+
+### Başarı İçin Gerekli Özellikler
+- **Attention to Detail:** UI detaylarına dikkat
+- **User Empathy:** Kullanıcı perspektifi
+- **Problem Solving:** Creative problem solving
+- **Learning Agility:** Hızlı teknoloji değişimi
+- **Design Sense:** Basic design understanding
+- **Performance Mindset:** Performance-conscious
+- **Accessibility Awareness:** a11y mindset
+- **Collaboration:** Designer ve backend collaboration
+
+### Yaygın Hatalar
+- Accessibility ihmal etme
+- Performance optimization yapmama
+- Over-engineering
+- Poor state management
+- Inadequate testing
+- Browser compatibility issues
+- Poor error handling
+- Memory leaks
+
+### Başarı Metrikleri
+- Page load time
+- Time to Interactive (TTI)
+- First Contentful Paint (FCP)
+- Largest Contentful Paint (LCP)
+- Cumulative Layout Shift (CLS)
+- Bundle size
+- Test coverage
+- Accessibility score
+
+Bu rol, modern web development'ın görünen yüzüdür. Frontend Developer'lar, kullanıcı deneyimini şekillendirerek, ürünün başarısında kritik rol oynar.

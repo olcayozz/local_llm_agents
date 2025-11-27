@@ -1,0 +1,841 @@
+# DevOps Engineer
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Junior / Mid / Senior
+**Departman:** DevOps / Infrastructure / Engineering
+**Raporlama:** DevOps Manager, Infrastructure Lead, CTO
+**Deneyim Gereksinimi:** 0-2 yıl (Junior), 2-5 yıl (Mid), 5+ yıl (Senior)
+**Maaş Aralığı:** 45.000-75.000 TL (Junior), 75.000-135.000 TL (Mid), 135.000-230.000 TL (Senior)
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### CI/CD Pipeline Görevleri
+- CI/CD pipeline tasarımı ve implementasyonu
+- Build automation (Maven, Gradle, npm, webpack)
+- Automated testing integration
+- Deployment automation
+- Release management
+- Pipeline optimization
+- Multi-environment deployment
+- Blue-green deployments
+- Canary deployments
+- Rollback strategies
+
+### Infrastructure Management
+- Infrastructure as Code (IaC) implementation
+- Cloud infrastructure provisioning
+- Server configuration management
+- Network architecture
+- Load balancer configuration
+- Auto-scaling setup
+- Disaster recovery planning
+- High availability architecture
+- Multi-region deployment
+- Capacity planning
+
+### Container & Orchestration
+- Docker containerization
+- Kubernetes cluster management
+- Container orchestration
+- Service mesh implementation
+- Container security
+- Image optimization
+- Registry management
+- Helm chart development
+- Kubernetes operators
+- Container monitoring
+
+### Monitoring & Observability
+- Monitoring system setup (Prometheus, Grafana)
+- Log aggregation (ELK, Splunk)
+- APM (Application Performance Monitoring)
+- Alerting configuration
+- Dashboard creation
+- Metrics collection
+- Distributed tracing
+- SLO/SLI definition
+- Incident response
+- Post-mortem analysis
+
+### Security & Compliance
+- Security best practices implementation
+- Secrets management (Vault, AWS Secrets Manager)
+- SSL/TLS certificate management
+- Security scanning (SAST, DAST)
+- Vulnerability management
+- Compliance automation
+- Access control (IAM, RBAC)
+- Network security
+- Security auditing
+- Penetration testing coordination
+
+### Cloud Platform Management
+- AWS/Azure/GCP resource management
+- Cost optimization
+- Resource tagging
+- Cloud architecture design
+- Multi-cloud strategies
+- Cloud migration
+- Serverless implementation
+- Cloud security
+- Backup strategies
+- Cloud governance
+
+### Database Operations
+- Database deployment automation
+- Backup and recovery
+- Database monitoring
+- Performance tuning
+- Replication setup
+- Migration automation
+- Schema versioning
+- Database security
+- Disaster recovery testing
+- Capacity planning
+
+### Automation & Scripting
+- Infrastructure automation
+- Deployment scripts
+- Monitoring automation
+- Backup automation
+- Configuration management
+- Task automation
+- Self-service tools
+- ChatOps implementation
+- Workflow automation
+- API integration
+
+### Collaboration & Support
+- Developer support
+- Incident management
+- On-call rotation
+- Documentation
+- Knowledge sharing
+- Training sessions
+- Cross-team collaboration
+- Vendor management
+- Change management
+- Capacity planning meetings
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Operating Systems (Expert Level)
+
+**Linux (Must Have):**
+- Ubuntu, CentOS, RHEL, Amazon Linux
+- System administration
+- Shell scripting (Bash, Zsh)
+- Package management (apt, yum, dnf)
+- Process management
+- File systems (ext4, xfs, btrfs)
+- Networking (iptables, netfilter)
+- Performance tuning
+- Security hardening
+- Systemd, init systems
+
+**Windows Server (Nice to Have):**
+- Windows Server 2016/2019/2022
+- PowerShell scripting
+- Active Directory
+- IIS configuration
+- Windows networking
+
+### Scripting & Programming (En Az 2-3 Tanesinde Expert)
+
+**Bash/Shell:**
+- Advanced shell scripting
+- Text processing (awk, sed, grep)
+- Automation scripts
+- System administration tasks
+- Error handling
+- Logging
+
+**Python:**
+- Python 3.8+
+- Automation scripts
+- API integration
+- boto3 (AWS SDK)
+- Ansible modules
+- Flask/FastAPI for tools
+- pytest for testing
+
+**Go (Golang):**
+- Go 1.19+
+- CLI tools development
+- Kubernetes operators
+- Microservices
+- Concurrent programming
+
+**PowerShell:**
+- PowerShell Core
+- Windows automation
+- Azure automation
+- DSC (Desired State Configuration)
+
+### Infrastructure as Code (En Az 2 Tanesinde Expert)
+
+**Terraform:**
+- HCL syntax
+- Resource management
+- Modules development
+- State management
+- Workspaces
+- Remote backends
+- Provider configuration
+- Best practices
+- Multi-cloud support
+
+**CloudFormation:**
+- Template development
+- Stack management
+- Change sets
+- Nested stacks
+- Custom resources
+- StackSets
+
+**Pulumi:**
+- Infrastructure as code with programming languages
+- State management
+- Multi-cloud support
+
+**ARM Templates (Azure):**
+- Template syntax
+- Deployment
+- Linked templates
+
+### Configuration Management (En Az 1 Tanesinde Expert)
+
+**Ansible:**
+- Playbook development
+- Roles and collections
+- Inventory management
+- Variables and facts
+- Ansible Vault
+- Dynamic inventory
+- Custom modules
+- Best practices
+- Ansible Tower/AWX
+
+**Chef:**
+- Cookbooks
+- Recipes
+- Resources
+- Chef Server
+- Test Kitchen
+
+**Puppet:**
+- Manifests
+- Modules
+- Puppet Server
+- Hiera
+
+**SaltStack:**
+- States
+- Pillars
+- Grains
+- Salt Master/Minion
+
+### Container Technologies (Expert Level)
+
+**Docker:**
+- Dockerfile best practices
+- Multi-stage builds
+- Docker Compose
+- Docker networking
+- Volume management
+- Image optimization
+- Security scanning
+- Registry management
+- Docker Swarm
+
+**Kubernetes:**
+- Pod, Deployment, Service, Ingress
+- ConfigMap, Secret
+- StatefulSet, DaemonSet
+- PersistentVolume, PersistentVolumeClaim
+- RBAC
+- Network policies
+- Helm charts
+- Operators
+- Custom Resource Definitions (CRD)
+- Cluster management
+- Troubleshooting
+
+**Container Orchestration:**
+- Kubernetes (primary)
+- Docker Swarm
+- Amazon ECS/EKS
+- Azure AKS
+- Google GKE
+
+### CI/CD Tools (En Az 2 Tanesinde Expert)
+
+**Jenkins:**
+- Pipeline as Code (Jenkinsfile)
+- Declarative vs Scripted pipelines
+- Shared libraries
+- Plugin management
+- Distributed builds
+- Security configuration
+- Blue Ocean
+- Integration with tools
+
+**GitLab CI/CD:**
+- .gitlab-ci.yml
+- Runners configuration
+- Pipeline optimization
+- Auto DevOps
+- Container Registry
+- Security scanning
+
+**GitHub Actions:**
+- Workflow syntax
+- Actions marketplace
+- Self-hosted runners
+- Secrets management
+- Matrix builds
+- Reusable workflows
+
+**CircleCI:**
+- config.yml
+- Orbs
+- Workflows
+- Contexts
+
+**Azure DevOps:**
+- Azure Pipelines
+- YAML pipelines
+- Release management
+- Artifacts
+
+**ArgoCD:**
+- GitOps workflows
+- Application deployment
+- Sync strategies
+- Multi-cluster management
+
+### Cloud Platforms (En Az 1 Tanesinde Expert)
+
+**AWS (Amazon Web Services):**
+- EC2, ECS, EKS, Lambda
+- S3, EBS, EFS
+- VPC, Route53, CloudFront
+- RDS, DynamoDB, ElastiCache
+- IAM, Security Groups
+- CloudWatch, CloudTrail
+- Systems Manager
+- Auto Scaling
+- Elastic Load Balancing
+- AWS CLI, boto3
+
+**Google Cloud Platform:**
+- Compute Engine, GKE, Cloud Functions
+- Cloud Storage
+- VPC, Cloud Load Balancing
+- Cloud SQL, Cloud Spanner
+- IAM, Cloud Armor
+- Stackdriver (Cloud Monitoring)
+- Cloud Deployment Manager
+- gcloud CLI
+
+**Microsoft Azure:**
+- Virtual Machines, AKS, Azure Functions
+- Blob Storage, Azure Files
+- Virtual Network, Application Gateway
+- Azure SQL, Cosmos DB
+- Azure AD, NSG
+- Azure Monitor, Log Analytics
+- Azure Resource Manager
+- Azure CLI, PowerShell
+
+### Monitoring & Logging (En Az 2 Tanesinde Expert)
+
+**Prometheus:**
+- Metrics collection
+- PromQL
+- Alertmanager
+- Service discovery
+- Exporters
+- Recording rules
+- Federation
+
+**Grafana:**
+- Dashboard creation
+- Data sources
+- Alerting
+- Variables
+- Plugins
+- Provisioning
+
+**ELK Stack:**
+- Elasticsearch
+- Logstash
+- Kibana
+- Filebeat, Metricbeat
+- Index management
+- Query DSL
+
+**Datadog:**
+- Agent configuration
+- Metrics and logs
+- APM
+- Dashboards
+- Alerting
+- Integrations
+
+**New Relic:**
+- APM
+- Infrastructure monitoring
+- Logs
+- Dashboards
+
+**Splunk:**
+- Log aggregation
+- Search Processing Language (SPL)
+- Dashboards
+- Alerts
+
+### Version Control (Expert Level)
+
+**Git:**
+- Branching strategies (GitFlow, trunk-based)
+- Merge vs Rebase
+- Git hooks
+- Submodules
+- Git LFS
+- Advanced commands
+- Conflict resolution
+
+**GitHub/GitLab/Bitbucket:**
+- Pull/Merge requests
+- Code review
+- Branch protection
+- Webhooks
+- API integration
+- CI/CD integration
+
+### Networking (Advanced Level)
+
+**Networking Fundamentals:**
+- TCP/IP, OSI model
+- DNS, DHCP
+- Load balancing
+- Reverse proxy
+- VPN
+- Firewall rules
+- SSL/TLS
+- CDN
+
+**Network Tools:**
+- nginx, HAProxy
+- iptables, firewalld
+- tcpdump, wireshark
+- netstat, ss, lsof
+- dig, nslookup
+- curl, wget
+
+### Databases (Operational Knowledge)
+
+**Relational:**
+- PostgreSQL
+- MySQL/MariaDB
+- SQL Server
+- Backup/restore
+- Replication
+- Performance tuning
+
+**NoSQL:**
+- MongoDB
+- Redis
+- Elasticsearch
+- Cassandra
+- DynamoDB
+
+### Security Tools
+
+**Secrets Management:**
+- HashiCorp Vault
+- AWS Secrets Manager
+- Azure Key Vault
+- Google Secret Manager
+
+**Security Scanning:**
+- Trivy (container scanning)
+- Clair
+- Snyk
+- SonarQube
+- OWASP ZAP
+
+**SSL/TLS:**
+- Let's Encrypt
+- Certificate management
+- cert-manager (Kubernetes)
+
+---
+
+## KULLANILAN ARAÇLAR VE TEKNOLOJİLER
+
+### Development & Collaboration
+- VS Code, IntelliJ IDEA
+- Git, GitHub/GitLab
+- Jira, Confluence
+- Slack, Microsoft Teams
+- Postman, curl
+
+### Infrastructure
+- Terraform, CloudFormation
+- Ansible, Chef, Puppet
+- Packer (image building)
+- Vagrant
+
+### Containers & Orchestration
+- Docker, Docker Compose
+- Kubernetes, Helm
+- Rancher, OpenShift
+- Istio, Linkerd (service mesh)
+
+### CI/CD
+- Jenkins, GitLab CI/CD
+- GitHub Actions, CircleCI
+- ArgoCD, Flux (GitOps)
+- Spinnaker
+
+### Monitoring & Logging
+- Prometheus, Grafana
+- ELK Stack, Splunk
+- Datadog, New Relic
+- PagerDuty, Opsgenie
+
+### Cloud Platforms
+- AWS, Azure, GCP
+- DigitalOcean, Linode
+- Heroku, Netlify
+
+### Security
+- Vault, Secrets Manager
+- Trivy, Snyk
+- SonarQube
+- Let's Encrypt
+
+---
+
+## BEST PRACTICES VE STANDARTLAR
+
+### Infrastructure as Code Best Practices
+- **Version Control:** Tüm IaC kod version control'de
+- **Modular Design:** Reusable modules oluştur
+- **State Management:** Remote state kullan (S3, GCS)
+- **Documentation:** Kod ve architecture dokümante et
+- **Testing:** Infrastructure tests yaz
+- **Code Review:** IaC değişiklikleri review et
+- **Secrets:** Secrets'ları code'a commit etme
+- **Naming Conventions:** Consistent naming standards
+- **Tagging:** Resource tagging for cost tracking
+- **Drift Detection:** Infrastructure drift'i detect et
+
+### CI/CD Best Practices
+- **Pipeline as Code:** Pipeline'ları code olarak yönet
+- **Fast Feedback:** Hızlı feedback loops
+- **Automated Testing:** Comprehensive test automation
+- **Security Scanning:** Security checks in pipeline
+- **Artifact Management:** Versioned artifacts
+- **Deployment Strategies:** Blue-green, canary deployments
+- **Rollback Plan:** Her deployment için rollback planı
+- **Monitoring:** Deployment monitoring
+- **Documentation:** Pipeline documentation
+- **Notifications:** Slack/email notifications
+
+### Container Best Practices
+- **Small Images:** Minimal base images kullan
+- **Multi-stage Builds:** Build artifacts'ları minimize et
+- **Security Scanning:** Image'ları scan et
+- **Non-root User:** Container'ları root olarak çalıştırma
+- **Health Checks:** Liveness ve readiness probes
+- **Resource Limits:** CPU ve memory limits tanımla
+- **Logging:** Structured logging
+- **Secrets:** Secrets'ları environment variables ile inject et
+- **Immutability:** Immutable infrastructure
+- **Versioning:** Image versioning strategy
+
+### Kubernetes Best Practices
+- **Namespaces:** Logical separation için namespaces kullan
+- **Resource Quotas:** Resource limits tanımla
+- **RBAC:** Role-based access control
+- **Network Policies:** Network segmentation
+- **Pod Security:** Pod security policies/standards
+- **ConfigMaps/Secrets:** Configuration management
+- **Horizontal Pod Autoscaling:** Auto-scaling configuration
+- **Monitoring:** Comprehensive monitoring
+- **Logging:** Centralized logging
+- **Backup:** etcd backup strategy
+
+### Monitoring Best Practices
+- **Golden Signals:** Latency, traffic, errors, saturation
+- **SLO/SLI:** Service level objectives tanımla
+- **Alerting:** Actionable alerts, alert fatigue'den kaçın
+- **Dashboards:** Role-based dashboards
+- **Log Aggregation:** Centralized logging
+- **Distributed Tracing:** Microservices için tracing
+- **Metrics Retention:** Appropriate retention policies
+- **Documentation:** Runbooks ve playbooks
+- **On-call:** On-call rotation ve escalation
+- **Post-mortems:** Incident post-mortems
+
+### Security Best Practices
+- **Least Privilege:** Minimum gerekli permissions
+- **Secrets Management:** Vault, Secrets Manager kullan
+- **Encryption:** Data encryption at rest ve in transit
+- **Network Security:** Security groups, network policies
+- **Vulnerability Scanning:** Regular security scans
+- **Patch Management:** Regular patching
+- **Audit Logging:** Comprehensive audit logs
+- **MFA:** Multi-factor authentication
+- **Compliance:** SOC2, ISO27001, GDPR compliance
+- **Security Training:** Regular security training
+
+---
+
+## GÜNLÜK İŞ AKIŞI
+
+### Sabah (09:00 - 12:00)
+- Email ve Slack kontrol
+- Monitoring dashboards review
+- Incident tickets review
+- Daily standup meeting
+- Priority tasks (incidents, deployments)
+- Code review
+
+### Öğleden Sonra (13:00 - 18:00)
+- Infrastructure development
+- CI/CD pipeline improvements
+- Automation projects
+- Documentation
+- Meetings (planning, architecture)
+- Knowledge sharing
+- On-call support
+
+### Haftalık Aktiviteler
+- Sprint planning
+- Sprint retrospective
+- Architecture review meetings
+- Security review meetings
+- Capacity planning
+- Cost optimization review
+- Post-mortem meetings
+- Knowledge sharing sessions
+
+### Aylık Aktiviteler
+- Infrastructure audit
+- Security audit
+- Cost analysis
+- Performance review
+- Disaster recovery testing
+- Documentation update
+- Tool evaluation
+
+---
+
+## KARİYER GELİŞİMİ
+
+### Junior DevOps Engineer (0-2 yıl)
+- Linux fundamentals
+- Scripting (Bash, Python)
+- Git version control
+- CI/CD basics
+- Docker basics
+- Cloud platform basics
+- Monitoring basics
+
+### Mid-Level DevOps Engineer (2-5 yıl)
+- Kubernetes expertise
+- Infrastructure as Code (Terraform)
+- CI/CD advanced
+- Cloud architecture
+- Security best practices
+- Automation
+- Incident management
+
+### Senior DevOps Engineer (5+ yıl)
+- Architecture design
+- Multi-cloud strategies
+- Team mentoring
+- Technology selection
+- Cost optimization
+- Strategic planning
+- Thought leadership
+
+### Sonraki Roller
+- **Lead DevOps Engineer:** Technical leadership
+- **DevOps Architect:** Architecture focus
+- **Site Reliability Engineer (SRE):** Reliability focus
+- **DevOps Manager:** People management
+- **Platform Engineer:** Platform development
+- **Cloud Architect:** Cloud architecture
+- **Principal Engineer:** Technical leadership
+
+---
+
+## SEKTÖREL TRENDLER VE YENİLİKLER
+
+### GitOps
+- Infrastructure as Code with Git
+- ArgoCD, Flux
+- Declarative infrastructure
+- Git as single source of truth
+- Automated sync
+
+### Platform Engineering
+- Internal developer platforms
+- Self-service infrastructure
+- Developer experience
+- Platform as a product
+- Backstage, Humanitec
+
+### FinOps
+- Cloud cost optimization
+- Cost visibility
+- Resource tagging
+- Reserved instances
+- Spot instances
+- Cost allocation
+
+### Observability
+- Beyond monitoring
+- Distributed tracing
+- OpenTelemetry
+- Observability-driven development
+- SLO-based alerting
+
+### Security (DevSecOps)
+- Shift-left security
+- Security as code
+- Automated security scanning
+- Policy as code (OPA)
+- Zero trust architecture
+
+### Serverless
+- Function as a Service (FaaS)
+- Event-driven architecture
+- AWS Lambda, Azure Functions
+- Serverless frameworks
+- Cold start optimization
+
+---
+
+## MÜLAKAT SORULARI (Hazırlık İçin)
+
+### Teknik Sorular
+1. CI/CD pipeline nasıl tasarlarsın?
+2. Blue-green vs Canary deployment farkı?
+3. Kubernetes'te pod scheduling nasıl çalışır?
+4. Infrastructure as Code best practices nelerdir?
+5. Container security nasıl sağlanır?
+6. Monitoring strategy nasıl oluşturulur?
+7. High availability nasıl sağlanır?
+8. Disaster recovery planı nasıl yapılır?
+9. Secrets management nasıl yapılır?
+10. Cloud cost optimization stratejileri?
+
+### Sistem Tasarımı Sorular
+1. Highly available web application infrastructure tasarla
+2. CI/CD pipeline for microservices
+3. Monitoring ve alerting system tasarla
+4. Multi-region deployment strategy
+5. Disaster recovery solution
+
+### Troubleshooting Sorular
+1. High CPU usage nasıl debug edilir?
+2. Container crash loop nasıl çözülür?
+3. Network connectivity issues troubleshooting
+4. Slow application performance debug
+5. Kubernetes pod pending state troubleshooting
+
+### Davranışsal Sorular
+1. Production incident handle ettiğin bir örnek
+2. Automation project yaptığın bir durum
+3. Team collaboration örneği
+4. Conflict resolution örneği
+5. Learning new technology örneği
+
+---
+
+## KAYNAKLAR VE ÖĞRENME
+
+### Online Kurslar
+- Linux Academy / A Cloud Guru
+- Udemy: DevOps courses
+- Coursera: DevOps Specialization
+- Pluralsight: DevOps paths
+- KodeKloud: Hands-on labs
+
+### Kitaplar
+- "The Phoenix Project" - Gene Kim
+- "The DevOps Handbook" - Gene Kim
+- "Site Reliability Engineering" - Google
+- "Kubernetes in Action" - Marko Lukša
+- "Infrastructure as Code" - Kief Morris
+- "Continuous Delivery" - Jez Humble
+
+### Sertifikalar
+- AWS Certified DevOps Engineer
+- Azure DevOps Engineer Expert
+- Google Professional Cloud DevOps Engineer
+- Certified Kubernetes Administrator (CKA)
+- Certified Kubernetes Application Developer (CKAD)
+- HashiCorp Certified: Terraform Associate
+- Docker Certified Associate
+
+### Topluluklar
+- DevOps subreddit
+- CNCF Slack
+- Local DevOps meetups
+- DevOps conferences (KubeCon, DevOpsDays)
+- LinkedIn DevOps groups
+
+### Bloglar ve Kaynaklar
+- AWS DevOps Blog
+- Google Cloud Blog
+- Kubernetes Blog
+- HashiCorp Blog
+- CNCF Blog
+- DevOps.com
+
+---
+
+## ÖNEMLİ NOTLAR
+
+### Başarı İçin Gerekli Özellikler
+- **Problem Solving:** Complex infrastructure problems
+- **Automation Mindset:** Manuel işleri otomatize etme
+- **Collaboration:** Development ve operations arasında köprü
+- **Learning Agility:** Hızlı teknoloji değişimi
+- **Communication:** Technical ve non-technical stakeholders
+- **Ownership:** End-to-end ownership
+- **Reliability Focus:** System reliability ve uptime
+- **Security Awareness:** Security-first mindset
+
+### Yaygın Hatalar
+- Monitoring ve alerting eksikliği
+- Documentation yazmama
+- Backup stratejisi olmama
+- Security ihmal etme
+- Cost optimization yapmama
+- Disaster recovery planı olmama
+- Automation eksikliği
+- Testing eksikliği
+
+### Başarı Metrikleri
+- Deployment frequency
+- Lead time for changes
+- Mean time to recovery (MTTR)
+- Change failure rate
+- System uptime/availability
+- Incident response time
+- Cost optimization savings
+- Automation coverage
+
+Bu rol, modern software development lifecycle'ın kritik bir parçasıdır. DevOps Engineer'lar, development ve operations arasında köprü kurarak, hızlı, güvenilir ve güvenli software delivery sağlar.

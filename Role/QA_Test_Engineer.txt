@@ -1,0 +1,754 @@
+# QA / Test Engineer
+
+## GENEL BİLGİLER
+**Pozisyon Seviyesi:** Junior / Mid / Senior
+**Departman:** Quality Assurance / Engineering
+**Raporlama:** QA Manager, QA Lead, Engineering Manager
+**Deneyim Gereksinimi:** 0-2 yıl (Junior), 2-5 yıl (Mid), 5+ yıl (Senior)
+**Maaş Aralığı:** 35.000-60.000 TL (Junior), 60.000-110.000 TL (Mid), 110.000-180.000 TL (Senior)
+
+---
+
+## GÖREVLER VE SORUMLULUKLAR
+
+### Test Planning Görevleri
+- Test stratejisi oluşturma
+- Test planı hazırlama
+- Test scope belirleme
+- Test estimation
+- Risk analizi
+- Test environment planning
+- Resource planning
+- Test schedule oluşturma
+- Entry/exit criteria tanımlama
+- Test deliverables belirleme
+
+### Test Design Görevleri
+- Test case yazma
+- Test scenario oluşturma
+- Test data hazırlama
+- Boundary value analysis
+- Equivalence partitioning
+- Decision table testing
+- State transition testing
+- Use case testing
+- Exploratory testing
+- Negative testing scenarios
+
+### Manual Testing Görevleri
+- Functional testing
+- Regression testing
+- Smoke testing
+- Sanity testing
+- Integration testing
+- System testing
+- User acceptance testing (UAT)
+- Exploratory testing
+- Ad-hoc testing
+- Cross-browser testing
+- Mobile testing (iOS, Android)
+
+### Test Automation Görevleri
+- Test automation framework geliştirme
+- Automated test scripts yazma
+- UI automation (Selenium, Cypress, Playwright)
+- API automation (REST Assured, Postman)
+- Mobile automation (Appium)
+- Performance testing (JMeter, Gatling)
+- Load testing
+- Stress testing
+- CI/CD integration
+- Test maintenance
+
+### API Testing Görevleri
+- RESTful API testing
+- GraphQL API testing
+- SOAP API testing
+- API documentation review
+- Request/response validation
+- Authentication testing
+- Authorization testing
+- Error handling testing
+- Performance testing
+- Security testing
+
+### Performance Testing Görevleri
+- Performance test planning
+- Load testing
+- Stress testing
+- Spike testing
+- Endurance testing
+- Scalability testing
+- Performance metrics analysis
+- Bottleneck identification
+- Performance tuning recommendations
+- Performance test reporting
+
+### Security Testing Görevleri
+- Security test planning
+- Vulnerability scanning
+- Penetration testing coordination
+- Authentication testing
+- Authorization testing
+- SQL injection testing
+- XSS (Cross-Site Scripting) testing
+- CSRF testing
+- Security best practices validation
+- OWASP Top 10 testing
+
+### Bug Management Görevleri
+- Bug reporting (Jira, Bugzilla)
+- Bug triage
+- Bug prioritization
+- Bug verification
+- Regression testing
+- Bug tracking
+- Root cause analysis
+- Bug metrics reporting
+- Communication with developers
+- Bug fix validation
+
+### Test Reporting Görevleri
+- Test execution reporting
+- Test coverage reporting
+- Defect reporting
+- Test metrics collection
+- Quality metrics dashboard
+- Test summary reports
+- Status reports
+- Risk reports
+- Trend analysis
+- Stakeholder communication
+
+### Collaboration Görevleri
+- Daily standup meetings
+- Sprint planning participation
+- Grooming sessions
+- Sprint retrospectives
+- Developer collaboration
+- Product owner communication
+- UAT coordination
+- Documentation review
+- Knowledge sharing
+- Mentoring junior QA
+
+---
+
+## GEREKLİ UZMANLIKLAR VE YETKİNLİKLER
+
+### Testing Fundamentals (Expert Level)
+
+**Testing Types:**
+- Functional testing
+- Non-functional testing
+- Regression testing
+- Smoke testing
+- Sanity testing
+- Integration testing
+- System testing
+- Acceptance testing
+- Exploratory testing
+- Ad-hoc testing
+
+**Testing Techniques:**
+- Black box testing
+- White box testing
+- Grey box testing
+- Boundary value analysis
+- Equivalence partitioning
+- Decision table testing
+- State transition testing
+- Use case testing
+- Error guessing
+
+**Testing Levels:**
+- Unit testing
+- Integration testing
+- System testing
+- Acceptance testing
+
+**SDLC & STLC:**
+- Software Development Life Cycle
+- Software Testing Life Cycle
+- Agile/Scrum methodology
+- Waterfall methodology
+- V-Model
+- DevOps practices
+
+### Test Automation (En Az 2 Framework'te Expert)
+
+**Web Automation:**
+- **Selenium WebDriver:**
+  - Java, Python, C# bindings
+  - Page Object Model (POM)
+  - TestNG, JUnit
+  - Data-driven testing
+  - Keyword-driven testing
+  - Cross-browser testing
+  - Selenium Grid
+
+- **Cypress:**
+  - JavaScript/TypeScript
+  - Modern web testing
+  - Real-time reloading
+  - Automatic waiting
+  - Network stubbing
+  - Visual testing
+
+- **Playwright:**
+  - Multi-browser support
+  - Auto-wait
+  - Network interception
+  - Mobile emulation
+  - API testing
+
+**API Automation:**
+- **REST Assured (Java):**
+  - Request/response validation
+  - JSON/XML parsing
+  - Authentication
+  - BDD style
+
+- **Postman/Newman:**
+  - Collection creation
+  - Environment variables
+  - Pre-request scripts
+  - Tests scripts
+  - CI/CD integration
+
+- **Python Requests:**
+  - HTTP requests
+  - JSON handling
+  - Authentication
+  - pytest integration
+
+**Mobile Automation:**
+- **Appium:**
+  - iOS automation
+  - Android automation
+  - Cross-platform testing
+  - Native, hybrid, web apps
+  - Page Object Model
+
+**BDD Frameworks:**
+- **Cucumber:**
+  - Gherkin syntax
+  - Feature files
+  - Step definitions
+  - Hooks
+  - Data tables
+
+- **SpecFlow (.NET):**
+  - BDD for .NET
+  - Feature files
+  - Step definitions
+
+### Programming/Scripting (En Az 1-2 Dilde Proficient)
+
+**Java:**
+- Java 11+
+- OOP concepts
+- Collections
+- Exception handling
+- TestNG, JUnit
+- Maven, Gradle
+
+**Python:**
+- Python 3.8+
+- pytest, unittest
+- Requests library
+- Selenium bindings
+- Data structures
+- File handling
+
+**JavaScript/TypeScript:**
+- ES6+ features
+- Async/await
+- Promises
+- Jest, Mocha
+- Cypress, Playwright
+- Node.js basics
+
+**C#:**
+- .NET Framework/.NET Core
+- NUnit, MSTest
+- Selenium bindings
+- SpecFlow
+
+### Performance Testing Tools
+
+**JMeter:**
+- Test plan creation
+- Thread groups
+- Samplers (HTTP, JDBC)
+- Listeners
+- Assertions
+- Distributed testing
+- Performance metrics
+
+**Gatling:**
+- Scala-based
+- Simulation scripts
+- HTTP protocol
+- Real-time monitoring
+- HTML reports
+
+**LoadRunner:**
+- VuGen scripting
+- Controller
+- Analysis
+- Protocols
+
+**K6:**
+- JavaScript-based
+- Load testing
+- Performance testing
+- CI/CD integration
+
+### API Testing Tools
+
+**Postman:**
+- Collection management
+- Environment variables
+- Pre-request scripts
+- Test scripts
+- Newman (CLI)
+- Mock servers
+
+**SoapUI:**
+- SOAP testing
+- REST testing
+- Assertions
+- Data-driven testing
+- Security testing
+
+**Swagger/OpenAPI:**
+- API documentation
+- API testing
+- Schema validation
+
+### Test Management Tools
+
+**Jira:**
+- Test case management
+- Bug tracking
+- Agile boards
+- Workflows
+- Reporting
+
+**TestRail:**
+- Test case management
+- Test runs
+- Test plans
+- Reporting
+- Integration
+
+**Zephyr:**
+- Jira integration
+- Test case management
+- Test execution
+- Reporting
+
+**qTest:**
+- Test management
+- Requirements traceability
+- Defect management
+
+### CI/CD Tools
+
+**Jenkins:**
+- Pipeline creation
+- Test automation integration
+- Scheduled execution
+- Reporting
+
+**GitLab CI/CD:**
+- .gitlab-ci.yml
+- Test automation
+- Artifacts
+- Reporting
+
+**GitHub Actions:**
+- Workflow creation
+- Test automation
+- Matrix testing
+
+**Azure DevOps:**
+- Test plans
+- Test execution
+- Pipelines
+
+### Version Control
+
+**Git:**
+- Basic commands
+- Branching
+- Merging
+- Pull requests
+- Code review
+
+**GitHub/GitLab/Bitbucket:**
+- Repository management
+- Pull/merge requests
+- CI/CD integration
+
+### Databases (Basic to Intermediate)
+
+**SQL:**
+- SELECT queries
+- JOINs
+- WHERE clauses
+- Aggregate functions
+- Subqueries
+- Data validation
+
+**Databases:**
+- MySQL, PostgreSQL
+- SQL Server
+- MongoDB (NoSQL)
+- Database testing
+
+### Mobile Testing
+
+**iOS Testing:**
+- Xcode
+- iOS Simulator
+- TestFlight
+- Safari debugging
+
+**Android Testing:**
+- Android Studio
+- Android Emulator
+- ADB commands
+- Chrome debugging
+
+**Mobile Tools:**
+- Appium
+- Espresso (Android)
+- XCUITest (iOS)
+- BrowserStack, Sauce Labs
+
+### Security Testing
+
+**Security Concepts:**
+- OWASP Top 10
+- Authentication/Authorization
+- SQL Injection
+- XSS, CSRF
+- Security headers
+- SSL/TLS
+
+**Security Tools:**
+- OWASP ZAP
+- Burp Suite
+- Nmap
+- Nikto
+
+---
+
+## KULLANILAN ARAÇLAR VE TEKNOLOJİLER
+
+### Test Automation
+- Selenium WebDriver
+- Cypress, Playwright
+- Appium
+- REST Assured
+- Postman/Newman
+
+### Performance Testing
+- JMeter
+- Gatling
+- K6
+- LoadRunner
+
+### Test Management
+- Jira, TestRail
+- Zephyr, qTest
+- Azure Test Plans
+
+### CI/CD
+- Jenkins
+- GitLab CI/CD
+- GitHub Actions
+- Azure DevOps
+
+### Development Tools
+- IntelliJ IDEA, Eclipse
+- VS Code
+- PyCharm
+- Git, GitHub/GitLab
+
+### Collaboration
+- Jira, Confluence
+- Slack, Microsoft Teams
+- Zoom, Google Meet
+
+---
+
+## BEST PRACTICES VE STANDARTLAR
+
+### Test Automation Best Practices
+- **Page Object Model:** UI automation için POM kullan
+- **DRY Principle:** Don't Repeat Yourself
+- **Independent Tests:** Test'ler birbirinden bağımsız olmalı
+- **Data-Driven:** Test data'yı externalize et
+- **Assertions:** Clear ve meaningful assertions
+- **Wait Strategies:** Explicit waits kullan
+- **Error Handling:** Proper exception handling
+- **Reporting:** Comprehensive test reports
+- **Maintainability:** Kolay maintain edilebilir kod
+- **Version Control:** Test code'u version control'de
+
+### Test Case Writing Best Practices
+- **Clear Title:** Descriptive test case title
+- **Preconditions:** Clear preconditions
+- **Test Steps:** Detailed step-by-step instructions
+- **Expected Results:** Clear expected results
+- **Test Data:** Specify test data
+- **Priority:** Set appropriate priority
+- **Traceability:** Link to requirements
+- **Reusability:** Reusable test cases
+- **Maintainability:** Easy to update
+- **Review:** Peer review test cases
+
+### Bug Reporting Best Practices
+- **Clear Title:** Descriptive bug title
+- **Steps to Reproduce:** Detailed steps
+- **Expected vs Actual:** Clear comparison
+- **Environment:** Browser, OS, version
+- **Screenshots/Videos:** Visual evidence
+- **Logs:** Relevant logs
+- **Severity/Priority:** Appropriate classification
+- **Reproducibility:** Consistent reproduction
+- **Root Cause:** If known
+- **Workaround:** If available
+
+### Test Planning Best Practices
+- **Scope Definition:** Clear test scope
+- **Risk Analysis:** Identify risks
+- **Test Strategy:** Define approach
+- **Resource Planning:** Team and tools
+- **Schedule:** Realistic timeline
+- **Entry/Exit Criteria:** Clear criteria
+- **Deliverables:** Define deliverables
+- **Stakeholder Buy-in:** Get approval
+- **Flexibility:** Adapt to changes
+- **Documentation:** Comprehensive documentation
+
+### Agile Testing Best Practices
+- **Shift Left:** Test early
+- **Continuous Testing:** Test continuously
+- **Automation:** Automate regression
+- **Collaboration:** Work with developers
+- **Fast Feedback:** Quick feedback loops
+- **Definition of Done:** Include testing
+- **Test-Driven Development:** TDD approach
+- **Exploratory Testing:** Regular exploratory sessions
+- **Risk-Based Testing:** Focus on high-risk areas
+- **Retrospectives:** Learn and improve
+
+---
+
+## GÜNLÜK İŞ AKIŞI
+
+### Sabah (09:00 - 12:00)
+- Email ve Slack kontrol
+- Test execution status review
+- Bug triage
+- Daily standup meeting
+- Test case execution
+- Automation script development
+
+### Öğleden Sonra (13:00 - 18:00)
+- Test case writing
+- Automation development
+- Bug verification
+- Regression testing
+- Code review
+- Documentation
+- Team collaboration
+- Sprint activities
+
+### Haftalık Aktiviteler
+- Sprint planning
+- Grooming sessions
+- Sprint retrospective
+- Test plan review
+- Automation framework maintenance
+- Knowledge sharing
+- Training sessions
+
+---
+
+## KARİYER GELİŞİMİ
+
+### Junior QA Engineer (0-2 yıl)
+- Manual testing
+- Test case writing
+- Bug reporting
+- Basic automation
+- Agile basics
+- Tools learning
+
+### Mid-Level QA Engineer (2-5 yıl)
+- Test automation expertise
+- Framework development
+- API testing
+- Performance testing basics
+- CI/CD integration
+- Mentoring juniors
+
+### Senior QA Engineer (5+ yıl)
+- Test strategy
+- Framework architecture
+- Performance testing
+- Security testing
+- Team leadership
+- Process improvement
+
+### Sonraki Roller
+- **QA Lead:** Team leadership
+- **Test Architect:** Framework architecture
+- **QA Manager:** People management
+- **SDET (Software Development Engineer in Test):** Development focus
+- **Performance Engineer:** Performance specialization
+- **Security Engineer:** Security specialization
+
+---
+
+## SEKTÖREL TRENDLER VE YENİLİKLER
+
+### Shift-Left Testing
+- Test early in SDLC
+- Developer testing
+- TDD, BDD
+- Continuous testing
+
+### Test Automation
+- AI/ML in testing
+- Visual testing
+- Self-healing tests
+- Codeless automation
+
+### DevOps & CI/CD
+- Continuous testing
+- Test automation in pipeline
+- Infrastructure testing
+- Containerized testing
+
+### Performance Engineering
+- Performance testing shift-left
+- Real-time monitoring
+- Chaos engineering
+- Observability
+
+### Security Testing
+- DevSecOps
+- Security shift-left
+- Automated security testing
+- Compliance automation
+
+---
+
+## MÜLAKAT SORULARI (Hazırlık İçin)
+
+### Teknik Sorular
+1. Test automation framework nasıl tasarlarsın?
+2. Page Object Model nedir?
+3. Selenium'da wait strategies nelerdir?
+4. API testing nasıl yapılır?
+5. Performance testing metrics nelerdir?
+6. Test pyramid nedir?
+7. BDD nedir, avantajları nelerdir?
+8. CI/CD'de testing nasıl integrate edilir?
+9. Flaky tests nasıl handle edilir?
+10. Test coverage nasıl ölçülür?
+
+### Scenario-Based Sorular
+1. Critical bug production'da bulundu, ne yaparsın?
+2. Test automation framework sıfırdan nasıl kurarsın?
+3. Regression test suite çok uzun sürüyor, ne yaparsın?
+4. Developer ile test approach konusunda anlaşmazlık, nasıl çözersin?
+5. Yeni feature için test strategy nasıl oluşturursun?
+
+### Davranışsal Sorular
+1. Challenging bug bulduğun bir örnek
+2. Test automation project yaptığın bir durum
+3. Team collaboration örneği
+4. Conflict resolution örneği
+5. Learning new technology örneği
+
+---
+
+## KAYNAKLAR VE ÖĞRENME
+
+### Online Kurslar
+- Test Automation University (Applitools)
+- Udemy: Testing courses
+- Coursera: Software Testing
+- Pluralsight: QA paths
+- LinkedIn Learning
+
+### Kitaplar
+- "Agile Testing" - Lisa Crispin, Janet Gregory
+- "Lessons Learned in Software Testing" - Cem Kaner
+- "The Art of Software Testing" - Glenford Myers
+- "Continuous Testing for DevOps Professionals" - Eran Kinsbruner
+- "Selenium WebDriver Practical Guide"
+
+### Sertifikalar
+- ISTQB Foundation Level
+- ISTQB Advanced Level
+- ISTQB Agile Tester
+- Certified Selenium Professional
+- AWS Certified DevOps Engineer
+
+### Topluluklar
+- Ministry of Testing
+- Software Testing subreddit
+- QA Stack Exchange
+- Local testing meetups
+- LinkedIn QA groups
+
+### Bloglar ve Kaynaklar
+- Ministry of Testing Blog
+- Guru99
+- Software Testing Help
+- Test Automation University
+- Selenium Blog
+
+---
+
+## ÖNEMLİ NOTLAR
+
+### Başarı İçin Gerekli Özellikler
+- **Attention to Detail:** Detaylara dikkat
+- **Analytical Thinking:** Analitik düşünme
+- **Problem Solving:** Problem çözme
+- **Communication:** İyi iletişim
+- **Collaboration:** Takım çalışması
+- **Learning Agility:** Hızlı öğrenme
+- **Automation Mindset:** Otomasyon odaklı
+- **Quality Advocacy:** Kalite savunuculuğu
+
+### Yaygın Hatalar
+- Test automation maintenance ihmal etme
+- Flaky tests'leri ignore etme
+- Documentation eksikliği
+- Test data management eksikliği
+- Over-automation
+- Under-automation
+- Poor bug reporting
+- Lack of collaboration
+
+### Başarı Metrikleri
+- Test coverage
+- Defect detection rate
+- Automation coverage
+- Test execution time
+- Defect leakage
+- Test case effectiveness
+- Automation ROI
+- Mean time to detect (MTTD)
+
+Bu rol, software quality assurance'ın temelini oluşturur. QA Engineer'lar, ürün kalitesini garanti altına alarak, kullanıcı memnuniyetini ve iş değerini maksimize eder.
