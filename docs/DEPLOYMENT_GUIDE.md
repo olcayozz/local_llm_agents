@@ -225,9 +225,268 @@ python examples/meeting_examples.py
 
 ### Option 2: Docker Deployment
 
-Best for: Consistent environments, easy deployment
+Best for: Consistent environments, easy deployment, production use
 
-#### Create Dockerfile
+#### Quick Start with Docker Compose
+
+The project includes a complete `docker-compose.yml` with a dedicated **Multi-Agent Orchestrator** service that runs all 29 agents and the meeting system.
+
+```bash
+# Build the multi-agent orchestrator service
+docker-compose build multi_agent_orchestrator
+
+# Start all services (Ollama + Orchestrator)
+docker-compose up -d ollama multi_agent_orchestrator
+
+# View logs
+docker-compose logs -f multi_agent_orchestrator
+
+# Check service health
+docker inspect --format='{{.State.Health.Status}}' multi_agent_orchestrator
+```
+
+#### Multi-Agent Orchestrator Service
+
+The `multi_agent_orchestrator` service is optimized for running all agents with proper resource allocation:
+
+**Features:**
+- ✅ All 29 specialized agents
+- ✅ Complete meeting system (20+ meeting types)
+- ✅ Persistent agent memories
+- ✅ Health monitoring
+- ✅ Optimized resource limits
+- ✅ Automatic restart on failure
+
+**Resource Allocation:**
+- **CPU**: 4 cores max (2 cores reserved)
+- **Memory**: 4GB max (2GB reserved)
+- **Storage**: Persistent volumes for memories and logs
+- **Network**: Isolated front-tier and back-tier networks
+
+**Service Configuration:**
+
+```yaml
+multi_agent_orchestrator:
+  build:
+    context: .
+    dockerfile: services/multi_agent_orchestrator/orchestrator.Dockerfile
+  image: llm/multi_agent_orchestrator:latest
+  container_name: multi_agent_orchestrator
+  ports:
+    - "8000:8000"  # For future API endpoint
+  volumes:
+    - orchestrator_data:/app/agent_memories
+    - orchestrator_logs:/app/logs
+    - ./agents:/app/agents
+    - ./Role:/app/Role
+  environment:
+    - OLLAMA_BASE_URL=http://ollama:11434
+    - MODEL_NAME=llama3.2
+    - TEMPERATURE=0.7
+  depends_on:
+    - ollama
+  restart: unless-stopped
+  deploy:
+    resources:
+      limits:
+        cpus: '4.0'
+        memory: 4G
+      reservations:
+        cpus: '2.0'
+        memory: 2G
+```
+
+#### Using the Service
+
+**1. Interactive Mode:**
+
+```bash
+# Enter the container
+docker exec -it multi_agent_orchestrator bash
+
+# Run interactive mode
+python agents/interactive.py
+```
+
+**2. Run Examples:**
+
+```bash
+# Run demo
+docker exec -it multi_agent_orchestrator python agents/demo.py
+
+# Run main examples
+docker exec -it multi_agent_orchestrator python agents/main.py
+```
+
+**3. Single Agent Chat:**
+
+```bash
+docker exec -it multi_agent_orchestrator python -c "
+from agents.orchestrator import AgentOrchestrator
+
+orchestrator = AgentOrchestrator()
+response = orchestrator.chat_with_agent(
+    'backend_developer',
+    'What are REST API best practices?'
+)
+print(response)
+"
+```
+
+**4. Multi-Agent Consultation:**
+
+```bash
+docker exec -it multi_agent_orchestrator python -c "
+from agents.orchestrator import AgentOrchestrator
+
+orchestrator = AgentOrchestrator()
+responses = orchestrator.multi_agent_consultation(
+    'How to build a scalable microservices architecture?',
+    ['solutions_architect', 'backend_developer', 'devops_engineer']
+)
+for agent, response in responses.items():
+    print(f'{agent}: {response[:200]}...')
+"
+```
+
+**5. Conduct a Meeting:**
+
+```bash
+docker exec -it multi_agent_orchestrator python -c "
+from agents.orchestrator import AgentOrchestrator
+from agents.utils.meeting import MeetingType
+
+orchestrator = AgentOrchestrator()
+meeting = orchestrator.create_meeting(
+    meeting_type=MeetingType.ARCHITECTURE_REVIEW,
+    title='Microservices Architecture Review',
+    description='Review proposed microservices architecture'
+)
+
+topics = ['Service boundaries', 'Communication patterns', 'Data consistency']
+result = orchestrator.conduct_meeting(meeting, topics)
+print(result['summary'])
+"
+```
+
+#### Monitoring and Maintenance
+
+**View Logs:**
+
+```bash
+# Real-time logs
+docker-compose logs -f multi_agent_orchestrator
+
+# Last 100 lines
+docker-compose logs --tail=100 multi_agent_orchestrator
+```
+
+**Resource Usage:**
+
+```bash
+# Container stats
+docker stats multi_agent_orchestrator
+
+# Memory and CPU usage
+docker exec multi_agent_orchestrator python -c "
+import psutil
+print(f'Memory: {psutil.virtual_memory().percent}%')
+print(f'CPU: {psutil.cpu_percent()}%')
+"
+```
+
+**Health Check:**
+
+```bash
+# Check health status
+docker inspect --format='{{.State.Health.Status}}' multi_agent_orchestrator
+
+# View health check logs
+docker inspect --format='{{range .State.Health.Log}}{{.Output}}{{end}}' multi_agent_orchestrator
+```
+
+#### Backup and Recovery
+
+**Backup Agent Memories:**
+
+```bash
+# Backup memories
+docker run --rm -v orchestrator_data:/data -v $(pwd):/backup \
+  alpine tar czf /backup/agent_memories_backup.tar.gz -C /data .
+
+# Backup logs
+docker run --rm -v orchestrator_logs:/data -v $(pwd):/backup \
+  alpine tar czf /backup/logs_backup.tar.gz -C /data .
+```
+
+**Restore from Backup:**
+
+```bash
+# Restore memories
+docker run --rm -v orchestrator_data:/data -v $(pwd):/backup \
+  alpine sh -c "cd /data && tar xzf /backup/agent_memories_backup.tar.gz"
+```
+
+#### Troubleshooting
+
+**Service Won't Start:**
+
+1. Check Ollama dependency:
+   ```bash
+   docker-compose ps ollama
+   docker-compose logs ollama
+   ```
+
+2. Check resource availability:
+   ```bash
+   docker system df
+   ```
+
+3. Check service logs:
+   ```bash
+   docker-compose logs multi_agent_orchestrator
+   ```
+
+**Out of Memory:**
+
+Increase memory limit in `docker-compose.yml`:
+
+```yaml
+deploy:
+  resources:
+    limits:
+      memory: 6G  # Increase from 4G
+```
+
+**Slow Performance:**
+
+1. Increase CPU allocation:
+   ```yaml
+   deploy:
+     resources:
+       limits:
+         cpus: '6.0'  # Increase from 4.0
+   ```
+
+2. Check Ollama performance:
+   ```bash
+   docker stats ollama
+   ```
+
+**Connection Issues:**
+
+```bash
+# Check network connectivity
+docker exec multi_agent_orchestrator ping ollama
+docker exec multi_agent_orchestrator curl http://ollama:11434
+
+# Verify environment variables
+docker exec multi_agent_orchestrator env | grep OLLAMA
+```
+
+#### Custom Dockerfile (Alternative)
+
+If you need a custom setup, here's a basic Dockerfile:
 
 ```dockerfile
 FROM python:3.10-slim
@@ -255,7 +514,9 @@ EXPOSE 8000
 CMD ["python", "main.py"]
 ```
 
-#### Create docker-compose.yml
+#### Basic docker-compose.yml (Alternative)
+
+For a simpler setup without the orchestrator service:
 
 ```yaml
 version: '3.8'

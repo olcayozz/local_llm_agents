@@ -55,7 +55,59 @@ The Multi-Agent Orchestrator System is a powerful AI platform that brings togeth
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Option 1: Docker (Recommended)
+
+The fastest way to get started with all 29 agents and the meeting system:
+
+```bash
+# Clone repository
+git clone https://github.com/yourusername/local_llm_agents.git
+cd local_llm_agents
+
+# Start services with Docker Compose
+docker-compose up -d ollama multi_agent_orchestrator
+
+# Wait for services to be healthy (about 30-40 seconds)
+docker-compose logs -f multi_agent_orchestrator
+
+# Run interactive mode
+docker exec -it multi_agent_orchestrator python agents/interactive.py
+
+# Or use the quick start script
+./orchestrator.sh start          # Linux/Mac
+orchestrator.bat start           # Windows
+```
+
+**What you get:**
+- ✅ All 29 specialized agents ready to use
+- ✅ Complete meeting system (20+ meeting types)
+- ✅ Ollama LLM service pre-configured
+- ✅ Persistent agent memories
+- ✅ Optimized resource allocation (4 CPU cores, 4GB RAM)
+- ✅ Health monitoring and auto-restart
+
+**Quick commands:**
+```bash
+# Linux/Mac
+./orchestrator.sh interactive    # Run interactive mode
+./orchestrator.sh demo           # Run demo
+./orchestrator.sh status         # Check status
+./orchestrator.sh logs           # View logs
+
+# Windows
+orchestrator.bat interactive     # Run interactive mode
+orchestrator.bat demo            # Run demo
+orchestrator.bat status          # Check status
+orchestrator.bat logs            # View logs
+```
+
+See [Docker Service Documentation](services/multi_agent_orchestrator/README.md) for more details.
+
+### Option 2: Local Installation
+
+For development or custom setups:
+
+#### Prerequisites
 
 ```bash
 # Install Ollama

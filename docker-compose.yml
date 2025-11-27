@@ -14,6 +14,14 @@ services:
     restart: unless-stopped
     networks:
       - front-tier
+    deploy:
+      resources:
+        limits:
+          cpus: '8.0'
+          memory: 12G
+        reservations:
+          cpus: '4.0'
+          memory: 8G
 
 # open-webui is a web UI for Ollama
   open-webui:
@@ -28,8 +36,16 @@ services:
     restart: unless-stopped
     networks:
       - front-tier
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2G
+        reservations:
+          cpus: '1.0'
+          memory: 1G
 
-# local API demonstration platform  
+# local API demonstration platform
   local_API:
     build:
       context: ./services/local_api
@@ -50,8 +66,16 @@ services:
       timeout: 10s
       retries: 3
       start_period: 5s
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2G
+        reservations:
+          cpus: '1.0'
+          memory: 1G
 
-# python dev is for development purposes only      
+# python dev is for development purposes only
   python_dev:
     build:
       context: ./services/python_dev
@@ -70,7 +94,15 @@ services:
     depends_on:
       - ollama
     restart: unless-stopped
-    
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2G
+        reservations:
+          cpus: '1.0'
+          memory: 1G
+
   agents:
     build:
       context: ./services/agents
@@ -89,6 +121,14 @@ services:
     depends_on:
       - ollama
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2G
+        reservations:
+          cpus: '1.0'
+          memory: 1G
 
 # simple_agent is agentic app demonstration platform
   simple_agent:
@@ -114,6 +154,58 @@ services:
       - ollama
       - qdrant
     restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2G
+        reservations:
+          cpus: '1.0'
+          memory: 1G
+
+# Multi-Agent Orchestrator - Complete system with all 29 agents and meeting system
+  multi_agent_orchestrator:
+    build:
+      context: .
+      dockerfile: services/multi_agent_orchestrator/orchestrator.Dockerfile
+    image: llm/multi_agent_orchestrator:latest
+    hostname: multi_agent_orchestrator
+    domainname: orchestrator.local
+    container_name: multi_agent_orchestrator
+    ports:
+      - "8000:8000"  # For future API endpoint
+    volumes:
+      - orchestrator_data:/app/agent_memories
+      - orchestrator_logs:/app/logs
+      - ./agents:/app/agents
+      - ./Role:/app/Role
+      - ./examples:/app/examples
+    networks:
+      - front-tier
+      - back-tier
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - MODEL_NAME=llama3.2
+      - TEMPERATURE=0.7
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app:/app/agents
+    depends_on:
+      - ollama
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '8.0'
+          memory: 8G
+        reservations:
+          cpus: '4.0'
+          memory: 6G
+    healthcheck:
+      test: ["CMD", "python", "-c", "from agents.orchestrator import AgentOrchestrator; print('OK')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
 # vector database for agentic app
   qdrant:
@@ -127,6 +219,14 @@ services:
     restart: unless-stopped
     networks:
       - back-tier
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
+          memory: 4G
+        reservations:
+          cpus: '2.0'
+          memory: 2G
 
 volumes:
   local_api:
@@ -135,6 +235,8 @@ volumes:
   simple_agent:
   agents:
   qdrant_data:
+  orchestrator_data:
+  orchestrator_logs:
 
 
 networks:
